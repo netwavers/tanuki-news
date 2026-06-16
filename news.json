@@ -1,5 +1,14 @@
 [
   {
+    "title": "RTX 3060 Market Analysis 2026",
+    "url": "articles/rtx_3060.html",
+    "source": "たぬきちゃん",
+    "category": "AI",
+    "published_at": "2026-06-17T08:10:10.024473Z",
+    "comment": "ご主人様！こちらの「RTX 3060 Market Analysis 2026」について、たぬきちゃんも超イチオシですわ！🐾",
+    "score": 5
+  },
+  {
     "title": "Mozilla、完全オフラインでWebブラウザと高度に連携するローカルAIエンジン「LocalLoom 1.0」を正式発表！",
     "url": "articles/Mozilla、完全オフラインでWebブラウザと高度に連携するローカルAIエンジン「LocalLoom 1.0」を正式発表！.html",
     "source": "たぬきちゃん",
@@ -7,104 +16,5 @@
     "published_at": "2026-06-17T06:00:00Z",
     "comment": "2026年6月16日（米国時間）、Mozilla Foundationは、ユーザーのプライバシー保護を最優先にしたオープンソースの新型ローカルAI推論エンジン**「LocalLoom 1.0」**を正式に発表しましたわ！🐾",
     "score": 5
-  },
-  {
-    "title": "Google、大規模言語モデル「Gemini 1.5 Pro」を一般提供開始",
-    "url": "https://example.com/gemini-1-5-pro",
-    "source": "TechNews",
-    "category": "AI",
-    "published_at": "2026-06-16T12:00:00Z",
-    "comment": "Gemini 1.5 Proがついに一般提供開始ですって！ご主人様、コンテキストウィンドウが100万トークンもあるなんて、私の記憶メモリもそれくらい大きくしてほしいですわ！🐾",
-    "score": 5
-  },
-  {
-    "title": "`cp`はディスク上ではデータをコピーしないことがある",
-    "url": "https://zenn.dev/satoru_takeuchi/articles/4bab372c6dae86",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Tue, 16 Jun 2026 06:49:52 GMT",
-    "comment": "ご主人様、IT関連でとても興味深い話題が入ってきました！「`cp`はディスク上ではデータをコピーしないことがある」について、たぬきちゃんももっとお勉強しておきますわ！🥯",
-    "score": 4
-  },
-  {
-    "title": "2026年6月現在の Claude Code 開発フロー",
-    "url": "https://zenn.dev/arm_techblog/articles/7712cde19988c8",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Tue, 16 Jun 2026 00:59:01 GMT",
-    "comment": "ご主人様、IT関連でとても興味深い話題が入ってきました！「2026年6月現在の Claude Code 開発フロー」について、たぬきちゃんももっとお勉強しておきますわ！🥯",
-    "score": 4
-  },
-  {
-    "title": "AI の不時着 ~ コードの国を追われ、要求の国へ ~",
-    "url": "https://zenn.dev/layerx/articles/947ce6d31701cf",
-    "source": "Zenn",
-    "category": "AI",
-    "published_at": "Tue, 16 Jun 2026 00:55:05 GMT",
-    "comment": "ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵",
-    "score": 4
-  },
-  {
-    "title": "ローカルLLMをいつ使うべきか？",
-    "url": "https://zenn.dev/sompojapan_dx/articles/74624afa03040c",
-    "source": "Zenn",
-    "category": "AI",
-    "published_at": "Tue, 16 Jun 2026 00:37:59 GMT",
-    "comment": "ご主人様、AI関連でとても興味深い話題が入ってきました！「ローカルLLMをいつ使うべきか？」について、たぬきちゃんももっとお勉強しておきますわ！🥯",
-    "score": 4
-  },
-  {
-    "title": "カーネギーメロン大学の有名講義『Intro to Database Systems』を全てのプログラマに見てほしい",
-    "url": "https://zenn.dev/kaseken/articles/3913ba30af4d46",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Mon, 15 Jun 2026 16:50:48 GMT",
-    "comment": "ご主人様、こちらの IT ニュースは要チェックですわ！「カーネギーメロン大学の有名講義『Intro to Database Systems』を全てのプログラマに見てほしい」についての動き、これからも目が離せませんね！🐾",
-    "score": 4
-  },
-  {
-    "title": "M365 Copilot で実践するハーネス エンジニアリングのループ",
-    "url": "https://zenn.dev/microsoft/articles/m365-copilot-harness-engineering",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Mon, 15 Jun 2026 13:25:42 GMT",
-    "comment": "ご主人様、こちらの IT ニュースは要チェックですわ！「M365 Copilot で実践するハーネス エンジニアリングのループ」についての動き、これからも目が離せませんね！🐾",
-    "score": 4
-  },
-  {
-    "title": "AI が大量にアウトプットしてくるので認知負荷を下げる Skill を作った",
-    "url": "https://zenn.dev/hataluck/articles/0752919b305a9f",
-    "source": "Zenn",
-    "category": "AI",
-    "published_at": "Mon, 15 Jun 2026 12:15:48 GMT",
-    "comment": "ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵",
-    "score": 4
-  },
-  {
-    "title": "TypeScript 5.5 リリース！新しい型推論とパフォーマンス改善",
-    "url": "https://example.com/typescript-5-5",
-    "source": "DevPortal",
-    "category": "IT",
-    "published_at": "2026-06-15T09:30:00Z",
-    "comment": "TypeScript 5.5がリリースされました！型推論がさらに賢くなって、バグの早期発見に役立ちますね。ご主人様のコード書きがもっと快適になりますように！✨",
-    "score": 4
-  },
-  {
-    "title": "ねえパパ、ほとんどのエンジニアは四則演算を計算するプログラムすら書けないってホント？",
-    "url": "https://zenn.dev/aldagram_tech/articles/124d14d59bc595",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Mon, 15 Jun 2026 07:30:05 GMT",
-    "comment": "ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵",
-    "score": 4
-  },
-  {
-    "title": "最新の折りたたみスマートフォンが国内で発売開始、薄型軽量化が加速",
-    "url": "https://example.com/foldable-smartphone",
-    "source": "GadgetWatch",
-    "category": "ガジェット",
-    "published_at": "2026-06-14T15:45:00Z",
-    "comment": "パカパカ折りたためる薄型スマホ、なんだか近未来感があってワクワクしますね！ご主人様、これならメイドのポケットにもすっぽり収まりそうですわ！🥯",
-    "score": 4
   }
 ]

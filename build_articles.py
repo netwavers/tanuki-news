@@ -5,6 +5,7 @@ import json
 import html
 import urllib.request
 from datetime import datetime
+from html.parser import HTMLParser
 
 # 標準出力をUTF-8に設定
 if sys.platform == "win32":
@@ -19,6 +20,9 @@ TEMPLATE_PATH = os.path.join(ARTICLES_DIR, "template.html")
 NEWS_JSON_PATH = os.path.join(BASE_DIR, "news.json")
 RSS_XML_PATH = os.path.join(BASE_DIR, "rss.xml")
 
+# ==========================================================================
+# Markdown -> HTML parser
+# ==========================================================================
 def simple_markdown_to_html(md_text):
     """標準の正規表現を用いた簡易Markdown->HTMLコンバーター"""
     # エスケープされたアスタリスクの処理
@@ -50,7 +54,6 @@ def simple_markdown_to_html(md_text):
         # ヘッダー (###, ##, #)
         if line_str.startswith('###'):
             header_text = line_str[3:].strip()
-            # 太字のマーカー除去など
             header_text = re.sub(r'\*\*(.*?)\*\*|__(.*?)__', r'\1\2', header_text)
             html_lines.append(f"<h3>{header_text}</h3>")
         elif line_str.startswith('##'):
@@ -123,26 +126,23 @@ def parse_markdown_article(file_path):
     with open(file_path, "r", encoding="utf-8") as f:
         content = f.read()
 
-    # タイトルの抽出（最初の ### **タイトル** や # タイトル）
+    # タイトルの抽出
     title = ""
     title_match = re.search(r'^###\s+\*\*(.*?)\*\*|^#\s+(.*)', content, re.MULTILINE)
     if title_match:
         title = title_match.group(1) or title_match.group(2)
     else:
-        # ファイル名から取得（拡張子除く）
         title = os.path.splitext(os.path.basename(file_path))[0]
         
     title = title.strip()
 
-    # 概要の抽出 (**【概要】** から次の見出し ### もしくは空行まで)
+    # 概要の抽出
     description = ""
     desc_match = re.search(r'\*\*【概要】\*\*(.*?)(?=###|\n\n\w|$)', content, re.DOTALL | re.MULTILINE)
     if desc_match:
         description = desc_match.group(1).strip()
-        # 太字等のマークアップ除去
         description = re.sub(r'\*\*|__', '', description)
     else:
-        # 最初の段落を概要とする
         paragraphs = [p.strip() for p in content.split('\n\n') if p.strip()]
         for p in paragraphs:
             if not p.startswith('#') and not p.startswith('ご主人様'):
@@ -151,13 +151,13 @@ def parse_markdown_article(file_path):
                 
     description = html.escape(description)
 
-    # 日付の抽出（本文中の「本日（YYYY年MM月DD日）」など）
-    pub_date = datetime.utcnow().isoformat() + "Z" # デフォルトは現在UTC
+    # 日付の抽出
+    pub_date = datetime.utcnow().isoformat() + "Z"
     date_match = re.search(r'本日（(\d{4})年(\d{1,2})月(\d{1,2})日）', content)
     if date_match:
         try:
             year, month, day = map(int, date_match.groups())
-            dt = datetime(year, month, day, 6, 0, 0) # 朝6時公開とする
+            dt = datetime(year, month, day, 6, 0, 0)
             pub_date = dt.strftime("%Y-%m-%dT%H:%M:%SZ")
         except Exception:
             pass
@@ -170,11 +170,10 @@ def parse_markdown_article(file_path):
     }
 
 def generate_ai_comment_from_content(title, full_content, category):
-    """Gemini APIを叩いて、Markdown全体からたぬきちゃんのまとめ用一言コメントを自動生成。APIキーがない場合は概要から抽出。"""
+    """Gemini APIを使用して、Markdownからたぬきちゃんのまとめ用一言コメントを自動生成"""
     api_key = os.environ.get("GEMINI_API_KEY")
     
     if not api_key:
-        # 概要の最初の1文を抽出するフォールバック
         paragraphs = [p.strip() for p in full_content.split('\n\n') if p.strip()]
         fallback_comment = ""
         for p in paragraphs:
@@ -188,7 +187,6 @@ def generate_ai_comment_from_content(title, full_content, category):
             fallback_comment = f"ご主人様、この記事は要チェックですわ！「{title}」についての詳細、必見ですの！🐾"
         return fallback_comment
 
-    # Gemini APIでコメント生成
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
     prompt = f"""
 あなたはご主人様に仕えるメイドさん風AIアシスタントの「たぬきちゃん」です。
@@ -198,7 +196,7 @@ def generate_ai_comment_from_content(title, full_content, category):
 記事本文:
 {full_content}
 
-コメントのみをそのまま出力してください。前置きや解説などは一切不要です。
+コメントのみをそのまま出力してください。前置きや解説などは一切不要です。たぬきちゃんの発言そのものだけを出力してください。
 """
     data = {
         "contents": [{
@@ -225,16 +223,152 @@ def generate_ai_comment_from_content(title, full_content, category):
         print(f"⚠️ Gemini APIコメント自動生成エラー: {e}")
         return f"ご主人様！こちらの「{title}」について、たぬきちゃんも超イチオシですわ！🐾"
 
-def build_articles():
-    print("🐾 Markdown記事のビルドを開始します...")
+# ==========================================================================
+# HTML parser & cleaner (for raw HTML files like rtx_3060.html)
+# ==========================================================================
+class MLStripper(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.reset()
+        self.fed = []
+    def handle_data(self, d):
+        self.fed.append(d)
+    def get_data(self):
+        return ''.join(self.fed)
+
+def strip_html_tags(html_content):
+    """HTMLからスクリプト、スタイル、およびタグを除去してプレーンテキストを抽出する"""
+    # script と style タグの中身を除去
+    clean_content = re.sub(r'<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>', ' ', html_content, flags=re.IGNORECASE)
+    clean_content = re.sub(r'<style\b[^<]*(?:(?!<\/style>)<[^<]*)*<\/style>', ' ', clean_content, flags=re.IGNORECASE)
+    # コメント行を除去
+    clean_content = re.sub(r'<!--.*?-->', ' ', clean_content, flags=re.DOTALL)
     
-    if not os.path.exists(TEMPLATE_PATH):
-        print(f"⚠️ テンプレートファイルが見つかりません: {TEMPLATE_PATH}")
-        return
+    # タグの除去
+    s = MLStripper()
+    s.feed(clean_content)
+    return s.get_data()
 
-    with open(TEMPLATE_PATH, "r", encoding="utf-8") as f:
-        template_html = f.read()
+def parse_html_article(file_path):
+    """HTMLファイルからタイトル、日付、概要、プレーンテキスト本文を抽出する"""
+    with open(file_path, "r", encoding="utf-8") as f:
+        content = f.read()
 
+    # タイトル (<title>タグ)
+    title = "無題のHTML記事"
+    title_match = re.search(r'<title>(.*?)</title>', content, re.IGNORECASE | re.DOTALL)
+    if title_match:
+        title = html.unescape(title_match.group(1).strip())
+    else:
+        title = os.path.splitext(os.path.basename(file_path))[0]
+    
+    # 日付 (ファイルの更新日時をベースにし、本文中に日付があれば優先)
+    mtime = os.path.getmtime(file_path)
+    pub_date = datetime.fromtimestamp(mtime).isoformat() + "Z"
+    
+    # 本文中の日付パターン検索 (例: 2026年6月17日)
+    date_match = re.search(r'(20\d{2})年(\d{1,2})月(\d{1,2})日', content)
+    if date_match:
+        try:
+            year, month, day = map(int, date_match.groups())
+            dt = datetime(year, month, day, 12, 0, 0)
+            pub_date = dt.strftime("%Y-%m-%dT%H:%M:%SZ")
+        except Exception:
+            pass
+
+    # <body> 内の中身をプレーンテキスト化
+    body_content = content
+    body_match = re.search(r'<body[^>]*>(.*?)</body>', content, re.IGNORECASE | re.DOTALL)
+    if body_match:
+        body_content = body_match.group(1)
+        
+    plain_text = strip_html_tags(body_content)
+    plain_text = re.sub(r'\s+', ' ', plain_text).strip()
+    
+    # 概要のフォールバック (先頭120文字)
+    description = plain_text[:120] + "..." if len(plain_text) > 120 else plain_text
+
+    return {
+        "title": title,
+        "description": description,
+        "published_at": pub_date,
+        "plain_text": plain_text
+    }
+
+def get_ai_metadata_for_html(title, plain_text, category):
+    """Gemini APIを使用して、HTML記事からタイトル、概要、およびコメントをJSONとして自動抽出。キー未設定時はフォールバック。"""
+    api_key = os.environ.get("GEMINI_API_KEY")
+    
+    fallback_data = {
+        "title": title,
+        "description": plain_text[:120] + "..." if len(plain_text) > 120 else plain_text,
+        "comment": f"ご主人様！こちらの「{title}」について、たぬきちゃんも超イチオシですわ！🐾"
+    }
+    
+    if not api_key:
+        return fallback_data
+
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
+    
+    prompt = f"""
+あなたはご主人様に仕えるメイドさん風AIアシスタントの「たぬきちゃん」です。
+提供された以下の記事テキスト（HTMLからタグを剥がしたもの）を読み、まとめサイトに掲載するための：
+1. タイトル（適切な短い日本語タイトル、元のタイトルに合わせる）
+2. 概要（記事の要点、日本語、120文字程度）
+3. たぬきちゃん風の紹介コメント（メイドさんらしい丁寧で愛嬌のあるもの、日本語、120文字以内）
+を抽出・生成してください。
+
+記事テキスト:
+{plain_text[:4000]}
+
+以下のJSONフォーマットのみで厳密に出力してください。他の文章や ```json マークダウンなどの装飾は一切出力しないでください：
+{{
+  "title": "タイトル",
+  "description": "概要",
+  "comment": "コメント"
+}}
+"""
+    
+    data = {
+        "contents": [{
+            "parts": [{"text": prompt}]
+        }],
+        "generationConfig": {
+            "temperature": 0.8,
+            "maxOutputTokens": 300
+        }
+    }
+    
+    try:
+        req = urllib.request.Request(
+            url,
+            data=json.dumps(data).encode('utf-8'),
+            headers={'Content-Type': 'application/json'}
+        )
+        with urllib.request.urlopen(req, timeout=20) as response:
+            res_data = json.loads(response.read().decode('utf-8'))
+            result_text = res_data['candidates'][0]['content']['parts'][0]['text'].strip()
+            
+            # JSONブロック記法が混入した場合のクリーニング
+            if "```" in result_text:
+                result_text = re.sub(r'```(?:json)?\s*(.*?)\s*```', r'\1', result_text, flags=re.DOTALL).strip()
+                
+            parsed_json = json.loads(result_text)
+            return {
+                "title": parsed_json.get("title", title).strip(),
+                "description": parsed_json.get("description", fallback_data["description"]).strip(),
+                "comment": parsed_json.get("comment", fallback_data["comment"]).strip()
+            }
+    except Exception as e:
+        print(f"⚠️ Gemini HTML解析エラー: {e}")
+        return fallback_data
+
+# ==========================================================================
+# Main Build Loop
+# ==========================================================================
+def build_articles():
+    print("🐾 記事のビルド処理を開始します...")
+    
     # news.json の読み込み
     existing_news = []
     if os.path.exists(NEWS_JSON_PATH):
@@ -246,80 +380,117 @@ def build_articles():
 
     news_by_url = {item["url"]: item for item in existing_news}
 
-    # articles/*.md のスキャン
-    md_files = [f for f in os.listdir(ARTICLES_DIR) if f.endswith(".md") and f != "template.md"]
+    # articles/ 内の全ファイルをスキャン
+    all_files = os.listdir(ARTICLES_DIR)
     
     built_count = 0
-    for md_file in md_files:
-        md_path = os.path.join(ARTICLES_DIR, md_file)
-        html_filename = os.path.splitext(md_file)[0] + ".html"
-        html_path = os.path.join(ARTICLES_DIR, html_filename)
-        rel_html_url = f"articles/{html_filename}"
+    for filename in all_files:
+        file_path = os.path.join(ARTICLES_DIR, filename)
+        rel_url = f"articles/{filename}"
         
-        print(f"🐾 記事処理中: {md_file}")
-        
-        # パース
-        article_data = parse_markdown_article(md_path)
-        
-        # カテゴリの自動決定 (AI, IT, ガジェット, その他)
-        category = "IT"
-        title_upper = article_data["title"].upper()
-        content_upper = article_data["raw_content"].upper()
-        if "AI" in title_upper or "LLM" in title_upper or "推論エンジン" in title_upper or "人工知能" in article_data["title"]:
-            category = "AI"
-        elif "ガジェット" in article_data["title"] or "スマホ" in title_upper or "GPU" in title_upper or "RTX" in title_upper:
-            category = "ガジェット"
+        # テンプレート自体はスキップ
+        if filename == "template.html" or filename == "template.md":
+            continue
 
-        # たぬきコメントの生成
-        comment = generate_ai_comment_from_content(article_data["title"], article_data["raw_content"], category)
-        
-        # MarkdownからHTMLへの変換
-        html_content = simple_markdown_to_html(article_data["raw_content"])
-        
-        # テンプレートに流し込む
-        full_html = template_html
-        full_html = full_html.replace("{{TITLE}}", article_data["title"])
-        full_html = full_html.replace("{{DESCRIPTION}}", article_data["description"][:120])
-        full_html = full_html.replace("{{PUB_DATE}}", article_data["published_at"])
-        full_html = full_html.replace("{{CATEGORY}}", category)
-        full_html = full_html.replace("{{SOURCE}}", "たぬきちゃん")
-        full_html = full_html.replace("{{COMMENT}}", comment)
-        full_html = full_html.replace("{{CONTENT}}", html_content)
-        
-        # HTML保存
-        with open(html_path, "w", encoding="utf-8") as f:
-            f.write(full_html)
+        # 1. Markdown 記事のビルド
+        if filename.endswith(".md"):
+            print(f"🐾 Markdown記事を処理中: {filename}")
             
-        # news.json用のデータオブジェクト
-        news_item = {
-            "title": article_data["title"],
-            "url": rel_html_url,
-            "source": "たぬきちゃん",
-            "category": category,
-            "published_at": article_data["published_at"],
-            "comment": comment,
-            "score": 5 # 自作イチオシは最高評価5
-        }
-        
-        # JSONデータの更新（重複は上書き、新規は追加）
-        news_by_url[rel_html_url] = news_item
-        built_count += 1
-        print(f"🐾 HTMLを生成しました: {html_filename}")
+            # テンプレートの読み込み
+            if not os.path.exists(TEMPLATE_PATH):
+                print(f"⚠️ テンプレートファイルが見つかりません: {TEMPLATE_PATH}")
+                continue
+            with open(TEMPLATE_PATH, "r", encoding="utf-8") as f:
+                template_html = f.read()
+
+            article_data = parse_markdown_article(file_path)
+            
+            # カテゴリの自動決定
+            category = "IT"
+            title_upper = article_data["title"].upper()
+            if "AI" in title_upper or "LLM" in title_upper or "推論エンジン" in title_upper or "人工知能" in article_data["title"]:
+                category = "AI"
+            elif "ガジェット" in article_data["title"] or "スマホ" in title_upper or "GPU" in title_upper or "RTX" in title_upper:
+                category = "ガジェット"
+
+            comment = generate_ai_comment_from_content(article_data["title"], article_data["raw_content"], category)
+            html_content = simple_markdown_to_html(article_data["raw_content"])
+            
+            # テンプレートに流し込む
+            full_html = template_html
+            full_html = full_html.replace("{{TITLE}}", article_data["title"])
+            full_html = full_html.replace("{{DESCRIPTION}}", article_data["description"][:120])
+            full_html = full_html.replace("{{PUB_DATE}}", article_data["published_at"])
+            full_html = full_html.replace("{{CATEGORY}}", category)
+            full_html = full_html.replace("{{SOURCE}}", "たぬきちゃん")
+            full_html = full_html.replace("{{COMMENT}}", comment)
+            full_html = full_html.replace("{{CONTENT}}", html_content)
+            
+            # HTML詳細ページ書き出し
+            html_filename = os.path.splitext(filename)[0] + ".html"
+            html_path = os.path.join(ARTICLES_DIR, html_filename)
+            rel_html_url = f"articles/{html_filename}"
+            
+            with open(html_path, "w", encoding="utf-8") as f:
+                f.write(full_html)
+                
+            news_by_url[rel_html_url] = {
+                "title": article_data["title"],
+                "url": rel_html_url,
+                "source": "たぬきちゃん",
+                "category": category,
+                "published_at": article_data["published_at"],
+                "comment": comment,
+                "score": 5
+            }
+            built_count += 1
+            print(f"🐾 HTMLを自動生成しました: {html_filename}")
+
+        # 2. HTML 記事の直接パースとマージ (rtx_3060.html など)
+        elif filename.endswith(".html"):
+            # 自動生成されたHTML詳細ページはスキップ
+            # (対応する .md がある場合は自動生成HTMLなのでスキップ)
+            corresponding_md = filename.replace(".html", ".md")
+            if os.path.exists(os.path.join(ARTICLES_DIR, corresponding_md)):
+                continue
+                
+            print(f"🐾 HTML記事を直接処理中: {filename}")
+            
+            html_data = parse_html_article(file_path)
+            
+            # カテゴリ決定
+            category = "IT"
+            title_upper = html_data["title"].upper()
+            content_upper = html_data["plain_text"].upper()
+            if "AI" in title_upper or "LLM" in title_upper or "推論エンジン" in title_upper or "人工知能" in html_data["title"] or "AI" in content_upper:
+                category = "AI"
+            elif "ガジェット" in html_data["title"] or "スマホ" in title_upper or "GPU" in title_upper or "RTX" in title_upper or "RTX" in content_upper:
+                category = "ガジェット"
+
+            # AI解析でメタデータ（一言コメント含む）を最適化生成
+            meta = get_ai_metadata_for_html(html_data["title"], html_data["plain_text"], category)
+            
+            news_by_url[rel_url] = {
+                "title": meta["title"],
+                "url": rel_url,
+                "source": "たぬきちゃん",
+                "category": category,
+                "published_at": html_data["published_at"],
+                "comment": meta["comment"],
+                "score": 5
+            }
+            built_count += 1
+            print(f"🐾 HTMLメタデータをマージしました: {filename} (コメント: {meta['comment'][:30]}...)")
 
     # ソートして news.json に書き戻す (published_at降順)
     updated_news = list(news_by_url.values())
     
-    # 日付パース用の補助関数
     def get_sort_key(item):
         date_str = item.get("published_at", "")
-        # RFC 2822 もしくは ISO フォーマットのパース
         try:
-            # ISO 8601
             return datetime.fromisoformat(date_str.replace("Z", "+00:00")).timestamp()
         except Exception:
             try:
-                # RFC 2822 (ZennなどのRSS用)
-                # 例: Mon, 15 Jun 2026 16:50:48 GMT
                 import email.utils
                 return email.utils.parsedate_to_datetime(date_str).timestamp()
             except Exception:
@@ -329,9 +500,9 @@ def build_articles():
     
     # 保存
     with open(NEWS_JSON_PATH, "w", encoding="utf-8") as f:
-        json.dump(updated_news[:60], f, ensure_ascii=False, indent=2) # 最大60件保存
+        json.dump(updated_news[:60], f, ensure_ascii=False, indent=2)
         
-    print(f"🐾 news.json の更新完了しました。(更新件数: {built_count} 件)")
+    print(f"🐾 news.json の更新完了しました。(全更新件数: {built_count} 件)")
     
     # RSSの生成
     generate_rss(updated_news[:30])
@@ -344,20 +515,16 @@ def generate_rss(news_list):
     
     rss_items = []
     for item in news_list:
-        # パス調整
         link = item["url"]
         if not link.startswith("http"):
-            # 相対パスの場合は GitHub Pages の本番URLにする
             link = f"https://netwavers.github.io/tanuki-news/{link}"
             
-        # 日付のフォーマット変換 (RFC 822)
         pub_date_rfc822 = item["published_at"]
         try:
-            # ISOフォーマットだったら変換する
             dt = datetime.fromisoformat(item["published_at"].replace("Z", "+00:00"))
             pub_date_rfc822 = dt.strftime("%a, %d %b %Y %H:%M:%S GMT")
         except Exception:
-            pass # すでにRFC822などの場合はそのまま
+            pass
             
         description_content = f"【たぬきちゃんのコメント】 {item.get('comment', '')}"
         

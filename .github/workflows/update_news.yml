@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'articles/*.md'
+      - 'articles/*.html'
   schedule:
     # 毎日日本時間 午前 7:00（UTC 22:00）に実行
     - cron: '0 22 * * *'
