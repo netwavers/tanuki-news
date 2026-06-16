@@ -112,6 +112,28 @@ button {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rss-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: var(--border-radius-sm);
+  background-color: #f39c12; /* RSSオレンジ */
+  color: white !important;
+  font-weight: 700;
+  font-size: 0.9rem;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition-smooth);
+}
+
+.rss-button:hover {
+  background-color: var(--accent-color);
+  transform: translateY(-2px);
 }
 
 .header-logo-area {
@@ -499,4 +521,137 @@ button {
   font-size: 0.75rem;
   color: var(--text-muted);
   font-weight: 700;
+}
+
+/* ==========================================================================
+   🐾 Article Detail Page Style
+   ========================================================================== */
+.back-navigation {
+  margin-bottom: 24px;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  padding: 8px 16px;
+  border-radius: var(--border-radius-sm);
+  background-color: var(--primary-light);
+  border: 1px solid var(--border-color);
+  transition: var(--transition-smooth);
+}
+
+.back-link:hover {
+  color: var(--primary-color);
+  background-color: #f6ebd8;
+  transform: translateX(-4px);
+}
+
+.article-detail {
+  background-color: var(--card-bg);
+  border-radius: var(--border-radius-lg);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-md);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+@media (max-width: 768px) {
+  .article-detail {
+    padding: 24px;
+    gap: 24px;
+  }
+}
+
+.article-detail-header {
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 20px;
+}
+
+.article-detail-title {
+  font-size: 1.8rem;
+  font-weight: 800;
+  line-height: 1.4;
+  margin-top: 12px;
+  color: var(--text-main);
+}
+
+@media (max-width: 768px) {
+  .article-detail-title {
+    font-size: 1.4rem;
+  }
+}
+
+.detail-comment {
+  margin-top: 0;
+  box-shadow: var(--shadow-sm);
+}
+
+/* Markdown Rendering Content */
+.markdown-body {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--text-main);
+}
+
+.markdown-body h2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 8px;
+  margin: 36px 0 16px 0;
+  color: var(--primary-color);
+}
+
+.markdown-body h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 28px 0 12px 0;
+  color: var(--text-main);
+}
+
+.markdown-body p {
+  margin-bottom: 20px;
+}
+
+.markdown-body ul {
+  margin-bottom: 24px;
+  padding-left: 24px;
+}
+
+.markdown-body li {
+  margin-bottom: 8px;
+}
+
+.markdown-body strong {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.markdown-body blockquote {
+  margin: 24px 0;
+  padding: 16px 24px;
+  border-left: 4px solid var(--primary-color);
+  background-color: var(--primary-light);
+  border-radius: 0 var(--border-radius-md) var(--border-radius-md) 0;
+}
+
+.markdown-body blockquote.alert-note {
+  border-left-color: var(--primary-color);
+  background-color: #fdfaf7;
+}
+
+.markdown-body blockquote.alert-warning {
+  border-left-color: var(--accent-color);
+  background-color: #fff5f2;
+}
+
+.markdown-body blockquote p {
+  margin-bottom: 0;
+  font-weight: 500;
 }

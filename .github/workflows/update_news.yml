@@ -1,6 +1,9 @@
 name: 🐾 Auto Update Tanuki News
 
 on:
+  push:
+    paths:
+      - 'articles/*.md'
   schedule:
     # 毎日日本時間 午前 7:00（UTC 22:00）に実行
     - cron: '0 22 * * *'
@@ -19,19 +22,22 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-python-version: '3.10'
+          python-version: '3.10'
 
-      # 標準の urllib, xml などのみ使うため、依存パッケージのインストールは不要
-
-      - name: Run news update script
+      - name: Run news update script (Fetch RSS)
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python update_news.py
 
-      - name: Commit and push if news.json was updated
+      - name: Run article build script (Markdown -> HTML)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python build_articles.py
+
+      - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add news.json
+          git add news.json rss.xml articles/*.html
           # 変更がある場合のみコミット＆プッシュ
-          git diff --quiet && git diff --staged --quiet || (git commit -m "🐾 自動更新: イチオシニュース＆たぬきコメント更新" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🐾 自動更新: イチオシニュース＆Markdownビルド適用" && git push)
