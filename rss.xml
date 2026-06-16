@@ -5,7 +5,7 @@
     <link>https://netwavers.github.io/tanuki-news/index.html</link>
     <description>ご主人様にお届けする、今日の厳選IT・AI・ガジェットニュースですわ！🐾</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 16 Jun 2026 22:53:18 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 22:53:45 GMT</lastBuildDate>
     <atom:link href="https://netwavers.github.io/tanuki-news/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mozilla、完全オフラインでWebブラウザと高度に連携するローカルAIエンジン「LocalLoom 1.0」を正式発表！</title>
@@ -64,11 +64,35 @@
       <category>IT</category>
     </item>
     <item>
+      <title>M365 Copilot で実践するハーネス エンジニアリングのループ</title>
+      <link>https://zenn.dev/microsoft/articles/m365-copilot-harness-engineering</link>
+      <guid isPermaLink="true">https://zenn.dev/microsoft/articles/m365-copilot-harness-engineering</guid>
+      <pubDate>Mon, 15 Jun 2026 13:25:42 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、こちらの IT ニュースは要チェックですわ！「M365 Copilot で実践するハーネス エンジニアリングのループ」についての動き、これからも目が離せませんね！🐾]]></description>
+      <category>IT</category>
+    </item>
+    <item>
+      <title>AI が大量にアウトプットしてくるので認知負荷を下げる Skill を作った</title>
+      <link>https://zenn.dev/hataluck/articles/0752919b305a9f</link>
+      <guid isPermaLink="true">https://zenn.dev/hataluck/articles/0752919b305a9f</guid>
+      <pubDate>Mon, 15 Jun 2026 12:15:48 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵]]></description>
+      <category>AI</category>
+    </item>
+    <item>
       <title>TypeScript 5.5 リリース！新しい型推論とパフォーマンス改善</title>
       <link>https://example.com/typescript-5-5</link>
       <guid isPermaLink="true">https://example.com/typescript-5-5</guid>
       <pubDate>Mon, 15 Jun 2026 09:30:00 GMT</pubDate>
       <description><![CDATA[【たぬきちゃんのコメント】 TypeScript 5.5がリリースされました！型推論がさらに賢くなって、バグの早期発見に役立ちますね。ご主人様のコード書きがもっと快適になりますように！✨]]></description>
+      <category>IT</category>
+    </item>
+    <item>
+      <title>ねえパパ、ほとんどのエンジニアは四則演算を計算するプログラムすら書けないってホント？</title>
+      <link>https://zenn.dev/aldagram_tech/articles/124d14d59bc595</link>
+      <guid isPermaLink="true">https://zenn.dev/aldagram_tech/articles/124d14d59bc595</guid>
+      <pubDate>Mon, 15 Jun 2026 07:30:05 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵]]></description>
       <category>IT</category>
     </item>
     <item>
