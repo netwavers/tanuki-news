@@ -5,16 +5,8 @@
     <link>https://netwavers.github.io/tanuki-news/index.html</link>
     <description>ご主人様にお届けする、今日の厳選IT・AI・ガジェットニュースですわ！🐾</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 16 Jun 2026 23:10:15 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 23:10:39 GMT</lastBuildDate>
     <atom:link href="https://netwavers.github.io/tanuki-news/rss.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>RTX 3060 Market Analysis 2026</title>
-      <link>https://netwavers.github.io/tanuki-news/articles/rtx_3060.html</link>
-      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/rtx_3060.html</guid>
-      <pubDate>Wed, 17 Jun 2026 08:10:10 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！こちらの「RTX 3060 Market Analysis 2026」について、たぬきちゃんも超イチオシですわ！🐾]]></description>
-      <category>AI</category>
-    </item>
     <item>
       <title>Mozilla、完全オフラインでWebブラウザと高度に連携するローカルAIエンジン「LocalLoom 1.0」を正式発表！</title>
       <link>https://netwavers.github.io/tanuki-news/articles/Mozilla、完全オフラインでWebブラウザと高度に連携するローカルAIエンジン「LocalLoom 1.0」を正式発表！.html</link>
@@ -22,6 +14,54 @@
       <pubDate>Wed, 17 Jun 2026 06:00:00 GMT</pubDate>
       <description><![CDATA[【たぬきちゃんのコメント】 2026年6月16日（米国時間）、Mozilla Foundationは、ユーザーのプライバシー保護を最優先にしたオープンソースの新型ローカルAI推論エンジン**「LocalLoom 1.0」**を正式に発表しましたわ！🐾]]></description>
       <category>AI</category>
+    </item>
+    <item>
+      <title>RTX 3060 Market Analysis 2026</title>
+      <link>https://netwavers.github.io/tanuki-news/articles/rtx_3060.html</link>
+      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/rtx_3060.html</guid>
+      <pubDate>Tue, 16 Jun 2026 23:10:37 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！こちらの「RTX 3060 Market Analysis 2026」について、たぬきちゃんも超イチオシですわ！🐾]]></description>
+      <category>AI</category>
+    </item>
+    <item>
+      <title>`cp`はディスク上ではデータをコピーしないことがある</title>
+      <link>https://zenn.dev/satoru_takeuchi/articles/4bab372c6dae86</link>
+      <guid isPermaLink="true">https://zenn.dev/satoru_takeuchi/articles/4bab372c6dae86</guid>
+      <pubDate>Tue, 16 Jun 2026 06:49:52 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、こちらの IT ニュースは要チェックですわ！「`cp`はディスク上ではデータをコピーしないことがある」についての動き、これからも目が離せませんね！🐾]]></description>
+      <category>IT</category>
+    </item>
+    <item>
+      <title>2026年6月現在の Claude Code 開発フロー</title>
+      <link>https://zenn.dev/arm_techblog/articles/7712cde19988c8</link>
+      <guid isPermaLink="true">https://zenn.dev/arm_techblog/articles/7712cde19988c8</guid>
+      <pubDate>Tue, 16 Jun 2026 00:59:01 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵]]></description>
+      <category>IT</category>
+    </item>
+    <item>
+      <title>AI の不時着 ~ コードの国を追われ、要求の国へ ~</title>
+      <link>https://zenn.dev/layerx/articles/947ce6d31701cf</link>
+      <guid isPermaLink="true">https://zenn.dev/layerx/articles/947ce6d31701cf</guid>
+      <pubDate>Tue, 16 Jun 2026 00:55:05 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、こちらの AI ニュースは要チェックですわ！「AI の不時着 ~ コードの国を追われ、要求の国へ ~」についての動き、これからも目が離せませんね！🐾]]></description>
+      <category>AI</category>
+    </item>
+    <item>
+      <title>ローカルLLMをいつ使うべきか？</title>
+      <link>https://zenn.dev/sompojapan_dx/articles/74624afa03040c</link>
+      <guid isPermaLink="true">https://zenn.dev/sompojapan_dx/articles/74624afa03040c</guid>
+      <pubDate>Tue, 16 Jun 2026 00:37:59 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、AI関連でとても興味深い話題が入ってきました！「ローカルLLMをいつ使うべきか？」について、たぬきちゃんももっとお勉強しておきますわ！🥯]]></description>
+      <category>AI</category>
+    </item>
+    <item>
+      <title>カーネギーメロン大学の有名講義『Intro to Database Systems』を全てのプログラマに見てほしい</title>
+      <link>https://zenn.dev/kaseken/articles/3913ba30af4d46</link>
+      <guid isPermaLink="true">https://zenn.dev/kaseken/articles/3913ba30af4d46</guid>
+      <pubDate>Mon, 15 Jun 2026 16:50:48 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵]]></description>
+      <category>IT</category>
     </item>
   </channel>
 </rss>
