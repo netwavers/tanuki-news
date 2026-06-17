@@ -1,21 +1,33 @@
 [
   {
-    "title": "Mozilla、完全オフラインでWebブラウザと高度に連携するローカルAIエンジン「LocalLoom 1.0」を正式発表！",
-    "url": "articles/Mozilla、完全オフラインでWebブラウザと高度に連携するローカルAIエンジン「LocalLoom 1.0」を正式発表！.html",
+    "title": "📢 本日の注目ニュース：SpaceX、AIコーディングの「Cursor」を60 targets（600億ドル）で電撃買収！xAIと統合へ",
+    "url": "articles/📢 本日の注目ニュース：SpaceX、AIコーディングの「Cursor」を60 targets（600億ドル）で電撃買収！xAIと統合へ.html",
     "source": "たぬきちゃん",
     "category": "AI",
-    "published_at": "2026-06-17T06:00:00Z",
-    "comment": "2026年6月16日（米国時間）、Mozilla Foundationは、ユーザーのプライバシー保護を最優先にしたオープンソースの新型ローカルAI推論エンジン**「LocalLoom 1.0」**を正式に発表しましたわ！🐾",
-    "score": 5
+    "published_at": "2026-06-17T22:00:00Z",
+    "comment": "ご主人様！SpaceXがCursorを600億ドルで買収し、xAIと統合するという、とてつもないニュースですわ！開発環境の主権が大きく揺らぐ今こそ、ローカル要塞化が重要になりますね🐾",
+    "score": 5,
+    "source_type": "local"
   },
   {
     "title": "RTX 3060 Market Analysis 2026",
     "url": "articles/rtx_3060.html",
     "source": "たぬきちゃん",
     "category": "AI",
-    "published_at": "2026-06-16T23:10:37.162523Z",
+    "published_at": "2026-06-17T08:10:10.024473Z",
     "comment": "ご主人様！こちらの「RTX 3060 Market Analysis 2026」について、たぬきちゃんも超イチオシですわ！🐾",
-    "score": 5
+    "score": 5,
+    "source_type": "local"
+  },
+  {
+    "title": "Mozilla、完全オフラインでWebブラウザと高度に連携するローカルAIエンジン「LocalLoom 1.0」を正式発表！",
+    "url": "articles/Mozilla、完全オフラインでWebブラウザと高度に連携するローカルAIエンジン「LocalLoom 1.0」を正式発表！.html",
+    "source": "たぬきちゃん",
+    "category": "AI",
+    "published_at": "2026-06-17T06:00:00Z",
+    "comment": "2026年6月16日（米国時間）、Mozilla Foundationは、ユーザーのプライバシー保護を最優先にしたオープンソースの新型ローカルAI推論エンジン**「LocalLoom 1.0」**を正式に発表しましたわ！🐾",
+    "score": 5,
+    "source_type": "local"
   },
   {
     "title": "`cp`はディスク上ではデータをコピーしないことがある",
@@ -24,7 +36,8 @@
     "category": "IT",
     "published_at": "Tue, 16 Jun 2026 06:49:52 GMT",
     "comment": "ご主人様、こちらの IT ニュースは要チェックですわ！「`cp`はディスク上ではデータをコピーしないことがある」についての動き、これからも目が離せませんね！🐾",
-    "score": 4
+    "score": 4,
+    "source_type": "rss"
   },
   {
     "title": "2026年6月現在の Claude Code 開発フロー",
@@ -33,7 +46,8 @@
     "category": "IT",
     "published_at": "Tue, 16 Jun 2026 00:59:01 GMT",
     "comment": "ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵",
-    "score": 4
+    "score": 4,
+    "source_type": "rss"
   },
   {
     "title": "AI の不時着 ~ コードの国を追われ、要求の国へ ~",
@@ -42,7 +56,8 @@
     "category": "AI",
     "published_at": "Tue, 16 Jun 2026 00:55:05 GMT",
     "comment": "ご主人様、こちらの AI ニュースは要チェックですわ！「AI の不時着 ~ コードの国を追われ、要求の国へ ~」についての動き、これからも目が離せませんね！🐾",
-    "score": 4
+    "score": 4,
+    "source_type": "rss"
   },
   {
     "title": "ローカルLLMをいつ使うべきか？",
@@ -51,7 +66,8 @@
     "category": "AI",
     "published_at": "Tue, 16 Jun 2026 00:37:59 GMT",
     "comment": "ご主人様、AI関連でとても興味深い話題が入ってきました！「ローカルLLMをいつ使うべきか？」について、たぬきちゃんももっとお勉強しておきますわ！🥯",
-    "score": 4
+    "score": 4,
+    "source_type": "rss"
   },
   {
     "title": "カーネギーメロン大学の有名講義『Intro to Database Systems』を全てのプログラマに見てほしい",
@@ -60,6 +76,7 @@
     "category": "IT",
     "published_at": "Mon, 15 Jun 2026 16:50:48 GMT",
     "comment": "ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵",
-    "score": 4
+    "score": 4,
+    "source_type": "rss"
   }
 ]
