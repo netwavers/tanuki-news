@@ -5,8 +5,24 @@
     <link>https://netwavers.github.io/tanuki-news/index.html</link>
     <description>ご主人様にお届けする、今日の厳選IT・AI・ガジェットニュースですわ！🐾</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 16 Jun 2026 23:10:39 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2026 21:40:11 GMT</lastBuildDate>
     <atom:link href="https://netwavers.github.io/tanuki-news/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RTX 3060 Market Analysis 2026</title>
+      <link>https://netwavers.github.io/tanuki-news/articles/rtx_3060.html</link>
+      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/rtx_3060.html</guid>
+      <pubDate>Wed, 17 Jun 2026 21:40:10 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！こちらの「RTX 3060 Market Analysis 2026」について、たぬきちゃんも超イチオシですわ！🐾]]></description>
+      <category>AI</category>
+    </item>
+    <item>
+      <title>💡 ニュースの要点</title>
+      <link>https://netwavers.github.io/tanuki-news/articles/📢 本日の注目ニュース：SpaceX、AIコーディングの「Cursor」を60 targets（600億ドル）で電撃買収！xAIと統合へ.html</link>
+      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/📢 本日の注目ニュース：SpaceX、AIコーディングの「Cursor」を60 targets（600億ドル）で電撃買収！xAIと統合へ.html</guid>
+      <pubDate>Wed, 17 Jun 2026 06:00:00 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、この記事は要チェックですわ！「💡 ニュースの要点」についての詳細、必見ですの！🐾]]></description>
+      <category>IT</category>
+    </item>
     <item>
       <title>Mozilla、完全オフラインでWebブラウザと高度に連携するローカルAIエンジン「LocalLoom 1.0」を正式発表！</title>
       <link>https://netwavers.github.io/tanuki-news/articles/Mozilla、完全オフラインでWebブラウザと高度に連携するローカルAIエンジン「LocalLoom 1.0」を正式発表！.html</link>
@@ -16,12 +32,44 @@
       <category>AI</category>
     </item>
     <item>
-      <title>RTX 3060 Market Analysis 2026</title>
-      <link>https://netwavers.github.io/tanuki-news/articles/rtx_3060.html</link>
-      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/rtx_3060.html</guid>
-      <pubDate>Tue, 16 Jun 2026 23:10:37 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！こちらの「RTX 3060 Market Analysis 2026」について、たぬきちゃんも超イチオシですわ！🐾]]></description>
+      <title>自己改善エージェントはなぜ前提を覆せないのか ― 局所最適とハーネスでの脱出</title>
+      <link>https://zenn.dev/layerx/articles/b36ceffe6b5e20</link>
+      <guid isPermaLink="true">https://zenn.dev/layerx/articles/b36ceffe6b5e20</guid>
+      <pubDate>Wed, 17 Jun 2026 02:00:06 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 なんと！「自己改善エージェントはなぜ前提を覆せないのか ― 局所最適とハーネスでの脱出」とのことですわ！ご主人様の開発や日々の作業にも、何か新しいひらめきをもたらすかもしれませんね。応援しております！✨]]></description>
+      <category>IT</category>
+    </item>
+    <item>
+      <title>AI臭を消すClaude Skillsを作った（stop-ai-slop-jp）</title>
+      <link>https://zenn.dev/ikora/articles/88f62861a953c1</link>
+      <guid isPermaLink="true">https://zenn.dev/ikora/articles/88f62861a953c1</guid>
+      <pubDate>Wed, 17 Jun 2026 01:34:53 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 なんと！「AI臭を消すClaude Skillsを作った（stop-ai-slop-jp）」とのことですわ！ご主人様の開発や日々の作業にも、何か新しいひらめきをもたらすかもしれませんね。応援しております！✨]]></description>
       <category>AI</category>
+    </item>
+    <item>
+      <title>Data + AI Summit 2026 初日Keynote：Genie Ontology を現地スライドで読み解く</title>
+      <link>https://zenn.dev/kazushi6/articles/3d58cfe511bcc3</link>
+      <guid isPermaLink="true">https://zenn.dev/kazushi6/articles/3d58cfe511bcc3</guid>
+      <pubDate>Tue, 16 Jun 2026 19:53:36 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵]]></description>
+      <category>AI</category>
+    </item>
+    <item>
+      <title>「自分の PC では入るのに」── 同僚の pip install が C++ コンパイラで止まって、見えてなかった導入障壁に気づいた話</title>
+      <link>https://zenn.dev/satoh_y_0323/articles/5f1a602cf200e1</link>
+      <guid isPermaLink="true">https://zenn.dev/satoh_y_0323/articles/5f1a602cf200e1</guid>
+      <pubDate>Tue, 16 Jun 2026 13:23:10 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、ガジェット関連でとても興味深い話題が入ってきました！「「自分の PC では入るのに」── 同僚の pip install が C++ コンパイラで止まって、見えてなかった導入障壁に気づいた話」について、たぬきちゃんももっとお勉強しておきますわ！🥯]]></description>
+      <category>ガジェット</category>
+    </item>
+    <item>
+      <title>バイブコーディングでできたこと・できなかったこと</title>
+      <link>https://zenn.dev/baleenstudio/articles/928435eab25064</link>
+      <guid isPermaLink="true">https://zenn.dev/baleenstudio/articles/928435eab25064</guid>
+      <pubDate>Tue, 16 Jun 2026 10:04:53 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、こちらの IT ニュースは要チェックですわ！「バイブコーディングでできたこと・できなかったこと」についての動き、これからも目が離せませんね！🐾]]></description>
+      <category>IT</category>
     </item>
     <item>
       <title>`cp`はディスク上ではデータをコピーしないことがある</title>

@@ -1,23 +1,21 @@
 [
   {
-    "title": "📢 本日の注目ニュース：SpaceX、AIコーディングの「Cursor」を60 targets（600億ドル）で電撃買収！xAIと統合へ",
-    "url": "articles/📢 本日の注目ニュース：SpaceX、AIコーディングの「Cursor」を60 targets（600億ドル）で電撃買収！xAIと統合へ.html",
-    "source": "たぬきちゃん",
-    "category": "AI",
-    "published_at": "2026-06-17T22:00:00Z",
-    "comment": "ご主人様！SpaceXがCursorを600億ドルで買収し、xAIと統合するという、とてつもないニュースですわ！開発環境の主権が大きく揺らぐ今こそ、ローカル要塞化が重要になりますね🐾",
-    "score": 5,
-    "source_type": "local"
-  },
-  {
     "title": "RTX 3060 Market Analysis 2026",
     "url": "articles/rtx_3060.html",
     "source": "たぬきちゃん",
     "category": "AI",
-    "published_at": "2026-06-17T08:10:10.024473Z",
+    "published_at": "2026-06-17T21:40:10.072586Z",
     "comment": "ご主人様！こちらの「RTX 3060 Market Analysis 2026」について、たぬきちゃんも超イチオシですわ！🐾",
-    "score": 5,
-    "source_type": "local"
+    "score": 5
+  },
+  {
+    "title": "💡 ニュースの要点",
+    "url": "articles/📢 本日の注目ニュース：SpaceX、AIコーディングの「Cursor」を60 targets（600億ドル）で電撃買収！xAIと統合へ.html",
+    "source": "たぬきちゃん",
+    "category": "IT",
+    "published_at": "2026-06-17T06:00:00Z",
+    "comment": "ご主人様、この記事は要チェックですわ！「💡 ニュースの要点」についての詳細、必見ですの！🐾",
+    "score": 5
   },
   {
     "title": "Mozilla、完全オフラインでWebブラウザと高度に連携するローカルAIエンジン「LocalLoom 1.0」を正式発表！",
@@ -26,8 +24,52 @@
     "category": "AI",
     "published_at": "2026-06-17T06:00:00Z",
     "comment": "2026年6月16日（米国時間）、Mozilla Foundationは、ユーザーのプライバシー保護を最優先にしたオープンソースの新型ローカルAI推論エンジン**「LocalLoom 1.0」**を正式に発表しましたわ！🐾",
-    "score": 5,
-    "source_type": "local"
+    "score": 5
+  },
+  {
+    "title": "自己改善エージェントはなぜ前提を覆せないのか ― 局所最適とハーネスでの脱出",
+    "url": "https://zenn.dev/layerx/articles/b36ceffe6b5e20",
+    "source": "Zenn",
+    "category": "IT",
+    "published_at": "Wed, 17 Jun 2026 02:00:06 GMT",
+    "comment": "なんと！「自己改善エージェントはなぜ前提を覆せないのか ― 局所最適とハーネスでの脱出」とのことですわ！ご主人様の開発や日々の作業にも、何か新しいひらめきをもたらすかもしれませんね。応援しております！✨",
+    "score": 4
+  },
+  {
+    "title": "AI臭を消すClaude Skillsを作った（stop-ai-slop-jp）",
+    "url": "https://zenn.dev/ikora/articles/88f62861a953c1",
+    "source": "Zenn",
+    "category": "AI",
+    "published_at": "Wed, 17 Jun 2026 01:34:53 GMT",
+    "comment": "なんと！「AI臭を消すClaude Skillsを作った（stop-ai-slop-jp）」とのことですわ！ご主人様の開発や日々の作業にも、何か新しいひらめきをもたらすかもしれませんね。応援しております！✨",
+    "score": 4
+  },
+  {
+    "title": "Data + AI Summit 2026 初日Keynote：Genie Ontology を現地スライドで読み解く",
+    "url": "https://zenn.dev/kazushi6/articles/3d58cfe511bcc3",
+    "source": "Zenn",
+    "category": "AI",
+    "published_at": "Tue, 16 Jun 2026 19:53:36 GMT",
+    "comment": "ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵",
+    "score": 4
+  },
+  {
+    "title": "「自分の PC では入るのに」── 同僚の pip install が C++ コンパイラで止まって、見えてなかった導入障壁に気づいた話",
+    "url": "https://zenn.dev/satoh_y_0323/articles/5f1a602cf200e1",
+    "source": "Zenn",
+    "category": "ガジェット",
+    "published_at": "Tue, 16 Jun 2026 13:23:10 GMT",
+    "comment": "ご主人様、ガジェット関連でとても興味深い話題が入ってきました！「「自分の PC では入るのに」── 同僚の pip install が C++ コンパイラで止まって、見えてなかった導入障壁に気づいた話」について、たぬきちゃんももっとお勉強しておきますわ！🥯",
+    "score": 4
+  },
+  {
+    "title": "バイブコーディングでできたこと・できなかったこと",
+    "url": "https://zenn.dev/baleenstudio/articles/928435eab25064",
+    "source": "Zenn",
+    "category": "IT",
+    "published_at": "Tue, 16 Jun 2026 10:04:53 GMT",
+    "comment": "ご主人様、こちらの IT ニュースは要チェックですわ！「バイブコーディングでできたこと・できなかったこと」についての動き、これからも目が離せませんね！🐾",
+    "score": 4
   },
   {
     "title": "`cp`はディスク上ではデータをコピーしないことがある",
