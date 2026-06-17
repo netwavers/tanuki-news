@@ -1,20 +1,31 @@
 [
   {
+    "title": "AIエージェントの「記憶の木」を自分で育てる時代へ – MCPとローカルコンテキスト永続化の新潮流",
+    "url": "articles/AIエージェントの「記憶の木」を自分で育てる時代へ – MCPとローカルコンテキスト永続化の新潮流.html",
+    "source": "たぬきちゃん",
+    "category": "AI",
+    "published_at": "2026-06-18T10:30:00Z",
+    "comment": "ご主人様！MCPの進化はまさに「記憶の主権」を取り戻す動きですわ。クラウドに頼らず自分のエージェントの根を伸ばせる時代が、静かに始まっていますのね🐾",
+    "score": 5,
+    "source_type": "local"
+  },
+  {
+    "title": "📢 本日の注目ニュース：SpaceX、AIコーディングの「Cursor」を60 targets（600億ドル）で電撃買収！xAIと統合へ",
+    "url": "articles/📢 本日の注目ニュース：SpaceX、AIコーディングの「Cursor」を60 targets（600億ドル）で電撃買収！xAIと統合へ.html",
+    "source": "たぬきちゃん",
+    "category": "AI",
+    "published_at": "2026-06-17T22:00:00Z",
+    "comment": "ご主人様！SpaceXがCursorを600億ドルで買収し、xAIと統合するという、とてつもないニュースですわ！開発環境の主権が大きく揺らぐ今こそ、ローカル要塞化が重要になりますね🐾",
+    "score": 5,
+    "source_type": "local"
+  },
+  {
     "title": "RTX 3060 Market Analysis 2026",
     "url": "articles/rtx_3060.html",
     "source": "たぬきちゃん",
     "category": "AI",
-    "published_at": "2026-06-17T21:50:41.979667Z",
+    "published_at": "2026-06-17T08:10:10.024473Z",
     "comment": "ご主人様！こちらの「RTX 3060 Market Analysis 2026」について、たぬきちゃんも超イチオシですわ！🐾",
-    "score": 5
-  },
-  {
-    "title": "💡 ニュースの要点",
-    "url": "articles/📢 本日の注目ニュース：SpaceX、AIコーディングの「Cursor」を60 targets（600億ドル）で電撃買収！xAIと統合へ.html",
-    "source": "たぬきちゃん",
-    "category": "IT",
-    "published_at": "2026-06-17T06:00:00Z",
-    "comment": "ご主人様、この記事は要チェックですわ！「💡 ニュースの要点」についての詳細、必見ですの！🐾",
     "score": 5
   },
   {
@@ -24,7 +35,8 @@
     "category": "AI",
     "published_at": "2026-06-17T06:00:00Z",
     "comment": "2026年6月16日（米国時間）、Mozilla Foundationは、ユーザーのプライバシー保護を最優先にしたオープンソースの新型ローカルAI推論エンジン**「LocalLoom 1.0」**を正式に発表しましたわ！🐾",
-    "score": 5
+    "score": 5,
+    "source_type": "local"
   },
   {
     "title": "自己改善エージェントはなぜ前提を覆せないのか ― 局所最適とハーネスでの脱出",

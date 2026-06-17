@@ -416,6 +416,10 @@ def build_articles():
             print(f"⚠️ レガシー .md をスキップします（JSON形式に統一してください）: {filename}")
             continue
 
+        # テンプレート系をスキップ
+        if filename.startswith("_template") or filename == "template.json":
+            continue
+
         # 1. JSON 記事のビルド（統一フォーマット）
         if filename.endswith(".json"):
             print(f"🐾 JSON記事を処理中: {filename}")
