@@ -122,52 +122,71 @@ def simple_markdown_to_html(md_text):
     return result
 
 def parse_markdown_article(file_path):
-    """Markdownファイルからタイトル、日付、概要、本文を抽出する"""
+    """Markdownファイルからタイトル、日付、概要、本文を抽出する（frontmatter対応）"""
     with open(file_path, "r", encoding="utf-8") as f:
         content = f.read()
 
-    # タイトルの抽出
-    title = ""
-    title_match = re.search(r'^###\s+\*\*(.*?)\*\*|^#\s+(.*)', content, re.MULTILINE)
-    if title_match:
-        title = title_match.group(1) or title_match.group(2)
-    else:
-        title = os.path.splitext(os.path.basename(file_path))[0]
-        
+    # Frontmatter (YAML風) の抽出と除去
+    frontmatter = {}
+    body = content
+    if content.strip().startswith("---"):
+        parts = content.split("---", 2)
+        if len(parts) >= 3:
+            fm_text = parts[1].strip()
+            body = parts[2].strip()
+            for line in fm_text.split("\n"):
+                if ":" in line:
+                    k, v = [x.strip() for x in line.split(":", 1)]
+                    frontmatter[k] = v.strip('"').strip("'")
+            body = parts[2].strip()
+
+    # タイトルの抽出（frontmatter優先）
+    title = frontmatter.get("title", "")
+    if not title:
+        title_match = re.search(r"^###\s+\*\*(.*?) \*\*|^#\s+(.*)", body, re.MULTILINE)
+        if title_match:
+            title = title_match.group(1) or title_match.group(2)
+        else:
+            title = os.path.splitext(os.path.basename(file_path))[0]
     title = title.strip()
 
-    # 概要の抽出
-    description = ""
-    desc_match = re.search(r'\*\*【概要】\*\*(.*?)(?=###|\n\n\w|$)', content, re.DOTALL | re.MULTILINE)
-    if desc_match:
-        description = desc_match.group(1).strip()
-        description = re.sub(r'\*\*|__', '', description)
-    else:
-        paragraphs = [p.strip() for p in content.split('\n\n') if p.strip()]
-        for p in paragraphs:
-            if not p.startswith('#') and not p.startswith('ご主人様'):
-                description = p[:150]
-                break
-                
+    # 概要の抽出（frontmatter優先）
+    description = frontmatter.get("description", "")
+    if not description:
+        desc_match = re.search(r"\*\*【概要】\*\*(.*?)(?=###|\n\n\w|$)", body, re.DOTALL | re.MULTILINE)
+        if desc_match:
+            description = desc_match.group(1).strip()
+            description = re.sub(r"\*\*|__", "", description)
+        else:
+            paragraphs = [p.strip() for p in body.split("\n\n") if p.strip()]
+            for p in paragraphs:
+                if not p.startswith("#") and not p.startswith("ご主人様"):
+                    description = p[:150]
+                    break
     description = html.escape(description)
 
-    # 日付の抽出
-    pub_date = datetime.utcnow().isoformat() + "Z"
-    date_match = re.search(r'本日（(\d{4})年(\d{1,2})月(\d{1,2})日）', content)
-    if date_match:
-        try:
-            year, month, day = map(int, date_match.groups())
-            dt = datetime(year, month, day, 6, 0, 0)
-            pub_date = dt.strftime("%Y-%m-%dT%H:%M:%SZ")
-        except Exception:
-            pass
+    # 日付の抽出（frontmatter優先）
+    pub_date = frontmatter.get("published_at", "")
+    if not pub_date:
+        pub_date = datetime.utcnow().isoformat() + "Z"
+        date_match = re.search(r"本日（(\d{4})年(\d{1,2})月(\d{1,2})日）", body)
+        if date_match:
+            try:
+                year, month, day = map(int, date_match.groups())
+                dt = datetime(year, month, day, 6, 0, 0)
+                pub_date = dt.strftime("%Y-%m-%dT%H:%M:%SZ")
+            except Exception:
+                pass
 
     return {
         "title": title,
         "description": description,
         "published_at": pub_date,
-        "raw_content": content
+        "raw_content": body,
+        "frontmatter": frontmatter
     }
+
+
 
 def generate_ai_comment_from_content(title, full_content, category):
     """Gemini APIを使用して、Markdownからたぬきちゃんのまとめ用一言コメントを自動生成"""
@@ -392,9 +411,25 @@ def build_articles():
         if filename == "template.html" or filename == "template.md":
             continue
 
-        # 1. Markdown 記事のビルド
+        # Legacy .md をスキップ（JSON形式に統一済み）
         if filename.endswith(".md"):
-            print(f"🐾 Markdown記事を処理中: {filename}")
+            print(f"⚠️ レガシー .md をスキップします（JSON形式に統一してください）: {filename}")
+            continue
+
+        # 1. JSON 記事のビルド（統一フォーマット）
+        if filename.endswith(".json"):
+            print(f"🐾 JSON記事を処理中: {filename}")
+            
+            with open(file_path, "r", encoding="utf-8") as f:
+                article_json = json.load(f)
+            
+            title = article_json.get("title", filename)
+            published_at = article_json.get("published_at", "")
+            category = article_json.get("category", "AI")
+            score = int(article_json.get("score", 5))
+            description = article_json.get("description", "")
+            source_type = article_json.get("source_type", "local")
+            content_md = article_json.get("content", "")
             
             # テンプレートの読み込み
             if not os.path.exists(TEMPLATE_PATH):
@@ -403,55 +438,50 @@ def build_articles():
             with open(TEMPLATE_PATH, "r", encoding="utf-8") as f:
                 template_html = f.read()
 
-            article_data = parse_markdown_article(file_path)
+            # コメントはJSONにあればそれを使い、なければ生成
+            if article_json.get("comment"):
+                comment = article_json["comment"]
+            else:
+                comment = generate_ai_comment_from_content(title, content_md, category)
             
-            # カテゴリの自動決定
-            category = "IT"
-            title_upper = article_data["title"].upper()
-            if "AI" in title_upper or "LLM" in title_upper or "推論エンジン" in title_upper or "人工知能" in article_data["title"]:
-                category = "AI"
-            elif "ガジェット" in article_data["title"] or "スマホ" in title_upper or "GPU" in title_upper or "RTX" in title_upper:
-                category = "ガジェット"
+            html_content = simple_markdown_to_html(content_md)
 
-            comment = generate_ai_comment_from_content(article_data["title"], article_data["raw_content"], category)
-            html_content = simple_markdown_to_html(article_data["raw_content"])
-            
             # テンプレートに流し込む
             full_html = template_html
-            full_html = full_html.replace("{{TITLE}}", article_data["title"])
-            full_html = full_html.replace("{{DESCRIPTION}}", article_data["description"][:120])
-            full_html = full_html.replace("{{PUB_DATE}}", article_data["published_at"])
+            full_html = full_html.replace("{{TITLE}}", title)
+            full_html = full_html.replace("{{DESCRIPTION}}", description[:120] if description else "")
+            full_html = full_html.replace("{{PUB_DATE}}", published_at)
             full_html = full_html.replace("{{CATEGORY}}", category)
             full_html = full_html.replace("{{SOURCE}}", "たぬきちゃん")
             full_html = full_html.replace("{{COMMENT}}", comment)
             full_html = full_html.replace("{{CONTENT}}", html_content)
-            
+
             # HTML詳細ページ書き出し
             html_filename = os.path.splitext(filename)[0] + ".html"
             html_path = os.path.join(ARTICLES_DIR, html_filename)
             rel_html_url = f"articles/{html_filename}"
-            
+
             with open(html_path, "w", encoding="utf-8") as f:
                 f.write(full_html)
                 
             news_by_url[rel_html_url] = {
-                "title": article_data["title"],
+                "title": title,
                 "url": rel_html_url,
                 "source": "たぬきちゃん",
                 "category": category,
-                "published_at": article_data["published_at"],
+                "published_at": published_at,
                 "comment": comment,
-                "score": 5
+                "score": score,
+                "source_type": source_type
             }
             built_count += 1
             print(f"🐾 HTMLを自動生成しました: {html_filename}")
-
         # 2. HTML 記事の直接パースとマージ (rtx_3060.html など)
         elif filename.endswith(".html"):
             # 自動生成されたHTML詳細ページはスキップ
-            # (対応する .md がある場合は自動生成HTMLなのでスキップ)
-            corresponding_md = filename.replace(".html", ".md")
-            if os.path.exists(os.path.join(ARTICLES_DIR, corresponding_md)):
+            # (対応する .json がある場合は自動生成HTMLなのでスキップ)
+            corresponding_json = filename.replace(".html", ".json")
+            if os.path.exists(os.path.join(ARTICLES_DIR, corresponding_json)):
                 continue
                 
             print(f"🐾 HTML記事を直接処理中: {filename}")
