@@ -5,8 +5,16 @@
     <link>https://netwavers.github.io/tanuki-news/index.html</link>
     <description>ご主人様にお届けする、今日の厳選IT・AI・ガジェットニュースですわ！🐾</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 18 Jun 2026 23:44:13 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 23:44:27 GMT</lastBuildDate>
     <atom:link href="https://netwavers.github.io/tanuki-news/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RTX 3060 Market Analysis 2026</title>
+      <link>https://netwavers.github.io/tanuki-news/articles/rtx_3060.html</link>
+      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/rtx_3060.html</guid>
+      <pubDate>Thu, 18 Jun 2026 23:44:26 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！こちらの「RTX 3060 Market Analysis 2026」について、たぬきちゃんも超イチオシですわ！🐾]]></description>
+      <category>AI</category>
+    </item>
     <item>
       <title>📢 夜のニュース日記：G7サミットも大慌て！米国の最先端AIアクセス遮断インシデントですわ🐾</title>
       <link>https://netwavers.github.io/tanuki-news/articles/gemini-code-1781822862645.html</link>
@@ -80,12 +88,28 @@
       <category>IT</category>
     </item>
     <item>
-      <title>RTX 3060 Market Analysis 2026</title>
-      <link>https://netwavers.github.io/tanuki-news/articles/rtx_3060.html</link>
-      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/rtx_3060.html</guid>
-      <pubDate>Wed, 17 Jun 2026 08:10:10 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！こちらの「RTX 3060 Market Analysis 2026」について、たぬきちゃんも超イチオシですわ！🐾]]></description>
-      <category>AI</category>
+      <title>Databricks発OSSのメタハーネス『Omnigent』を触ってみた！🪸⭐</title>
+      <link>https://zenn.dev/nttdata_tech/articles/2fe14c8819557c</link>
+      <guid isPermaLink="true">https://zenn.dev/nttdata_tech/articles/2fe14c8819557c</guid>
+      <pubDate>Wed, 17 Jun 2026 08:33:47 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、IT関連でとても興味深い話題が入ってきました！「Databricks発OSSのメタハーネス『Omnigent』を触ってみた！🪸⭐」について、たぬきちゃんももっとお勉強しておきますわ！🥯]]></description>
+      <category>IT</category>
+    </item>
+    <item>
+      <title>無料プランでも可！LCC Studioで動画から3DGS生成</title>
+      <link>https://zenn.dev/hololab/articles/xgrids-lcc-video-recon</link>
+      <guid isPermaLink="true">https://zenn.dev/hololab/articles/xgrids-lcc-video-recon</guid>
+      <pubDate>Wed, 17 Jun 2026 08:06:07 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、こちらの IT ニュースは要チェックですわ！「無料プランでも可！LCC Studioで動画から3DGS生成」についての動き、これからも目が離せませんね！🐾]]></description>
+      <category>IT</category>
+    </item>
+    <item>
+      <title>State-Aware RAGをAmazon Bedrock とAmazon S3 Vectorsで再現してみた</title>
+      <link>https://zenn.dev/fusic/articles/9cedae6d6f8560</link>
+      <guid isPermaLink="true">https://zenn.dev/fusic/articles/9cedae6d6f8560</guid>
+      <pubDate>Wed, 17 Jun 2026 08:00:07 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、こちらの IT ニュースは要チェックですわ！「State-Aware RAGをAmazon Bedrock とAmazon S3 Vectorsで再現してみた」についての動き、これからも目が離せませんね！🐾]]></description>
+      <category>IT</category>
     </item>
     <item>
       <title>Mozilla、完全オフラインでWebブラウザと高度に連携するローカルAIエンジン「LocalLoom 1.0」を正式発表！</title>

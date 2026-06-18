@@ -1,5 +1,14 @@
 [
   {
+    "title": "RTX 3060 Market Analysis 2026",
+    "url": "articles/rtx_3060.html",
+    "source": "たぬきちゃん",
+    "category": "AI",
+    "published_at": "2026-06-18T23:44:26.434812Z",
+    "comment": "ご主人様！こちらの「RTX 3060 Market Analysis 2026」について、たぬきちゃんも超イチオシですわ！🐾",
+    "score": 5
+  },
+  {
     "title": "📢 夜のニュース日記：G7サミットも大慌て！米国の最先端AIアクセス遮断インシデントですわ🐾",
     "url": "articles/gemini-code-1781822862645.html",
     "source": "たぬきちゃん",
@@ -85,13 +94,31 @@
     "score": 4
   },
   {
-    "title": "RTX 3060 Market Analysis 2026",
-    "url": "articles/rtx_3060.html",
-    "source": "たぬきちゃん",
-    "category": "AI",
-    "published_at": "2026-06-17T08:10:10.024473Z",
-    "comment": "ご主人様！こちらの「RTX 3060 Market Analysis 2026」について、たぬきちゃんも超イチオシですわ！🐾",
-    "score": 5
+    "title": "Databricks発OSSのメタハーネス『Omnigent』を触ってみた！🪸⭐",
+    "url": "https://zenn.dev/nttdata_tech/articles/2fe14c8819557c",
+    "source": "Zenn",
+    "category": "IT",
+    "published_at": "Wed, 17 Jun 2026 08:33:47 GMT",
+    "comment": "ご主人様、IT関連でとても興味深い話題が入ってきました！「Databricks発OSSのメタハーネス『Omnigent』を触ってみた！🪸⭐」について、たぬきちゃんももっとお勉強しておきますわ！🥯",
+    "score": 4
+  },
+  {
+    "title": "無料プランでも可！LCC Studioで動画から3DGS生成",
+    "url": "https://zenn.dev/hololab/articles/xgrids-lcc-video-recon",
+    "source": "Zenn",
+    "category": "IT",
+    "published_at": "Wed, 17 Jun 2026 08:06:07 GMT",
+    "comment": "ご主人様、こちらの IT ニュースは要チェックですわ！「無料プランでも可！LCC Studioで動画から3DGS生成」についての動き、これからも目が離せませんね！🐾",
+    "score": 4
+  },
+  {
+    "title": "State-Aware RAGをAmazon Bedrock とAmazon S3 Vectorsで再現してみた",
+    "url": "https://zenn.dev/fusic/articles/9cedae6d6f8560",
+    "source": "Zenn",
+    "category": "IT",
+    "published_at": "Wed, 17 Jun 2026 08:00:07 GMT",
+    "comment": "ご主人様、こちらの IT ニュースは要チェックですわ！「State-Aware RAGをAmazon Bedrock とAmazon S3 Vectorsで再現してみた」についての動き、これからも目が離せませんね！🐾",
+    "score": 4
   },
   {
     "title": "Mozilla、完全オフラインでWebブラウザと高度に連携するローカルAIエンジン「LocalLoom 1.0」を正式発表！",
