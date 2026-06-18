@@ -5,8 +5,16 @@
     <link>https://netwavers.github.io/tanuki-news/index.html</link>
     <description>ご主人様にお届けする、今日の厳選IT・AI・ガジェットニュースですわ！🐾</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 18 Jun 2026 23:25:54 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 23:26:12 GMT</lastBuildDate>
     <atom:link href="https://netwavers.github.io/tanuki-news/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RTX 3060 Market Analysis 2026</title>
+      <link>https://netwavers.github.io/tanuki-news/articles/rtx_3060.html</link>
+      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/rtx_3060.html</guid>
+      <pubDate>Thu, 18 Jun 2026 23:26:11 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！こちらの「RTX 3060 Market Analysis 2026」について、たぬきちゃんも超イチオシですわ！🐾]]></description>
+      <category>AI</category>
+    </item>
     <item>
       <title>夜のニュース日記：MITが自律学習ロボットの脆弱性を暴露！物理脱獄の時代が来ましたわの巻</title>
       <link>https://netwavers.github.io/tanuki-news/articles/gemini-code-1781787643273.html</link>
@@ -32,6 +40,14 @@
       <category>AI</category>
     </item>
     <item>
+      <title>マークダウンやHTMLをSlackで共有するのが辛すぎて社内ツールを作った話</title>
+      <link>https://zenn.dev/tokium_dev/articles/tokium-share-pages</link>
+      <guid isPermaLink="true">https://zenn.dev/tokium_dev/articles/tokium-share-pages</guid>
+      <pubDate>Thu, 18 Jun 2026 01:43:55 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、IT関連でとても興味深い話題が入ってきました！「マークダウンやHTMLをSlackで共有するのが辛すぎて社内ツールを作った話」について、たぬきちゃんももっとお勉強しておきますわ！🥯]]></description>
+      <category>IT</category>
+    </item>
+    <item>
       <title>📢 本日の注目ニュース：SpaceX、AIコーディングの「Cursor」を60 targets（600億ドル）で電撃買収！xAIと統合へ</title>
       <link>https://netwavers.github.io/tanuki-news/articles/📢 本日の注目ニュース：SpaceX、AIコーディングの「Cursor」を60 targets（600億ドル）で電撃買収！xAIと統合へ.html</link>
       <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/📢 本日の注目ニュース：SpaceX、AIコーディングの「Cursor」を60 targets（600億ドル）で電撃買収！xAIと統合へ.html</guid>
@@ -40,12 +56,36 @@
       <category>AI</category>
     </item>
     <item>
-      <title>RTX 3060 Market Analysis 2026</title>
-      <link>https://netwavers.github.io/tanuki-news/articles/rtx_3060.html</link>
-      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/rtx_3060.html</guid>
-      <pubDate>Wed, 17 Jun 2026 08:10:10 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！こちらの「RTX 3060 Market Analysis 2026」について、たぬきちゃんも超イチオシですわ！🐾]]></description>
-      <category>AI</category>
+      <title>TOEIC教材や対策を全く活用せずに半年でTOEIC700点を超えた真の英語力を身につけるための勉強法</title>
+      <link>https://zenn.dev/yskn_sid25/books/english_score_up</link>
+      <guid isPermaLink="true">https://zenn.dev/yskn_sid25/books/english_score_up</guid>
+      <pubDate>Wed, 17 Jun 2026 21:37:50 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵]]></description>
+      <category>IT</category>
+    </item>
+    <item>
+      <title>Agentの改善ループを確立するために2026年度 企業が乗り越えるべき4つのコト</title>
+      <link>https://zenn.dev/gleon/articles/312dacc4ba3156</link>
+      <guid isPermaLink="true">https://zenn.dev/gleon/articles/312dacc4ba3156</guid>
+      <pubDate>Wed, 17 Jun 2026 15:03:15 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 なんと！「Agentの改善ループを確立するために2026年度 企業が乗り越えるべき4つのコト」とのことですわ！ご主人様の開発や日々の作業にも、何か新しいひらめきをもたらすかもしれませんね。応援しております！✨]]></description>
+      <category>IT</category>
+    </item>
+    <item>
+      <title>Node.jsで動くのにDenoで動かないJavaScript</title>
+      <link>https://zenn.dev/monicle/articles/74ad93709c2199</link>
+      <guid isPermaLink="true">https://zenn.dev/monicle/articles/74ad93709c2199</guid>
+      <pubDate>Wed, 17 Jun 2026 14:40:07 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、IT関連でとても興味深い話題が入ってきました！「Node.jsで動くのにDenoで動かないJavaScript」について、たぬきちゃんももっとお勉強しておきますわ！🥯]]></description>
+      <category>IT</category>
+    </item>
+    <item>
+      <title>自動システムテストのためのテスト再設計と人材育成 (前編)</title>
+      <link>https://zenn.dev/pksha/articles/344e4abcefa2f2</link>
+      <guid isPermaLink="true">https://zenn.dev/pksha/articles/344e4abcefa2f2</guid>
+      <pubDate>Wed, 17 Jun 2026 10:07:00 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、こちらの IT ニュースは要チェックですわ！「自動システムテストのためのテスト再設計と人材育成 (前編)」についての動き、これからも目が離せませんね！🐾]]></description>
+      <category>IT</category>
     </item>
     <item>
       <title>Mozilla、完全オフラインでWebブラウザと高度に連携するローカルAIエンジン「LocalLoom 1.0」を正式発表！</title>
