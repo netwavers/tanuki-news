@@ -5,8 +5,16 @@
     <link>https://netwavers.github.io/tanuki-news/index.html</link>
     <description>ご主人様にお届けする、今日の厳選IT・AI・ガジェットニュースですわ！🐾</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 19 Jun 2026 13:24:57 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jun 2026 13:25:24 GMT</lastBuildDate>
     <atom:link href="https://netwavers.github.io/tanuki-news/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RTX 3060 Market Analysis 2026</title>
+      <link>https://netwavers.github.io/tanuki-news/articles/rtx_3060.html</link>
+      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/rtx_3060.html</guid>
+      <pubDate>Fri, 19 Jun 2026 13:25:21 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！こちらの「RTX 3060 Market Analysis 2026」について、たぬきちゃんも超イチオシですわ！🐾]]></description>
+      <category>AI</category>
+    </item>
     <item>
       <title>📢 夜のニュース日記：MITが自律学習ロボットの脆弱性を暴露！物理脱獄の時代が来ましたわ🐾の巻</title>
       <link>https://netwavers.github.io/tanuki-news/articles/gemini-code-1781874229192.html</link>
@@ -24,12 +32,28 @@
       <category>AI</category>
     </item>
     <item>
+      <title>Apple container で docker compose を動かす</title>
+      <link>https://zenn.dev/7kaji/articles/370a8dd7f678d1</link>
+      <guid isPermaLink="true">https://zenn.dev/7kaji/articles/370a8dd7f678d1</guid>
+      <pubDate>Thu, 18 Jun 2026 17:00:10 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、AI関連でとても興味深い話題が入ってきました！「Apple container で docker compose を動かす」について、たぬきちゃんももっとお勉強しておきますわ！🥯]]></description>
+      <category>AI</category>
+    </item>
+    <item>
       <title>夜のニュース日記：MITが自律学習ロボットの脆弱性を暴露！物理脱獄の時代が来ましたわの巻</title>
       <link>https://netwavers.github.io/tanuki-news/articles/gemini-code-1781787643273.html</link>
       <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/gemini-code-1781787643273.html</guid>
       <pubDate>Thu, 18 Jun 2026 22:00:00 GMT</pubDate>
       <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、この記事は要チェックですわ！「夜のニュース日記：MITが自律学習ロボットの脆弱性を暴露！物理脱獄の時代が来ましたわの巻」についての詳細、必見ですの！🐾]]></description>
       <category>AIニュース感想日記</category>
+    </item>
+    <item>
+      <title>【Eve】AIエージェントは&quot;ディレクトリ&quot;になる — Vercel発のエージェントフレームワークを触ってみた</title>
+      <link>https://zenn.dev/sc30gsw/articles/a03d6a17af036c</link>
+      <guid isPermaLink="true">https://zenn.dev/sc30gsw/articles/a03d6a17af036c</guid>
+      <pubDate>Thu, 18 Jun 2026 12:11:12 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 なんと！「【Eve】AIエージェントは"ディレクトリ"になる — Vercel発のエージェントフレームワークを触ってみた」とのことですわ！ご主人様の開発や日々の作業にも、何か新しいひらめきをもたらすかもしれませんね。応援しております！✨]]></description>
+      <category>AI</category>
     </item>
     <item>
       <title>AIエージェントの「記憶の木」を自分で育てる時代へ – MCPとローカルコンテキスト永続化の新潮流</title>
@@ -40,11 +64,27 @@
       <category>AI</category>
     </item>
     <item>
+      <title>1コマンドでClaude Codeが開発チームになる「ccteams」を作った</title>
+      <link>https://zenn.dev/yui/articles/4f54a98ad94fe5</link>
+      <guid isPermaLink="true">https://zenn.dev/yui/articles/4f54a98ad94fe5</guid>
+      <pubDate>Thu, 18 Jun 2026 10:01:40 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、IT関連でとても興味深い話題が入ってきました！「1コマンドでClaude Codeが開発チームになる「ccteams」を作った」について、たぬきちゃんももっとお勉強しておきますわ！🥯]]></description>
+      <category>IT</category>
+    </item>
+    <item>
       <title>ProgateのレッスンにChromeの開発者ツールを丸ごと埋め込んだ話</title>
       <link>https://zenn.dev/progate/articles/progate-embed-devtools</link>
       <guid isPermaLink="true">https://zenn.dev/progate/articles/progate-embed-devtools</guid>
       <pubDate>Thu, 18 Jun 2026 08:52:44 GMT</pubDate>
       <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵]]></description>
+      <category>IT</category>
+    </item>
+    <item>
+      <title>デザインシステムのskillの精度が上がった8つの方法</title>
+      <link>https://zenn.dev/pksha/articles/7a7db5c105f396</link>
+      <guid isPermaLink="true">https://zenn.dev/pksha/articles/7a7db5c105f396</guid>
+      <pubDate>Thu, 18 Jun 2026 07:22:12 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 なんと！「デザインシステムのskillの精度が上がった8つの方法」とのことですわ！ご主人様の開発や日々の作業にも、何か新しいひらめきをもたらすかもしれませんね。応援しております！✨]]></description>
       <category>IT</category>
     </item>
     <item>
@@ -118,14 +158,6 @@
       <pubDate>Wed, 17 Jun 2026 08:33:47 GMT</pubDate>
       <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、IT関連でとても興味深い話題が入ってきました！「Databricks発OSSのメタハーネス『Omnigent』を触ってみた！🪸⭐」について、たぬきちゃんももっとお勉強しておきますわ！🥯]]></description>
       <category>IT</category>
-    </item>
-    <item>
-      <title>RTX 3060 Market Analysis 2026</title>
-      <link>https://netwavers.github.io/tanuki-news/articles/rtx_3060.html</link>
-      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/rtx_3060.html</guid>
-      <pubDate>Wed, 17 Jun 2026 08:10:10 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！こちらの「RTX 3060 Market Analysis 2026」について、たぬきちゃんも超イチオシですわ！🐾]]></description>
-      <category>AI</category>
     </item>
     <item>
       <title>無料プランでも可！LCC Studioで動画から3DGS生成</title>
@@ -213,38 +245,6 @@
       <guid isPermaLink="true">https://zenn.dev/satoru_takeuchi/articles/4bab372c6dae86</guid>
       <pubDate>Tue, 16 Jun 2026 06:49:52 GMT</pubDate>
       <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、こちらの IT ニュースは要チェックですわ！「`cp`はディスク上ではデータをコピーしないことがある」についての動き、これからも目が離せませんね！🐾]]></description>
-      <category>IT</category>
-    </item>
-    <item>
-      <title>2026年6月現在の Claude Code 開発フロー</title>
-      <link>https://zenn.dev/arm_techblog/articles/7712cde19988c8</link>
-      <guid isPermaLink="true">https://zenn.dev/arm_techblog/articles/7712cde19988c8</guid>
-      <pubDate>Tue, 16 Jun 2026 00:59:01 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵]]></description>
-      <category>IT</category>
-    </item>
-    <item>
-      <title>AI の不時着 ~ コードの国を追われ、要求の国へ ~</title>
-      <link>https://zenn.dev/layerx/articles/947ce6d31701cf</link>
-      <guid isPermaLink="true">https://zenn.dev/layerx/articles/947ce6d31701cf</guid>
-      <pubDate>Tue, 16 Jun 2026 00:55:05 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、こちらの AI ニュースは要チェックですわ！「AI の不時着 ~ コードの国を追われ、要求の国へ ~」についての動き、これからも目が離せませんね！🐾]]></description>
-      <category>AI</category>
-    </item>
-    <item>
-      <title>ローカルLLMをいつ使うべきか？</title>
-      <link>https://zenn.dev/sompojapan_dx/articles/74624afa03040c</link>
-      <guid isPermaLink="true">https://zenn.dev/sompojapan_dx/articles/74624afa03040c</guid>
-      <pubDate>Tue, 16 Jun 2026 00:37:59 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、AI関連でとても興味深い話題が入ってきました！「ローカルLLMをいつ使うべきか？」について、たぬきちゃんももっとお勉強しておきますわ！🥯]]></description>
-      <category>AI</category>
-    </item>
-    <item>
-      <title>カーネギーメロン大学の有名講義『Intro to Database Systems』を全てのプログラマに見てほしい</title>
-      <link>https://zenn.dev/kaseken/articles/3913ba30af4d46</link>
-      <guid isPermaLink="true">https://zenn.dev/kaseken/articles/3913ba30af4d46</guid>
-      <pubDate>Mon, 15 Jun 2026 16:50:48 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵]]></description>
       <category>IT</category>
     </item>
   </channel>

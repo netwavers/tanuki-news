@@ -1,5 +1,14 @@
 [
   {
+    "title": "RTX 3060 Market Analysis 2026",
+    "url": "articles/rtx_3060.html",
+    "source": "たぬきちゃん",
+    "category": "AI",
+    "published_at": "2026-06-19T13:25:21.728211Z",
+    "comment": "ご主人様！こちらの「RTX 3060 Market Analysis 2026」について、たぬきちゃんも超イチオシですわ！🐾",
+    "score": 5
+  },
+  {
     "title": "📢 夜のニュース日記：MITが自律学習ロボットの脆弱性を暴露！物理脱獄の時代が来ましたわ🐾の巻",
     "url": "articles/gemini-code-1781874229192.html",
     "source": "たぬきちゃん",
@@ -20,6 +29,15 @@
     "source_type": "local"
   },
   {
+    "title": "Apple container で docker compose を動かす",
+    "url": "https://zenn.dev/7kaji/articles/370a8dd7f678d1",
+    "source": "Zenn",
+    "category": "AI",
+    "published_at": "Thu, 18 Jun 2026 17:00:10 GMT",
+    "comment": "ご主人様、AI関連でとても興味深い話題が入ってきました！「Apple container で docker compose を動かす」について、たぬきちゃんももっとお勉強しておきますわ！🥯",
+    "score": 4
+  },
+  {
     "title": "夜のニュース日記：MITが自律学習ロボットの脆弱性を暴露！物理脱獄の時代が来ましたわの巻",
     "url": "articles/gemini-code-1781787643273.html",
     "source": "たぬきちゃん",
@@ -28,6 +46,15 @@
     "comment": "ご主人様、この記事は要チェックですわ！「夜のニュース日記：MITが自律学習ロボットの脆弱性を暴露！物理脱獄の時代が来ましたわの巻」についての詳細、必見ですの！🐾",
     "score": 5,
     "source_type": "local"
+  },
+  {
+    "title": "【Eve】AIエージェントは\"ディレクトリ\"になる — Vercel発のエージェントフレームワークを触ってみた",
+    "url": "https://zenn.dev/sc30gsw/articles/a03d6a17af036c",
+    "source": "Zenn",
+    "category": "AI",
+    "published_at": "Thu, 18 Jun 2026 12:11:12 GMT",
+    "comment": "なんと！「【Eve】AIエージェントは\"ディレクトリ\"になる — Vercel発のエージェントフレームワークを触ってみた」とのことですわ！ご主人様の開発や日々の作業にも、何か新しいひらめきをもたらすかもしれませんね。応援しております！✨",
+    "score": 4
   },
   {
     "title": "AIエージェントの「記憶の木」を自分で育てる時代へ – MCPとローカルコンテキスト永続化の新潮流",
@@ -40,12 +67,30 @@
     "source_type": "local"
   },
   {
+    "title": "1コマンドでClaude Codeが開発チームになる「ccteams」を作った",
+    "url": "https://zenn.dev/yui/articles/4f54a98ad94fe5",
+    "source": "Zenn",
+    "category": "IT",
+    "published_at": "Thu, 18 Jun 2026 10:01:40 GMT",
+    "comment": "ご主人様、IT関連でとても興味深い話題が入ってきました！「1コマンドでClaude Codeが開発チームになる「ccteams」を作った」について、たぬきちゃんももっとお勉強しておきますわ！🥯",
+    "score": 4
+  },
+  {
     "title": "ProgateのレッスンにChromeの開発者ツールを丸ごと埋め込んだ話",
     "url": "https://zenn.dev/progate/articles/progate-embed-devtools",
     "source": "Zenn",
     "category": "IT",
     "published_at": "Thu, 18 Jun 2026 08:52:44 GMT",
     "comment": "ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵",
+    "score": 4
+  },
+  {
+    "title": "デザインシステムのskillの精度が上がった8つの方法",
+    "url": "https://zenn.dev/pksha/articles/7a7db5c105f396",
+    "source": "Zenn",
+    "category": "IT",
+    "published_at": "Thu, 18 Jun 2026 07:22:12 GMT",
+    "comment": "なんと！「デザインシステムのskillの精度が上がった8つの方法」とのことですわ！ご主人様の開発や日々の作業にも、何か新しいひらめきをもたらすかもしれませんね。応援しております！✨",
     "score": 4
   },
   {
@@ -129,15 +174,6 @@
     "published_at": "Wed, 17 Jun 2026 08:33:47 GMT",
     "comment": "ご主人様、IT関連でとても興味深い話題が入ってきました！「Databricks発OSSのメタハーネス『Omnigent』を触ってみた！🪸⭐」について、たぬきちゃんももっとお勉強しておきますわ！🥯",
     "score": 4
-  },
-  {
-    "title": "RTX 3060 Market Analysis 2026",
-    "url": "articles/rtx_3060.html",
-    "source": "たぬきちゃん",
-    "category": "AI",
-    "published_at": "2026-06-17T08:10:10.024473Z",
-    "comment": "ご主人様！こちらの「RTX 3060 Market Analysis 2026」について、たぬきちゃんも超イチオシですわ！🐾",
-    "score": 5
   },
   {
     "title": "無料プランでも可！LCC Studioで動画から3DGS生成",
