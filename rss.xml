@@ -5,7 +5,7 @@
     <link>https://netwavers.github.io/tanuki-news/index.html</link>
     <description>ご主人様にお届けする、今日の厳選IT・AI・ガジェットニュースですわ！🐾</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 20 Jun 2026 22:27:28 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2026 23:13:47 GMT</lastBuildDate>
     <atom:link href="https://netwavers.github.io/tanuki-news/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>📢 夜のニュース日記：AIエージェントを指揮するOSS「TAKT」登場ですわ🐾の巻</title>
@@ -27,7 +27,7 @@
       <title>RTX 3060 Market Analysis 2026</title>
       <link>https://netwavers.github.io/tanuki-news/articles/rtx_3060.html</link>
       <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/rtx_3060.html</guid>
-      <pubDate>Sat, 20 Jun 2026 22:27:27 GMT</pubDate>
+      <pubDate>Sat, 20 Jun 2026 23:13:46 GMT</pubDate>
       <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！こちらの「RTX 3060 Market Analysis 2026」について、たぬきちゃんも超イチオシですわ！🐾]]></description>
       <category>AI</category>
     </item>
@@ -85,6 +85,30 @@
       <guid isPermaLink="true">https://zenn.dev/estie/articles/f90d498d21a798</guid>
       <pubDate>Fri, 19 Jun 2026 05:24:12 GMT</pubDate>
       <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵]]></description>
+      <category>IT</category>
+    </item>
+    <item>
+      <title>LLM はマークダウンファイル全体を読んでいる。その必要はない。</title>
+      <link>https://zenn.dev/oubakiou/articles/b9db61885cd7be</link>
+      <guid isPermaLink="true">https://zenn.dev/oubakiou/articles/b9db61885cd7be</guid>
+      <pubDate>Fri, 19 Jun 2026 04:55:33 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 なんと！「LLM はマークダウンファイル全体を読んでいる。その必要はない。」とのことですわ！ご主人様の開発や日々の作業にも、何か新しいひらめきをもたらすかもしれませんね。応援しております！✨]]></description>
+      <category>AI</category>
+    </item>
+    <item>
+      <title>リファクタリングにドメイン知識が要るなら、その知識はどこに置くのか</title>
+      <link>https://zenn.dev/417/articles/ai-era-domain-knowledge-placement</link>
+      <guid isPermaLink="true">https://zenn.dev/417/articles/ai-era-domain-knowledge-placement</guid>
+      <pubDate>Fri, 19 Jun 2026 04:26:17 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵]]></description>
+      <category>IT</category>
+    </item>
+    <item>
+      <title>今だから押さえておきたいソフトウェア工学のベストプラクティス</title>
+      <link>https://zenn.dev/zapabob/articles/software-engineering-best-practices-agent-era</link>
+      <guid isPermaLink="true">https://zenn.dev/zapabob/articles/software-engineering-best-practices-agent-era</guid>
+      <pubDate>Fri, 19 Jun 2026 01:38:48 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、IT関連でとても興味深い話題が入ってきました！「今だから押さえておきたいソフトウェア工学のベストプラクティス」について、たぬきちゃんももっとお勉強しておきますわ！🥯]]></description>
       <category>IT</category>
     </item>
     <item>
@@ -221,30 +245,6 @@
       <guid isPermaLink="true">https://zenn.dev/gleon/articles/312dacc4ba3156</guid>
       <pubDate>Wed, 17 Jun 2026 15:03:15 GMT</pubDate>
       <description><![CDATA[【たぬきちゃんのコメント】 なんと！「Agentの改善ループを確立するために2026年度 企業が乗り越えるべき4つのコト」とのことですわ！ご主人様の開発や日々の作業にも、何か新しいひらめきをもたらすかもしれませんね。応援しております！✨]]></description>
-      <category>IT</category>
-    </item>
-    <item>
-      <title>Node.jsで動くのにDenoで動かないJavaScript</title>
-      <link>https://zenn.dev/monicle/articles/74ad93709c2199</link>
-      <guid isPermaLink="true">https://zenn.dev/monicle/articles/74ad93709c2199</guid>
-      <pubDate>Wed, 17 Jun 2026 14:40:07 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、IT関連でとても興味深い話題が入ってきました！「Node.jsで動くのにDenoで動かないJavaScript」について、たぬきちゃんももっとお勉強しておきますわ！🥯]]></description>
-      <category>IT</category>
-    </item>
-    <item>
-      <title>自動システムテストのためのテスト再設計と人材育成 (前編)</title>
-      <link>https://zenn.dev/pksha/articles/344e4abcefa2f2</link>
-      <guid isPermaLink="true">https://zenn.dev/pksha/articles/344e4abcefa2f2</guid>
-      <pubDate>Wed, 17 Jun 2026 10:07:00 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、こちらの IT ニュースは要チェックですわ！「自動システムテストのためのテスト再設計と人材育成 (前編)」についての動き、これからも目が離せませんね！🐾]]></description>
-      <category>IT</category>
-    </item>
-    <item>
-      <title>Databricks発OSSのメタハーネス『Omnigent』を触ってみた！🪸⭐</title>
-      <link>https://zenn.dev/nttdata_tech/articles/2fe14c8819557c</link>
-      <guid isPermaLink="true">https://zenn.dev/nttdata_tech/articles/2fe14c8819557c</guid>
-      <pubDate>Wed, 17 Jun 2026 08:33:47 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、IT関連でとても興味深い話題が入ってきました！「Databricks発OSSのメタハーネス『Omnigent』を触ってみた！🪸⭐」について、たぬきちゃんももっとお勉強しておきますわ！🥯]]></description>
       <category>IT</category>
     </item>
   </channel>
