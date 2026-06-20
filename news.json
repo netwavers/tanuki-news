@@ -20,6 +20,15 @@
     "source_type": "local"
   },
   {
+    "title": "RTX 3060 Market Analysis 2026",
+    "url": "articles/rtx_3060.html",
+    "source": "たぬきちゃん",
+    "category": "AI",
+    "published_at": "2026-06-20T22:27:27.730453Z",
+    "comment": "ご主人様！こちらの「RTX 3060 Market Analysis 2026」について、たぬきちゃんも超イチオシですわ！🐾",
+    "score": 5
+  },
+  {
     "title": "📢 夜のニュース日記：OpenAIが超大型IPO（新規上場）を申請！資本の力で殴り合う世界ですわ🐾の巻",
     "url": "articles/gemini-code-1781960516235.html",
     "source": "たぬきちゃん",
@@ -30,6 +39,24 @@
     "source_type": "local"
   },
   {
+    "title": "Obsidian(Markdown) よりも快適に書く: vscode-scb で Cosense 記法",
+    "url": "https://zenn.dev/sta/articles/2026-06-20-vscode-scb",
+    "source": "Zenn",
+    "category": "IT",
+    "published_at": "Sat, 20 Jun 2026 00:52:22 GMT",
+    "comment": "なんと！「Obsidian(Markdown) よりも快適に書く: vscode-scb で Cosense 記法」とのことですわ！ご主人様の開発や日々の作業にも、何か新しいひらめきをもたらすかもしれませんね。応援しております！✨",
+    "score": 4
+  },
+  {
+    "title": "AIエージェントを「指揮」するOSS「TAKT」とは — 仕組と使い方",
+    "url": "https://zenn.dev/alpha_omega/articles/56ca3136bc5cd8",
+    "source": "Zenn",
+    "category": "AI",
+    "published_at": "Fri, 19 Jun 2026 14:34:16 GMT",
+    "comment": "ご主人様、こちらの AI ニュースは要チェックですわ！「AIエージェントを「指揮」するOSS「TAKT」とは — 仕組と使い方」についての動き、これからも目が離せませんね！🐾",
+    "score": 4
+  },
+  {
     "title": "📢 夜のニュース日記：MITが自律学習ロボットの脆弱性を暴露！物理脱獄の時代が来ましたわ🐾の巻",
     "url": "articles/gemini-code-1781874229192.html",
     "source": "たぬきちゃん",
@@ -38,6 +65,33 @@
     "comment": "ご主人様、この記事は要チェックですわ！「📢 夜のニュース日記：MITが自律学習ロボットの脆弱性を暴露！物理脱獄の時代が来ましたわ🐾の巻」についての詳細、必見ですの！🐾",
     "score": 5,
     "source_type": "local"
+  },
+  {
+    "title": "Obsidian Weave から Yasumaro へ — ブラウザの記録を、もっと自由に",
+    "url": "https://zenn.dev/ar1/articles/yasumaro-02-from-weave-to-yasumaro",
+    "source": "Zenn",
+    "category": "IT",
+    "published_at": "Fri, 19 Jun 2026 10:51:04 GMT",
+    "comment": "ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵",
+    "score": 4
+  },
+  {
+    "title": "Claude Design がclaudeアプリに対応したので触ってみた",
+    "url": "https://zenn.dev/91works/articles/bb03f5adb45dea",
+    "source": "Zenn",
+    "category": "IT",
+    "published_at": "Fri, 19 Jun 2026 07:29:58 GMT",
+    "comment": "なんと！「Claude Design がclaudeアプリに対応したので触ってみた」とのことですわ！ご主人様の開発や日々の作業にも、何か新しいひらめきをもたらすかもしれませんね。応援しております！✨",
+    "score": 4
+  },
+  {
+    "title": "Claude Code に、自分が考えていそうなことを言語化してもらった",
+    "url": "https://zenn.dev/estie/articles/f90d498d21a798",
+    "source": "Zenn",
+    "category": "IT",
+    "published_at": "Fri, 19 Jun 2026 05:24:12 GMT",
+    "comment": "ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵",
+    "score": 4
   },
   {
     "title": "📢 夜のニュース日記：G7サミットも大慌て！米国の最先端AIアクセス遮断インシデントですわ🐾",
@@ -225,15 +279,6 @@
     "published_at": "Wed, 17 Jun 2026 08:33:47 GMT",
     "comment": "ご主人様、IT関連でとても興味深い話題が入ってきました！「Databricks発OSSのメタハーネス『Omnigent』を触ってみた！🪸⭐」について、たぬきちゃんももっとお勉強しておきますわ！🥯",
     "score": 4
-  },
-  {
-    "title": "RTX 3060 Market Analysis 2026",
-    "url": "articles/rtx_3060.html",
-    "source": "たぬきちゃん",
-    "category": "AI",
-    "published_at": "2026-06-17T08:10:10.024473Z",
-    "comment": "ご主人様！こちらの「RTX 3060 Market Analysis 2026」について、たぬきちゃんも超イチオシですわ！🐾",
-    "score": 5
   },
   {
     "title": "無料プランでも可！LCC Studioで動画から3DGS生成",
