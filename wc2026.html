@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FIFAワールドカップ2026のグループステージ順位予測から、3位チーム勝ち抜け自動判定、決勝トーナメントの勝ち上がりまでを完全シミュレートできるリッチなツールですわ！">
+  
+  <title>FIFA World Cup 2026 決勝トーナメントシミュレーター | Tanuki News</title>
+
+  <!-- Google Fonts (Outfit & Zen Maru Gothic) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Zen+Maru+Gothic:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="stylesheet" href="wc2026.css">
+</head>
+<body>
+
+  <!-- Background Glowing Orbs -->
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+  <div class="glow-orb orb-3"></div>
+
+  <!-- Header -->
+  <header class="app-header">
+    <div class="header-container">
+      <div class="header-logo-area">
+        <img src="assets/tanuki_avatar.png" alt="たぬきちゃんアバター" class="header-avatar">
+        <div class="header-title-group">
+          <h1>FIFA WORLD CUP 2026</h1>
+          <p class="subtitle">シミュレーター &amp; 予測ツールですわ！🐾</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <button id="btn-reset" class="control-btn reset-btn" title="すべての予測を初期化しますわ！">
+          <i class="fa-solid fa-arrows-rotate"></i> 全てリセット
+        </button>
+        <button id="btn-random" class="control-btn random-btn" title="グループ順位をランダムに設定しますわ！">
+          <i class="fa-solid fa-shuffle"></i> ランダム順位
+        </button>
+        <a href="index.html" class="back-link">
+          <i class="fa-solid fa-house"></i> ニュースに戻る
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="app-main">
+    <div class="main-wrapper">
+
+      <!-- Section 1: Tournament Bracket -->
+      <section class="bracket-section">
+        <div class="section-header">
+          <h2><i class="fa-solid fa-trophy text-gold"></i> 決勝トーナメント (Round of 32 ～ 決勝)</h2>
+          <p class="section-desc">グループステージの結果に応じて枠が自動で埋まります。枠をクリックして勝ち進むチームを選んでくださいませ！</p>
+        </div>
+        
+        <!-- Interactive Bracket Wrapper with Drag/Zoom capability -->
+        <div class="bracket-container" id="bracket-container">
+          <div class="bracket-zoom-area" id="bracket-zoom-area">
+            
+            <!-- SVG Lines Background -->
+            <svg class="bracket-lines" id="bracket-lines" width="2200" height="950"></svg>
+            
+            <!-- Bracket Grid Columns -->
+            <div class="bracket-grid">
+              
+              <!-- Column 1: Round of 32 (Left Side) -->
+              <div class="bracket-column r32 left-side">
+                <!-- Group E1 vs 3rd A/B/C/D/F (Match 74) -->
+                <div class="matchup-box" data-match-id="74" data-next-match="89" data-next-slot="0">
+                  <div class="match-time">7/5(日) 6:00</div>
+                  <div class="team-slot top" data-slot-type="winner" data-slot-param="E-1">
+                    <span class="flag-icon">🇩🇪</span> <span class="team-name">グループE1位</span>
+                  </div>
+                  <div class="team-slot bottom" data-slot-type="3rd" data-slot-param="E1_OPP">
+                    <span class="flag-icon">❓</span> <span class="team-name">3位(A/B/C/D/F)</span>
+                  </div>
+                </div>
+
+                <!-- Group I1 vs 3rd C/D/F/G/H (Match 77) -->
+                <div class="matchup-box" data-match-id="77" data-next-match="89" data-next-slot="1">
+                  <div class="match-time">7/5(日) 2:00</div>
+                  <div class="team-slot top" data-slot-type="winner" data-slot-param="I-1">
+                    <span class="flag-icon">🇫🇷</span> <span class="team-name">グループI1位</span>
+                  </div>
+                  <div class="team-slot bottom" data-slot-type="3rd" data-slot-param="I1_OPP">
+                    <span class="flag-icon">❓</span> <span class="team-name">3位(C/D/F/G/H)</span>
+                  </div>
+                </div>
+
+                <!-- Group A2 vs Group B2 (Match 73) -->
+                <div class="matchup-box" data-match-id="73" data-next-match="90" data-next-slot="0">
+                  <div class="match-time">6/30(火) 5:30</div>
+                  <div class="team-slot top" data-slot-type="winner" data-slot-param="A-2">
+                    <span class="flag-icon">🇿🇦</span> <span class="team-name">グループA2位</span>
+                  </div>
+                  <div class="team-slot bottom" data-slot-type="winner" data-slot-param="B-2">
+                    <span class="flag-icon">🇶🇦</span> <span class="team-name">グループB2位</span>
+                  </div>
+                </div>
+
+                <!-- Group F1 vs Group C2 (Match 75) -->
+                <div class="matchup-box" data-match-id="75" data-next-match="90" data-next-slot="1">
+                  <div class="match-time">6/30(火) 10:00</div>
+                  <div class="team-slot top" data-slot-type="winner" data-slot-param="F-1">
+                    <span class="flag-icon">🇳🇱</span> <span class="team-name">グループF1位</span>
+                  </div>
+                  <div class="team-slot bottom" data-slot-type="winner" data-slot-param="C-2">
+                    <span class="flag-icon">🇲🇦</span> <span class="team-name">グループC2位</span>
+                  </div>
+                </div>
+
+                <!-- Group K2 vs Group L2 (Match 83) -->
+                <div class="matchup-box" data-match-id="83" data-next-match="91" data-next-slot="0">
+                  <div class="match-time">7/3(金) 8:00</div>
+                  <div class="team-slot top" data-slot-type="winner" data-slot-param="K-2">
+                    <span class="flag-icon">🇵🇹</span> <span class="team-name">グループK2位</span>
+                  </div>
+                  <div class="team-slot bottom" data-slot-type="winner" data-slot-param="L-2">
+                    <span class="flag-icon">🇭🇷</span> <span class="team-name">グループL2位</span>
+                  </div>
+                </div>
+
+                <!-- Group H1 vs Group J2 (Match 84) -->
+                <div class="matchup-box" data-match-id="84" data-next-match="91" data-next-slot="1">
+                  <div class="match-time">7/3(金) 4:00</div>
+                  <div class="team-slot top" data-slot-type="winner" data-slot-param="H-1">
+                    <span class="flag-icon">🇪🇸</span> <span class="team-name">グループH1位</span>
+                  </div>
+                  <div class="team-slot bottom" data-slot-type="winner" data-slot-param="J-2">
+                    <span class="flag-icon">🇩🇿</span> <span class="team-name">グループJ2位</span>
+                  </div>
+                </div>
+
+                <!-- Group D1 vs 3rd B/E/F/I/J (Match 81) -->
+                <div class="matchup-box" data-match-id="81" data-next-match="92" data-next-slot="0">
+                  <div class="match-time">7/2(木) 9:00</div>
+                  <div class="team-slot top" data-slot-type="winner" data-slot-param="D-1">
+                    <span class="flag-icon">🇺🇸</span> <span class="team-name">グループD1位</span>
+                  </div>
+                  <div class="team-slot bottom" data-slot-type="3rd" data-slot-param="D1_OPP">
+                    <span class="flag-icon">❓</span> <span class="team-name">3位(B/E/F/I/J)</span>
+                  </div>
+                </div>
+
+                <!-- Group G1 vs 3rd A/E/H/I/J (Match 82) -->
+                <div class="matchup-box" data-match-id="82" data-next-match="92" data-next-slot="1">
+                  <div class="match-time">7/2(木) 5:00</div>
+                  <div class="team-slot top" data-slot-type="winner" data-slot-param="G-1">
+                    <span class="flag-icon">🇧🇪</span> <span class="team-name">グループG1位</span>
+                  </div>
+                  <div class="team-slot bottom" data-slot-type="3rd" data-slot-param="G1_OPP">
+                    <span class="flag-icon">❓</span> <span class="team-name">3位(A/E/H/I/J)</span>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Column 2: Round of 16 (Left Side) -->
+              <div class="bracket-column r16 left-side">
+                <div class="matchup-box" data-match-id="89" data-next-match="97" data-next-slot="0">
+                  <div class="match-time">7/10(金) 5:00</div>
+                  <div class="team-slot top empty" id="slot-89-top">
+                    <span class="flag-icon">❓</span> <span class="team-name">Match 74の勝者</span>
+                  </div>
+                  <div class="team-slot bottom empty" id="slot-89-bottom">
+                    <span class="flag-icon">❓</span> <span class="team-name">Match 77の勝者</span>
+                  </div>
+                </div>
+
+                <div class="matchup-box" data-match-id="90" data-next-match="97" data-next-slot="1">
+                  <div class="match-time">7/11(土) 4:00</div>
+                  <div class="team-slot top empty" id="slot-90-top">
+                    <span class="flag-icon">❓</span> <span class="team-name">Match 73の勝者</span>
+                  </div>
+                  <div class="team-slot bottom empty" id="slot-90-bottom">
+                    <span class="flag-icon">❓</span> <span class="team-name">Match 75の勝者</span>
+                  </div>
+                </div>
+
+                <div class="matchup-box" data-match-id="91" data-next-match="98" data-next-slot="0">
+                  <div class="match-time">7/7(火) 4:00</div>
+                  <div class="team-slot top empty" id="slot-91-top">
+                    <span class="flag-icon">❓</span> <span class="team-name">Match 83の勝者</span>
+                  </div>
+                  <div class="team-slot bottom empty" id="slot-91-bottom">
+                    <span class="flag-icon">❓</span> <span class="team-name">Match 84の勝者</span>
+                  </div>
+                </div>
+
+                <div class="matchup-box" data-match-id="92" data-next-match="98" data-next-slot="1">
+                  <div class="match-time">7/7(火) 9:00</div>
+                  <div class="team-slot top empty" id="slot-92-top">
+                    <span class="flag-icon">❓</span> <span class="team-name">Match 81の勝者</span>
+                  </div>
+                  <div class="team-slot bottom empty" id="slot-92-bottom">
+                    <span class="flag-icon">❓</span> <span class="team-name">Match 82の勝者</span>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Column 3: Quarterfinals (Left Side) -->
+              <div class="bracket-column qf left-side">
+                <div class="matchup-box" data-match-id="97" data-next-match="101" data-next-slot="0">
+                  <div class="match-time">7/15(水) 4:00</div>
+                  <div class="team-slot top empty" id="slot-97-top">
+                    <span class="flag-icon">❓</span> <span class="team-name">Match 89の勝者</span>
+                  </div>
+                  <div class="team-slot bottom empty" id="slot-97-bottom">
+                    <span class="flag-icon">❓</span> <span class="team-name">Match 90の勝者</span>
+                  </div>
+                </div>
+
+                <div class="matchup-box" data-match-id="98" data-next-match="101" data-next-slot="1">
+                  <div class="match-time">7/16(木) 4:00</div>
+                  <div class="team-slot top empty" id="slot-98-top">
+                    <span class="flag-icon">❓</span> <span class="team-name">Match 91の勝者</span>
+                  </div>
+                  <div class="team-slot bottom empty" id="slot-98-bottom">
+                    <span class="flag-icon">❓</span> <span class="team-name">Match 92の勝者</span>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Column 4: Semifinals (Left & Right) -->
+              <div class="bracket-column sf left-side">
+                <div class="matchup-box" data-match-id="101" data-next-match="103" data-next-slot="0" data-loser-match="102" data-loser-slot="0">
+                  <div class="match-time">7/19(日) 6:00 (準決勝)</div>
+                  <div class="team-slot top empty" id="slot-101-top">
+                    <span class="flag-icon">❓</span> <span class="team-name">Match 97の勝者</span>
+                  </div>
+                  <div class="team-slot bottom empty" id="slot-101-bottom">
+                    <span class="flag-icon">❓</span> <span class="team-name">Match 98の勝者</span>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Column 5: Central Finals & 3rd Place -->
+              <div class="bracket-column center-finals">
+                
+                <!-- Main Final Match -->
+                <div class="final-box-wrapper">
+                  <div class="trophy-icon-gold"><i class="fa-solid fa-trophy"></i></div>
+                  <div class="matchup-box final-match" data-match-id="103">
+                    <div class="match-time gold-text">決勝 7/20(月) 4:00</div>
+                    <div class="team-slot top empty" id="slot-103-top">
+                      <span class="flag-icon">❓</span> <span class="team-name">準決勝1の勝者</span>
+                    </div>
+                    <div class="team-slot bottom empty" id="slot-103-bottom">
+                      <span class="flag-icon">❓</span> <span class="team-name">準決勝2の勝者</span>
+                    </div>
+                  </div>
+                  <div id="champion-badge" class="champion-announcement" style="display: none;">
+                    <div class="crown"><i class="fa-solid fa-crown text-gold"></i></div>
+                    <div class="champ-title">CHAMPION</div>
+                    <div class="champ-team"><span id="champ-flag"></span> <span id="champ-name">未決定</span></div>
+                  </div>
+                </div>
+
+                <!-- 3rd Place Match -->
+                <div class="matchup-box third-match" data-match-id="102">
+                  <div class="match-time">3位決定戦 7/19(日) 6:00</div>
+                  <div class="team-slot top empty" id="slot-102-top">
+                    <span class="flag-icon">❓</span> <span class="team-name">準決勝1の敗者</span>
+                  </div>
+                  <div class="team-slot bottom empty" id="slot-102-bottom">
+                    <span class="flag-icon">❓</span> <span class="team-name">準決勝2の敗者</span>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Column 6: Semifinals (Right Side) -->
+              <div class="bracket-column sf right-side">
+                <div class="matchup-box" data-match-id="100" data-next-match="103" data-next-slot="1" data-loser-match="102" data-loser-slot="1">
+                  <div class="match-time">7/19(日) 6:00 (準決勝)</div>
+                  <div class="team-slot top empty" id="slot-100-top">
+                    <span class="flag-icon">❓</span> <span class="team-name">Match 99の勝者</span>
+                  </div>
+                  <div class="team-slot bottom empty" id="slot-100-bottom">
+                    <span class="flag-icon">❓</span> <span class="team-name">Match 96の勝者</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Column 7: Quarterfinals (Right Side) -->
+              <div class="bracket-column qf right-side">
+                <div class="matchup-box" data-match-id="99" data-next-match="100" data-next-slot="0">
+                  <div class="match-time">7/15(水) 4:00</div>
+                  <div class="team-slot top empty" id="slot-99-top">
+                    <span class="flag-icon">❓</span> <span class="team-name">Match 93の勝者</span>
+                  </div>
+                  <div class="team-slot bottom empty" id="slot-99-bottom">
+                    <span class="flag-icon">❓</span> <span class="team-name">Match 94の勝者</span>
+                  </div>
+                </div>
+
+                <div class="matchup-box" data-match-id="96" data-next-match="100" data-next-slot="1">
+                  <div class="match-time">7/16(木) 4:00</div>
+                  <div class="team-slot top empty" id="slot-96-top">
+                    <span class="flag-icon">❓</span> <span class="team-name">Match 95の勝者</span>
+                  </div>
+                  <div class="team-slot bottom empty" id="slot-96-bottom">
+                    <span class="flag-icon">❓</span> <span class="team-name">Match 96の内部勝者</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Column 8: Round of 16 (Right Side) -->
+              <div class="bracket-column r16 right-side">
+                <div class="matchup-box" data-match-id="93" data-next-match="99" data-next-slot="0">
+                  <div class="match-time">7/12(日) 6:00</div>
+                  <div class="team-slot top empty" id="slot-93-top">
+                    <span class="flag-icon">❓</span> <span class="team-name">Match 76の勝者</span>
+                  </div>
+                  <div class="team-slot bottom empty" id="slot-93-bottom">
+                    <span class="flag-icon">❓</span> <span class="team-name">Match 78の勝者</span>
+                  </div>
+                </div>
+
+                <div class="matchup-box" data-match-id="94" data-next-match="99" data-next-slot="1">
+                  <div class="match-time">7/12(日) 10:00</div>
+                  <div class="team-slot top empty" id="slot-94-top">
+                    <span class="flag-icon">❓</span> <span class="team-name">Match 79の勝者</span>
+                  </div>
+                  <div class="team-slot bottom empty" id="slot-94-bottom">
+                    <span class="flag-icon">❓</span> <span class="team-name">Match 80の勝者</span>
+                  </div>
+                </div>
+
+                <div class="matchup-box" data-match-id="95" data-next-match="96" data-next-slot="0">
+                  <div class="match-time">7/8(水) 1:00</div>
+                  <div class="team-slot top empty" id="slot-95-top">
+                    <span class="flag-icon">❓</span> <span class="team-name">Match 86の勝者</span>
+                  </div>
+                  <div class="team-slot bottom empty" id="slot-95-bottom">
+                    <span class="flag-icon">❓</span> <span class="team-name">Match 88の勝者</span>
+                  </div>
+                </div>
+
+                <div class="matchup-box" data-match-id="104" data-next-match="96" data-next-slot="1">
+                  <div class="match-time">7/8(水) 5:00</div>
+                  <div class="team-slot top empty" id="slot-104-top">
+                    <span class="flag-icon">❓</span> <span class="team-name">Match 85の勝者</span>
+                  </div>
+                  <div class="team-slot bottom empty" id="slot-104-bottom">
+                    <span class="flag-icon">❓</span> <span class="team-name">Match 87の勝者</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Column 9: Round of 32 (Right Side) -->
+              <div class="bracket-column r32 right-side">
+                <!-- Group C1 vs Group F2 (Match 76) -->
+                <div class="matchup-box" data-match-id="76" data-next-match="93" data-next-slot="0">
+                  <div class="match-time">7/1(水) 2:00</div>
+                  <div class="team-slot top" data-slot-type="winner" data-slot-param="C-1">
+                    <span class="flag-icon">🇧🇷</span> <span class="team-name">グループC1位</span>
+                  </div>
+                  <div class="team-slot bottom" data-slot-type="winner" data-slot-param="F-2">
+                    <span class="flag-icon">🇯🇵</span> <span class="team-name">グループF2位</span>
+                  </div>
+                </div>
+
+                <!-- Group E2 vs Group I2 (Match 78) -->
+                <div class="matchup-box" data-match-id="78" data-next-match="93" data-next-slot="1">
+                  <div class="match-time">7/1(水) 2:00</div>
+                  <div class="team-slot top" data-slot-type="winner" data-slot-param="E-2">
+                    <span class="flag-icon">🇨🇼</span> <span class="team-name">グループE2位</span>
+                  </div>
+                  <div class="team-slot bottom" data-slot-type="winner" data-slot-param="I-2">
+                    <span class="flag-icon">🇮🇶</span> <span class="team-name">グループI2位</span>
+                  </div>
+                </div>
+
+                <!-- Group A1 vs 3rd C/E/F/H/I (Match 79) -->
+                <div class="matchup-box" data-match-id="79" data-next-match="94" data-next-slot="0">
+                  <div class="match-time">7/1(水) 10:00</div>
+                  <div class="team-slot top" data-slot-type="winner" data-slot-param="A-1">
+                    <span class="flag-icon">🇲🇽</span> <span class="team-name">グループA1位</span>
+                  </div>
+                  <div class="team-slot bottom" data-slot-type="3rd" data-slot-param="A1_OPP">
+                    <span class="flag-icon">❓</span> <span class="team-name">3位(C/E/F/H/I)</span>
+                  </div>
+                </div>
+
+                <!-- Group L1 vs 3rd E/H/I/J/K (Match 80) -->
+                <div class="matchup-box" data-match-id="80" data-next-match="94" data-next-slot="1">
+                  <div class="match-time">7/2(木) 1:00</div>
+                  <div class="team-slot top" data-slot-type="winner" data-slot-param="L-1">
+                    <span class="flag-icon">🏴󠁧󠁢󠁥󠁮󠁧󠁿</span> <span class="team-name">グループL1位</span>
+                  </div>
+                  <div class="team-slot bottom" data-slot-type="3rd" data-slot-param="L1_OPP">
+                    <span class="flag-icon">❓</span> <span class="team-name">3位(E/H/I/J/K)</span>
+                  </div>
+                </div>
+
+                <!-- Group J1 vs Group H2 (Match 86) -->
+                <div class="matchup-box" data-match-id="86" data-next-match="95" data-next-slot="0">
+                  <div class="match-time">7/4(土) 7:00</div>
+                  <div class="team-slot top" data-slot-type="winner" data-slot-param="J-1">
+                    <span class="flag-icon">🇦🇷</span> <span class="team-name">グループJ1位</span>
+                  </div>
+                  <div class="team-slot bottom" data-slot-type="winner" data-slot-param="H-2">
+                    <span class="flag-icon">🇨🇻</span> <span class="team-name">グループH2位</span>
+                  </div>
+                </div>
+
+                <!-- Group D2 vs Group G2 (Match 88) -->
+                <div class="matchup-box" data-match-id="88" data-next-match="95" data-next-slot="1">
+                  <div class="match-time">7/3(金) 12:00</div>
+                  <div class="team-slot top" data-slot-type="winner" data-slot-param="D-2">
+                    <span class="flag-icon">🇵🇾</span> <span class="team-name">グループD2位</span>
+                  </div>
+                  <div class="team-slot bottom" data-slot-type="winner" data-slot-param="G-2">
+                    <span class="flag-icon">🇪🇬</span> <span class="team-name">グループG2位</span>
+                  </div>
+                </div>
+
+                <!-- Group B1 vs 3rd E/F/G/I/J (Match 85) -->
+                <div class="matchup-box" data-match-id="85" data-next-match="104" data-next-slot="0">
+                  <div class="match-time">7/6(月) 5:00</div>
+                  <div class="team-slot top" data-slot-type="winner" data-slot-param="B-1">
+                    <span class="flag-icon">🇨🇦</span> <span class="team-name">グループB1位</span>
+                  </div>
+                  <div class="team-slot bottom" data-slot-type="3rd" data-slot-param="B1_OPP">
+                    <span class="flag-icon">❓</span> <span class="team-name">3位(E/F/G/I/J)</span>
+                  </div>
+                </div>
+
+                <!-- Group K1 vs 3rd D/E/I/J/L (Match 87) -->
+                <div class="matchup-box" data-match-id="87" data-next-match="104" data-next-slot="1">
+                  <div class="match-time">7/4(土) 10:30</div>
+                  <div class="team-slot top" data-slot-type="winner" data-slot-param="K-1">
+                    <span class="flag-icon">🇨🇬</span> <span class="team-name">グループK1位</span>
+                  </div>
+                  <div class="team-slot bottom" data-slot-type="3rd" data-slot-param="K1_OPP">
+                    <span class="flag-icon">❓</span> <span class="team-name">3位(D/E/I/J/L)</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 2: 3rd Place Teams Ranker -->
+      <section class="third-place-section">
+        <div class="section-header">
+          <h2><i class="fa-solid fa-ranking-star text-gold"></i> 各グループ3位チームの成績比較</h2>
+          <p class="section-desc">グループステージを3位で終えた12チームのうち、決勝トーナメントに進出させる<strong>上位8チーム</strong>を選択・並べ替えくださいませ。チェックされた上位8チームが、公式レギュレーションの対戦組み合わせテーブルに従い、自動的に上のトーナメント表に割り当てられますわ！</p>
+        </div>
+        
+        <div class="third-place-wrapper">
+          <!-- Left side: 3rd place teams list -->
+          <div class="third-place-list-card">
+            <h3><i class="fa-solid fa-list-check"></i> 進出選択（8チーム選んでください）</h3>
+            <div id="third-place-checkboxes" class="third-place-checkboxes-grid">
+              <!-- Dynamically populated -->
+            </div>
+            <div class="selection-status" id="selection-status-text">
+              選択中: 0 / 8 チーム
+            </div>
+          </div>
+
+          <!-- Right side: Sorted preview of selected teams -->
+          <div class="third-place-order-card">
+            <h3><i class="fa-solid fa-arrow-down-a-z"></i> 進出チーム優先順位 (ドラッグ＆ドロップで入れ替え)</h3>
+            <p class="card-hint">上位8チームの「グループ元の組み合わせ」によって対戦相手が公式ルールに則って自動決定されます。</p>
+            <ul id="selected-3rds-list" class="sortable-list">
+              <!-- Dynamically populated with selected 3rd place teams, allowing drag and drop -->
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 3: Group Stage Standings Editor -->
+      <section class="group-stage-section">
+        <div class="section-header">
+          <h2><i class="fa-solid fa-table-list text-cyan"></i> グループステージの順位決定</h2>
+          <p class="section-desc">各グループのカードを<strong>ドラッグ＆ドロップで上下に並び替える</strong>ことで、1位〜4位の順位を決定できますわ！順位に応じて決勝トーナメントへ進出するチームがリアルタイムに変化しますの。</p>
+        </div>
+        
+        <div class="groups-grid" id="groups-container">
+          <!-- Group Cards A to L will be dynamically generated here -->
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="app-footer">
+    <div class="footer-container">
+      <div class="footer-character">
+        <img src="assets/tanuki_avatar.png" alt="たぬきちゃん" class="footer-avatar">
+        <p class="footer-quote">「ご主人様、完璧な予測はできましたでしょうか？シミュレーション結果は自動で保存されておりますので、いつでも続きから再開できますわ！🍵💮」</p>
+      </div>
+      <div class="footer-divider"></div>
+      <p class="copyright">&copy; 2026 Rin AI Engine & netwavers. Built with ❤️ for ご主人様.</p>
+    </div>
+  </footer>
+
+  <script src="wc2026.js"></script>
+</body>
+</html>

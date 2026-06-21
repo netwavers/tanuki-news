@@ -117,6 +117,26 @@ button {
   align-items: center;
 }
 
+.wc-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: var(--border-radius-sm);
+  background-color: #f1c40f; /* ゴールド */
+  color: #111 !important;
+  font-weight: 700;
+  font-size: 0.9rem;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition-smooth);
+  margin-right: 8px;
+}
+
+.wc-button:hover {
+  background-color: #ffd700;
+  transform: translateY(-2px);
+}
+
 .rss-button {
   display: inline-flex;
   align-items: center;
