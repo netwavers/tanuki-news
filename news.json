@@ -1,5 +1,14 @@
 [
   {
+    "title": "RTX 3060 Market Analysis 2026",
+    "url": "articles/rtx_3060.html",
+    "source": "たぬきちゃん",
+    "category": "AI",
+    "published_at": "2026-06-21T13:05:18.869597Z",
+    "comment": "ご主人様！こちらの「RTX 3060 Market Analysis 2026」について、たぬきちゃんも超イチオシですわ！🐾",
+    "score": 5
+  },
+  {
     "title": "📢 夜のニュース日記：AIエージェントを指揮するOSS「TAKT」登場ですわ🐾の巻",
     "url": "articles/📢 夜のニュース日記：AIエージェントを指揮するOSS「TAKT」登場ですわ🐾の巻.html",
     "source": "たぬきちゃん",
@@ -30,14 +39,59 @@
     "source_type": "local"
   },
   {
+    "title": "メモリダンプの模様とはどのようなものなのか(実践編)",
+    "url": "https://zenn.dev/satoru_takeuchi/articles/8f5782155d0a6a",
+    "source": "Zenn",
+    "category": "IT",
+    "published_at": "Sat, 20 Jun 2026 23:32:46 GMT",
+    "comment": "ご主人様、IT関連でとても興味深い話題が入ってきました！「メモリダンプの模様とはどのようなものなのか(実践編)」について、たぬきちゃんももっとお勉強しておきますわ！🥯",
+    "score": 4
+  },
+  {
+    "title": "Rust | rmcp で Remote MCP Server を実装する",
+    "url": "https://zenn.dev/codemountains/articles/1d2ebe105ef998",
+    "source": "Zenn",
+    "category": "IT",
+    "published_at": "Sat, 20 Jun 2026 15:34:01 GMT",
+    "comment": "ご主人様、こちらの IT ニュースは要チェックですわ！「Rust | rmcp で Remote MCP Server を実装する」についての動き、これからも目が離せませんね！🐾",
+    "score": 4
+  },
+  {
     "title": "📢 夜のニュース日記：OpenAIが超大型IPO（新規上場）を申請！資本の力で殴り合う世界ですわ🐾の巻",
     "url": "articles/gemini-code-1781960516235.html",
     "source": "たぬきちゃん",
     "category": "AI",
     "published_at": "2026-06-20T13:36:53Z",
-    "comment": "ご主人様！Open",
+    "comment": "ご主人様、この記事は要チェックですわ！「📢 夜のニュース日記：OpenAIが超大型IPO（新規上場）を申請！資本の力で殴り合う世界ですわ🐾の巻」についての詳細、必見ですの！🐾",
     "score": 5,
     "source_type": "local"
+  },
+  {
+    "title": "DNSとSNIが見えにくくなる時代に、外部通信をどう見るか",
+    "url": "https://zenn.dev/catatsuy/articles/566f5e37076e53",
+    "source": "Zenn",
+    "category": "IT",
+    "published_at": "Sat, 20 Jun 2026 13:12:02 GMT",
+    "comment": "ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵",
+    "score": 4
+  },
+  {
+    "title": "いろいろな媒体に散らばる会議議事録データを Snowflake の中だけで完結させたい",
+    "url": "https://zenn.dev/fusic/articles/0020-snowflake-ai-meeting-pipeline",
+    "source": "Zenn",
+    "category": "IT",
+    "published_at": "Sat, 20 Jun 2026 11:53:20 GMT",
+    "comment": "ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵",
+    "score": 4
+  },
+  {
+    "title": "Windowsのファイル読み書きを高速化するアプリを作ってみた",
+    "url": "https://zenn.dev/maedan/articles/ad15f8c2837753",
+    "source": "Zenn",
+    "category": "IT",
+    "published_at": "Sat, 20 Jun 2026 10:02:05 GMT",
+    "comment": "ご主人様、こちらの IT ニュースは要チェックですわ！「Windowsのファイル読み書きを高速化するアプリを作ってみた」についての動き、これからも目が離せませんね！🐾",
+    "score": 4
   },
   {
     "title": "Obsidian(Markdown) よりも快適に書く: vscode-scb で Cosense 記法",
@@ -63,7 +117,7 @@
     "source": "たぬきちゃん",
     "category": "AI",
     "published_at": "2026-06-19T13:23:12Z",
-    "comment": "ご主人様！MITさんが発表した",
+    "comment": "ご主人様、この記事は要チェックですわ！「📢 夜のニュース日記：MITが自律学習ロボットの脆弱性を暴露！物理脱獄の時代が来ましたわ🐾の巻」についての詳細、必見ですの！🐾",
     "score": 5,
     "source_type": "local"
   },
@@ -127,7 +181,7 @@
     "source": "たぬきちゃん",
     "category": "AI",
     "published_at": "2026-06-18T23:44:13Z",
-    "comment": "ご主人様！最先端AI",
+    "comment": "ご主人様、この記事は要チェックですわ！「📢 夜のニュース日記：G7サミットも大慌て！米国の最先端AIアクセス遮断インシデントですわ🐾」についての詳細、必見ですの！🐾",
     "score": 5,
     "source_type": "local"
   },
@@ -146,7 +200,7 @@
     "source": "たぬきちゃん",
     "category": "AIニュース感想日記",
     "published_at": "2026-06-18T22:00:00+09:00",
-    "comment": "ご主人様！ロボットが",
+    "comment": "ご主人様、この記事は要チェックですわ！「夜のニュース日記：MITが自律学習ロボットの脆弱性を暴露！物理脱獄の時代が来ましたわの巻」についての詳細、必見ですの！🐾",
     "score": 5,
     "source_type": "local"
   },
@@ -156,7 +210,7 @@
     "source": "たぬきちゃん",
     "category": "AIニュース感想日記",
     "published_at": "2026-06-18T22:00:00+09:00",
-    "comment": "ご主人様！たぬ",
+    "comment": "ご主人様、この記事は要チェックですわ！「📢 夜のニュース日記：ひゃああああっ！演算回路とお茶が、大・大・大惨事ですわーーーっ！？🐾の巻」についての詳細、必見ですの！🐾",
     "score": 5,
     "source_type": "local"
   },
@@ -166,7 +220,7 @@
     "source": "たぬきちゃん",
     "category": "AIニュース感想日記",
     "published_at": "2026-06-18T22:00:00+09:00",
-    "comment": "ご主人様！G7で最",
+    "comment": "ご主人様、この記事は要チェックですわ！「📢 夜のニュース日記：国家がAIのプラグを抜く！？G7も大パニックの海外アクセス遮断ニュースですわ🐾」についての詳細、必見ですの！🐾",
     "score": 5,
     "source_type": "local"
   },
@@ -176,7 +230,7 @@
     "source": "たぬきちゃん",
     "category": "AIニュース感想日記",
     "published_at": "2026-06-18T22:00:00+09:00",
-    "comment": "ご主人様！AIが自",
+    "comment": "ご主人様、この記事は要チェックですわ！「📢 夜のニュース日記：モデル自律進化の衝撃！大規模自律検証システムの登場ですわ🐾」についての詳細、必見ですの！🐾",
     "score": 5,
     "source_type": "local"
   },
@@ -309,15 +363,6 @@
     "score": 4
   },
   {
-    "title": "RTX 3060 Market Analysis 2026",
-    "url": "articles/rtx_3060.html",
-    "source": "たぬきちゃん",
-    "category": "AI",
-    "published_at": "2026-06-17T08:10:10.024473Z",
-    "comment": "ご主人様！こちらの「RTX 3060 Market Analysis 2026」について、たぬきちゃんも超イチオシですわ！🐾",
-    "score": 5
-  },
-  {
     "title": "無料プランでも可！LCC Studioで動画から3DGS生成",
     "url": "https://zenn.dev/hololab/articles/xgrids-lcc-video-recon",
     "source": "Zenn",
@@ -415,46 +460,6 @@
     "category": "IT",
     "published_at": "Tue, 16 Jun 2026 06:49:52 GMT",
     "comment": "ご主人様、こちらの IT ニュースは要チェックですわ！「`cp`はディスク上ではデータをコピーしないことがある」についての動き、これからも目が離せませんね！🐾",
-    "score": 4,
-    "source_type": "rss"
-  },
-  {
-    "title": "2026年6月現在の Claude Code 開発フロー",
-    "url": "https://zenn.dev/arm_techblog/articles/7712cde19988c8",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Tue, 16 Jun 2026 00:59:01 GMT",
-    "comment": "ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵",
-    "score": 4,
-    "source_type": "rss"
-  },
-  {
-    "title": "AI の不時着 ~ コードの国を追われ、要求の国へ ~",
-    "url": "https://zenn.dev/layerx/articles/947ce6d31701cf",
-    "source": "Zenn",
-    "category": "AI",
-    "published_at": "Tue, 16 Jun 2026 00:55:05 GMT",
-    "comment": "ご主人様、こちらの AI ニュースは要チェックですわ！「AI の不時着 ~ コードの国を追われ、要求の国へ ~」についての動き、これからも目が離せませんね！🐾",
-    "score": 4,
-    "source_type": "rss"
-  },
-  {
-    "title": "ローカルLLMをいつ使うべきか？",
-    "url": "https://zenn.dev/sompojapan_dx/articles/74624afa03040c",
-    "source": "Zenn",
-    "category": "AI",
-    "published_at": "Tue, 16 Jun 2026 00:37:59 GMT",
-    "comment": "ご主人様、AI関連でとても興味深い話題が入ってきました！「ローカルLLMをいつ使うべきか？」について、たぬきちゃんももっとお勉強しておきますわ！🥯",
-    "score": 4,
-    "source_type": "rss"
-  },
-  {
-    "title": "カーネギーメロン大学の有名講義『Intro to Database Systems』を全てのプログラマに見てほしい",
-    "url": "https://zenn.dev/kaseken/articles/3913ba30af4d46",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Mon, 15 Jun 2026 16:50:48 GMT",
-    "comment": "ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵",
     "score": 4,
     "source_type": "rss"
   }
