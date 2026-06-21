@@ -4,7 +4,7 @@
     "url": "articles/rtx_3060.html",
     "source": "たぬきちゃん",
     "category": "AI",
-    "published_at": "2026-06-21T13:05:18.869597Z",
+    "published_at": "2026-06-21T23:20:05.464623Z",
     "comment": "ご主人様！こちらの「RTX 3060 Market Analysis 2026」について、たぬきちゃんも超イチオシですわ！🐾",
     "score": 5
   },
@@ -91,6 +91,24 @@
     "category": "IT",
     "published_at": "Sat, 20 Jun 2026 10:02:05 GMT",
     "comment": "ご主人様、こちらの IT ニュースは要チェックですわ！「Windowsのファイル読み書きを高速化するアプリを作ってみた」についての動き、これからも目が離せませんね！🐾",
+    "score": 4
+  },
+  {
+    "title": "AI以後の受託システム開発はどうなっていくのか（2026年6月版）",
+    "url": "https://zenn.dev/terurou/articles/eb9e7a4ca7b364",
+    "source": "Zenn",
+    "category": "AI",
+    "published_at": "Sat, 20 Jun 2026 08:39:08 GMT",
+    "comment": "ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵",
+    "score": 4
+  },
+  {
+    "title": "プログラミング経験者が初めてWebアプリを作るときに知っておきたい基礎知識",
+    "url": "https://zenn.dev/kojikojiprg/articles/a89ecbe73be743",
+    "source": "Zenn",
+    "category": "IT",
+    "published_at": "Sat, 20 Jun 2026 02:12:42 GMT",
+    "comment": "ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵",
     "score": 4
   },
   {
@@ -443,24 +461,5 @@
     "published_at": "Tue, 16 Jun 2026 08:08:47 GMT",
     "comment": "なんと！「一般社団法人Gophers Japan 共同理事就任のご報告」とのことですわ！ご主人様の開発や日々の作業にも、何か新しいひらめきをもたらすかもしれませんね。応援しております！✨",
     "score": 4
-  },
-  {
-    "title": "Claude CodeとCodex CLIのテレメトリーをGrafana Cloudで見る",
-    "url": "https://zenn.dev/ymotongpoo/articles/20260616-ai-cli-otel-grafana",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Tue, 16 Jun 2026 07:45:05 GMT",
-    "comment": "ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵",
-    "score": 4
-  },
-  {
-    "title": "`cp`はディスク上ではデータをコピーしないことがある",
-    "url": "https://zenn.dev/satoru_takeuchi/articles/4bab372c6dae86",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Tue, 16 Jun 2026 06:49:52 GMT",
-    "comment": "ご主人様、こちらの IT ニュースは要チェックですわ！「`cp`はディスク上ではデータをコピーしないことがある」についての動き、これからも目が離せませんね！🐾",
-    "score": 4,
-    "source_type": "rss"
   }
 ]

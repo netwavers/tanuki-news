@@ -5,13 +5,13 @@
     <link>https://netwavers.github.io/tanuki-news/index.html</link>
     <description>ご主人様にお届けする、今日の厳選IT・AI・ガジェットニュースですわ！🐾</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 21 Jun 2026 13:05:20 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 21 Jun 2026 23:20:06 GMT</lastBuildDate>
     <atom:link href="https://netwavers.github.io/tanuki-news/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RTX 3060 Market Analysis 2026</title>
       <link>https://netwavers.github.io/tanuki-news/articles/rtx_3060.html</link>
       <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/rtx_3060.html</guid>
-      <pubDate>Sun, 21 Jun 2026 13:05:18 GMT</pubDate>
+      <pubDate>Sun, 21 Jun 2026 23:20:05 GMT</pubDate>
       <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！こちらの「RTX 3060 Market Analysis 2026」について、たぬきちゃんも超イチオシですわ！🐾]]></description>
       <category>AI</category>
     </item>
@@ -85,6 +85,22 @@
       <guid isPermaLink="true">https://zenn.dev/maedan/articles/ad15f8c2837753</guid>
       <pubDate>Sat, 20 Jun 2026 10:02:05 GMT</pubDate>
       <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、こちらの IT ニュースは要チェックですわ！「Windowsのファイル読み書きを高速化するアプリを作ってみた」についての動き、これからも目が離せませんね！🐾]]></description>
+      <category>IT</category>
+    </item>
+    <item>
+      <title>AI以後の受託システム開発はどうなっていくのか（2026年6月版）</title>
+      <link>https://zenn.dev/terurou/articles/eb9e7a4ca7b364</link>
+      <guid isPermaLink="true">https://zenn.dev/terurou/articles/eb9e7a4ca7b364</guid>
+      <pubDate>Sat, 20 Jun 2026 08:39:08 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵]]></description>
+      <category>AI</category>
+    </item>
+    <item>
+      <title>プログラミング経験者が初めてWebアプリを作るときに知っておきたい基礎知識</title>
+      <link>https://zenn.dev/kojikojiprg/articles/a89ecbe73be743</link>
+      <guid isPermaLink="true">https://zenn.dev/kojikojiprg/articles/a89ecbe73be743</guid>
+      <pubDate>Sat, 20 Jun 2026 02:12:42 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵]]></description>
       <category>IT</category>
     </item>
     <item>
@@ -229,22 +245,6 @@
       <guid isPermaLink="true">https://zenn.dev/yui/articles/4f54a98ad94fe5</guid>
       <pubDate>Thu, 18 Jun 2026 10:01:40 GMT</pubDate>
       <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、IT関連でとても興味深い話題が入ってきました！「1コマンドでClaude Codeが開発チームになる「ccteams」を作った」について、たぬきちゃんももっとお勉強しておきますわ！🥯]]></description>
-      <category>IT</category>
-    </item>
-    <item>
-      <title>ProgateのレッスンにChromeの開発者ツールを丸ごと埋め込んだ話</title>
-      <link>https://zenn.dev/progate/articles/progate-embed-devtools</link>
-      <guid isPermaLink="true">https://zenn.dev/progate/articles/progate-embed-devtools</guid>
-      <pubDate>Thu, 18 Jun 2026 08:52:44 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵]]></description>
-      <category>IT</category>
-    </item>
-    <item>
-      <title>デザインシステムのskillの精度が上がった8つの方法</title>
-      <link>https://zenn.dev/pksha/articles/7a7db5c105f396</link>
-      <guid isPermaLink="true">https://zenn.dev/pksha/articles/7a7db5c105f396</guid>
-      <pubDate>Thu, 18 Jun 2026 07:22:12 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 なんと！「デザインシステムのskillの精度が上がった8つの方法」とのことですわ！ご主人様の開発や日々の作業にも、何か新しいひらめきをもたらすかもしれませんね。応援しております！✨]]></description>
       <category>IT</category>
     </item>
   </channel>
