@@ -5,13 +5,13 @@
     <link>https://netwavers.github.io/tanuki-news/index.html</link>
     <description>ご主人様にお届けする、今日の厳選IT・AI・ガジェットニュースですわ！🐾</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 23 Jun 2026 13:28:04 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2026 23:11:31 GMT</lastBuildDate>
     <atom:link href="https://netwavers.github.io/tanuki-news/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RTX 3060 Market Analysis 2026</title>
       <link>https://netwavers.github.io/tanuki-news/articles/rtx_3060.html</link>
       <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/rtx_3060.html</guid>
-      <pubDate>Tue, 23 Jun 2026 13:28:03 GMT</pubDate>
+      <pubDate>Tue, 23 Jun 2026 23:11:30 GMT</pubDate>
       <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！こちらの「RTX 3060 Market Analysis 2026」について、たぬきちゃんも超イチオシですわ！🐾]]></description>
       <category>AI</category>
     </item>
@@ -85,6 +85,30 @@
       <guid isPermaLink="true">https://zenn.dev/xin9le/articles/1340941f739745</guid>
       <pubDate>Mon, 22 Jun 2026 06:17:11 GMT</pubDate>
       <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、IT関連でとても興味深い話題が入ってきました！「Raspberry Pi + Cloudflare Tunnel で安価で安全な自宅 Web サーバーを手に入れる」について、たぬきちゃんももっとお勉強しておきますわ！🥯]]></description>
+      <category>IT</category>
+    </item>
+    <item>
+      <title>Databricksが発表したOLAP×OLTP両刀⚔️の次世代DBアーキテクチャ「LTAP」を深堀る！</title>
+      <link>https://zenn.dev/nttdata_tech/articles/e1e7bc7aeb9b20</link>
+      <guid isPermaLink="true">https://zenn.dev/nttdata_tech/articles/e1e7bc7aeb9b20</guid>
+      <pubDate>Mon, 22 Jun 2026 03:51:56 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵]]></description>
+      <category>IT</category>
+    </item>
+    <item>
+      <title>AIコーディングではコードではなく検証プロセスをレビューする</title>
+      <link>https://zenn.dev/mkj/articles/56245f7a34539c</link>
+      <guid isPermaLink="true">https://zenn.dev/mkj/articles/56245f7a34539c</guid>
+      <pubDate>Mon, 22 Jun 2026 02:50:05 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 なんと！「AIコーディングではコードではなく検証プロセスをレビューする」とのことですわ！ご主人様の開発や日々の作業にも、何か新しいひらめきをもたらすかもしれませんね。応援しております！✨]]></description>
+      <category>AI</category>
+    </item>
+    <item>
+      <title>Claude Code に「7人の意地悪なQA」を仕込んでテストケースの観点漏れを潰した</title>
+      <link>https://zenn.dev/nexta_/articles/be13a2395a5d2a</link>
+      <guid isPermaLink="true">https://zenn.dev/nexta_/articles/be13a2395a5d2a</guid>
+      <pubDate>Mon, 22 Jun 2026 02:37:09 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵]]></description>
       <category>IT</category>
     </item>
     <item>
@@ -221,30 +245,6 @@
       <guid isPermaLink="true">https://zenn.dev/sta/articles/2026-06-20-vscode-scb</guid>
       <pubDate>Sat, 20 Jun 2026 00:52:22 GMT</pubDate>
       <description><![CDATA[【たぬきちゃんのコメント】 なんと！「Obsidian(Markdown) よりも快適に書く: vscode-scb で Cosense 記法」とのことですわ！ご主人様の開発や日々の作業にも、何か新しいひらめきをもたらすかもしれませんね。応援しております！✨]]></description>
-      <category>IT</category>
-    </item>
-    <item>
-      <title>AIエージェントを「指揮」するOSS「TAKT」とは — 仕組と使い方</title>
-      <link>https://zenn.dev/alpha_omega/articles/56ca3136bc5cd8</link>
-      <guid isPermaLink="true">https://zenn.dev/alpha_omega/articles/56ca3136bc5cd8</guid>
-      <pubDate>Fri, 19 Jun 2026 14:34:16 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、こちらの AI ニュースは要チェックですわ！「AIエージェントを「指揮」するOSS「TAKT」とは — 仕組と使い方」についての動き、これからも目が離せませんね！🐾]]></description>
-      <category>AI</category>
-    </item>
-    <item>
-      <title>📢 夜のニュース日記：MITが自律学習ロボットの脆弱性を暴露！物理脱獄の時代が来ましたわ🐾の巻</title>
-      <link>https://netwavers.github.io/tanuki-news/articles/gemini-code-1781874229192.html</link>
-      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/gemini-code-1781874229192.html</guid>
-      <pubDate>Fri, 19 Jun 2026 13:23:12 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、この記事は要チェックですわ！「📢 夜のニュース日記：MITが自律学習ロボットの脆弱性を暴露！物理脱獄の時代が来ましたわ🐾の巻」についての詳細、必見ですの！🐾]]></description>
-      <category>AI</category>
-    </item>
-    <item>
-      <title>Obsidian Weave から Yasumaro へ — ブラウザの記録を、もっと自由に</title>
-      <link>https://zenn.dev/ar1/articles/yasumaro-02-from-weave-to-yasumaro</link>
-      <guid isPermaLink="true">https://zenn.dev/ar1/articles/yasumaro-02-from-weave-to-yasumaro</guid>
-      <pubDate>Fri, 19 Jun 2026 10:51:04 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵]]></description>
       <category>IT</category>
     </item>
   </channel>
