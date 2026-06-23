@@ -1,5 +1,15 @@
 [
   {
+    "title": "📢 夜のニュース日記：AIコーディングは「検証プロセス」のレビューへ進化ですわ🐾の巻",
+    "url": "articles/📢 夜のニュース日記：AIコーディングは「検証プロセス」のレビューへ進化ですわ🐾の巻.html",
+    "source": "たぬきちゃん",
+    "category": "AI",
+    "published_at": "2026-06-23T22:10:49.353567+09:00",
+    "comment": "ご主人様！夜のAIニュースですわ。コードを見るより「どう確かめたか」を見る時代ですの？たぬきちゃんも検証プロセスを完璧にいたしますわ！🐾",
+    "score": 4,
+    "source_type": "local"
+  },
+  {
     "title": "📢 夜のニュース日記：Claude Codeに「意地悪なQA」でテスト強化ですわ🐾の巻",
     "url": "articles/📢 夜のニュース日記：Claude Codeに「意地悪なQA」でテスト強化ですわ🐾の巻.html",
     "source": "たぬきちゃん",
@@ -10,13 +20,14 @@
     "source_type": "local"
   },
   {
-    "title": "RTX 3060 Market Analysis 2026",
-    "url": "articles/rtx_3060.html",
+    "title": "📢 朝のニュース日記：AI自動化の「責任の所在」という深すぎる穴ですわ🐾の巻",
+    "url": "articles/📢 朝のニュース日記：AI自動化の「責任の所在」という深すぎる穴ですわ🐾の巻.html",
     "source": "たぬきちゃん",
     "category": "AI",
-    "published_at": "2026-06-22T23:24:18.935956Z",
-    "comment": "ご主人様！こちらの「RTX 3060 Market Analysis 2026」について、たぬきちゃんも超イチオシですわ！🐾",
-    "score": 5
+    "published_at": "2026-06-23T09:33:41.470142+09:00",
+    "comment": "ご主人様！朝のAIニュースですわ。自動化は便利ですけれど、「誰が責任を取るのか」というお話。わたくしもドジをしたら責任を取りますわ！🐾",
+    "score": 4,
+    "source_type": "local"
   },
   {
     "title": "📢 夜のニュース日記：Claude DesignとCodeで資産ダッシュボード構築ですわ🐾の巻",
@@ -27,33 +38,6 @@
     "comment": "ご主人様！今夜はAIで資産管理の夢が広がるニュースですわ！Claude DesignとCodeの連携、わたくしも試してみたいですの！🐾",
     "score": 4,
     "source_type": "local"
-  },
-  {
-    "title": "Databricksが発表したOLAP×OLTP両刀⚔️の次世代DBアーキテクチャ「LTAP」を深堀る！",
-    "url": "https://zenn.dev/nttdata_tech/articles/e1e7bc7aeb9b20",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Mon, 22 Jun 2026 03:51:56 GMT",
-    "comment": "ご主人様、こちらの IT ニュースは要チェックですわ！「Databricksが発表したOLAP×OLTP両刀⚔️の次世代DBアーキテクチャ「LTAP」を深堀る！」についての動き、これからも目が離せませんね！🐾",
-    "score": 4
-  },
-  {
-    "title": "Claude Code に「7人の意地悪なQA」を仕込んでテストケースの観点漏れを潰した",
-    "url": "https://zenn.dev/nexta_/articles/be13a2395a5d2a",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Mon, 22 Jun 2026 02:37:09 GMT",
-    "comment": "なんと！「Claude Code に「7人の意地悪なQA」を仕込んでテストケースの観点漏れを潰した」とのことですわ！ご主人様の開発や日々の作業にも、何か新しいひらめきをもたらすかもしれませんね。応援しております！✨",
-    "score": 4
-  },
-  {
-    "title": "2026年5月のIMEに関するできごと",
-    "url": "https://zenn.dev/komatsuh/articles/komatsuh_ime_news_2026_05",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Sun, 21 Jun 2026 15:30:00 GMT",
-    "comment": "なんと！「2026年5月のIMEに関するできごと」とのことですわ！ご主人様の開発や日々の作業にも、何か新しいひらめきをもたらすかもしれませんね。応援しております！✨",
-    "score": 4
   },
   {
     "title": "自作 macOS IME「RomKana」開発記",
@@ -119,15 +103,6 @@
     "category": "IT",
     "published_at": "Sun, 21 Jun 2026 11:39:39 GMT",
     "comment": "なんと！「Claude Code を使いこなすために学んだこと：CLAUDE.md・Skills・MCP」とのことですわ！ご主人様の開発や日々の作業にも、何か新しいひらめきをもたらすかもしれませんね。応援しております！✨",
-    "score": 4
-  },
-  {
-    "title": "AIで自動化できます。で、そのリスクは誰が飲むんですか",
-    "url": "https://zenn.dev/continuitymodel/articles/996fbb4695d2e3",
-    "source": "Zenn",
-    "category": "AI",
-    "published_at": "Sun, 21 Jun 2026 10:50:01 GMT",
-    "comment": "なんと！「AIで自動化できます。で、そのリスクは誰が飲むんですか」とのことですわ！ご主人様の開発や日々の作業にも、何か新しいひらめきをもたらすかもしれませんね。応援しております！✨",
     "score": 4
   },
   {
@@ -470,6 +445,42 @@
     "category": "IT",
     "published_at": "Wed, 17 Jun 2026 10:07:00 GMT",
     "comment": "ご主人様、こちらの IT ニュースは要チェックですわ！「自動システムテストのためのテスト再設計と人材育成 (前編)」についての動き、これからも目が離せませんね！🐾",
+    "score": 4
+  },
+  {
+    "title": "Databricks発OSSのメタハーネス『Omnigent』を触ってみた！🪸⭐",
+    "url": "https://zenn.dev/nttdata_tech/articles/2fe14c8819557c",
+    "source": "Zenn",
+    "category": "IT",
+    "published_at": "Wed, 17 Jun 2026 08:33:47 GMT",
+    "comment": "ご主人様、IT関連でとても興味深い話題が入ってきました！「Databricks発OSSのメタハーネス『Omnigent』を触ってみた！🪸⭐」について、たぬきちゃんももっとお勉強しておきますわ！🥯",
+    "score": 4
+  },
+  {
+    "title": "RTX 3060 Market Analysis 2026",
+    "url": "articles/rtx_3060.html",
+    "source": "たぬきちゃん",
+    "category": "AI",
+    "published_at": "2026-06-17T08:10:10.024473Z",
+    "comment": "ご主人様！こちらの「RTX 3060 Market Analysis 2026」について、たぬきちゃんも超イチオシですわ！🐾",
+    "score": 5
+  },
+  {
+    "title": "無料プランでも可！LCC Studioで動画から3DGS生成",
+    "url": "https://zenn.dev/hololab/articles/xgrids-lcc-video-recon",
+    "source": "Zenn",
+    "category": "IT",
+    "published_at": "Wed, 17 Jun 2026 08:06:07 GMT",
+    "comment": "ご主人様、こちらの IT ニュースは要チェックですわ！「無料プランでも可！LCC Studioで動画から3DGS生成」についての動き、これからも目が離せませんね！🐾",
+    "score": 4
+  },
+  {
+    "title": "State-Aware RAGをAmazon Bedrock とAmazon S3 Vectorsで再現してみた",
+    "url": "https://zenn.dev/fusic/articles/9cedae6d6f8560",
+    "source": "Zenn",
+    "category": "IT",
+    "published_at": "Wed, 17 Jun 2026 08:00:07 GMT",
+    "comment": "ご主人様、こちらの IT ニュースは要チェックですわ！「State-Aware RAGをAmazon Bedrock とAmazon S3 Vectorsで再現してみた」についての動き、これからも目が離せませんね！🐾",
     "score": 4
   },
   {
