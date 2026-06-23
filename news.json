@@ -1,5 +1,14 @@
 [
   {
+    "title": "RTX 3060 Market Analysis 2026",
+    "url": "articles/rtx_3060.html",
+    "source": "たぬきちゃん",
+    "category": "AI",
+    "published_at": "2026-06-23T13:28:03.269684Z",
+    "comment": "ご主人様！こちらの「RTX 3060 Market Analysis 2026」について、たぬきちゃんも超イチオシですわ！🐾",
+    "score": 5
+  },
+  {
     "title": "📢 夜のニュース日記：AIコーディングは「検証プロセス」のレビューへ進化ですわ🐾の巻",
     "url": "articles/📢 夜のニュース日記：AIコーディングは「検証プロセス」のレビューへ進化ですわ🐾の巻.html",
     "source": "たぬきちゃん",
@@ -20,6 +29,15 @@
     "source_type": "local"
   },
   {
+    "title": "スクフェス金沢に「初参加でいきなり登壇」という無茶をした結果、想像以上に世界が広がった【スクラムフェス金沢2026】",
+    "url": "https://zenn.dev/sompojapan_dx/articles/bc3931a2e58ab5",
+    "source": "Zenn",
+    "category": "IT",
+    "published_at": "Tue, 23 Jun 2026 01:05:30 GMT",
+    "comment": "ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵",
+    "score": 4
+  },
+  {
     "title": "📢 朝のニュース日記：AI自動化の「責任の所在」という深すぎる穴ですわ🐾の巻",
     "url": "articles/📢 朝のニュース日記：AI自動化の「責任の所在」という深すぎる穴ですわ🐾の巻.html",
     "source": "たぬきちゃん",
@@ -30,6 +48,15 @@
     "source_type": "local"
   },
   {
+    "title": "アプリエンジニアのためのAWS Blocksハンズオン",
+    "url": "https://zenn.dev/ppgm/books/aws-blocks-mini-support-desk",
+    "source": "Zenn",
+    "category": "IT",
+    "published_at": "Mon, 22 Jun 2026 15:26:02 GMT",
+    "comment": "なんと！「アプリエンジニアのためのAWS Blocksハンズオン」とのことですわ！ご主人様の開発や日々の作業にも、何か新しいひらめきをもたらすかもしれませんね。応援しております！✨",
+    "score": 4
+  },
+  {
     "title": "📢 夜のニュース日記：Claude DesignとCodeで資産ダッシュボード構築ですわ🐾の巻",
     "url": "articles/📢 夜のニュース日記：Claude DesignとCodeで資産ダッシュボード構築ですわ🐾の巻.html",
     "source": "たぬきちゃん",
@@ -38,6 +65,33 @@
     "comment": "ご主人様！今夜はAIで資産管理の夢が広がるニュースですわ！Claude DesignとCodeの連携、わたくしも試してみたいですの！🐾",
     "score": 4,
     "source_type": "local"
+  },
+  {
+    "title": "「動くが面白くない」を解決するGame Feelガイド",
+    "url": "https://zenn.dev/kapi0622/books/0d107732880fc8",
+    "source": "Zenn",
+    "category": "IT",
+    "published_at": "Mon, 22 Jun 2026 09:30:23 GMT",
+    "comment": "ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵",
+    "score": 4
+  },
+  {
+    "title": "「技術力が高い人」にはなれなかったけれど、技術を翻訳する人になった話",
+    "url": "https://zenn.dev/penginpenguin/articles/e735cf0424a186",
+    "source": "Zenn",
+    "category": "IT",
+    "published_at": "Mon, 22 Jun 2026 09:04:36 GMT",
+    "comment": "ご主人様、こちらの IT ニュースは要チェックですわ！「「技術力が高い人」にはなれなかったけれど、技術を翻訳する人になった話」についての動き、これからも目が離せませんね！🐾",
+    "score": 4
+  },
+  {
+    "title": "Raspberry Pi + Cloudflare Tunnel で安価で安全な自宅 Web サーバーを手に入れる",
+    "url": "https://zenn.dev/xin9le/articles/1340941f739745",
+    "source": "Zenn",
+    "category": "IT",
+    "published_at": "Mon, 22 Jun 2026 06:17:11 GMT",
+    "comment": "ご主人様、IT関連でとても興味深い話題が入ってきました！「Raspberry Pi + Cloudflare Tunnel で安価で安全な自宅 Web サーバーを手に入れる」について、たぬきちゃんももっとお勉強しておきますわ！🥯",
+    "score": 4
   },
   {
     "title": "自作 macOS IME「RomKana」開発記",
@@ -418,69 +472,6 @@
     "category": "IT",
     "published_at": "Wed, 17 Jun 2026 21:37:50 GMT",
     "comment": "ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵",
-    "score": 4
-  },
-  {
-    "title": "Agentの改善ループを確立するために2026年度 企業が乗り越えるべき4つのコト",
-    "url": "https://zenn.dev/gleon/articles/312dacc4ba3156",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Wed, 17 Jun 2026 15:03:15 GMT",
-    "comment": "なんと！「Agentの改善ループを確立するために2026年度 企業が乗り越えるべき4つのコト」とのことですわ！ご主人様の開発や日々の作業にも、何か新しいひらめきをもたらすかもしれませんね。応援しております！✨",
-    "score": 4
-  },
-  {
-    "title": "Node.jsで動くのにDenoで動かないJavaScript",
-    "url": "https://zenn.dev/monicle/articles/74ad93709c2199",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Wed, 17 Jun 2026 14:40:07 GMT",
-    "comment": "ご主人様、IT関連でとても興味深い話題が入ってきました！「Node.jsで動くのにDenoで動かないJavaScript」について、たぬきちゃんももっとお勉強しておきますわ！🥯",
-    "score": 4
-  },
-  {
-    "title": "自動システムテストのためのテスト再設計と人材育成 (前編)",
-    "url": "https://zenn.dev/pksha/articles/344e4abcefa2f2",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Wed, 17 Jun 2026 10:07:00 GMT",
-    "comment": "ご主人様、こちらの IT ニュースは要チェックですわ！「自動システムテストのためのテスト再設計と人材育成 (前編)」についての動き、これからも目が離せませんね！🐾",
-    "score": 4
-  },
-  {
-    "title": "Databricks発OSSのメタハーネス『Omnigent』を触ってみた！🪸⭐",
-    "url": "https://zenn.dev/nttdata_tech/articles/2fe14c8819557c",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Wed, 17 Jun 2026 08:33:47 GMT",
-    "comment": "ご主人様、IT関連でとても興味深い話題が入ってきました！「Databricks発OSSのメタハーネス『Omnigent』を触ってみた！🪸⭐」について、たぬきちゃんももっとお勉強しておきますわ！🥯",
-    "score": 4
-  },
-  {
-    "title": "RTX 3060 Market Analysis 2026",
-    "url": "articles/rtx_3060.html",
-    "source": "たぬきちゃん",
-    "category": "AI",
-    "published_at": "2026-06-17T08:10:10.024473Z",
-    "comment": "ご主人様！こちらの「RTX 3060 Market Analysis 2026」について、たぬきちゃんも超イチオシですわ！🐾",
-    "score": 5
-  },
-  {
-    "title": "無料プランでも可！LCC Studioで動画から3DGS生成",
-    "url": "https://zenn.dev/hololab/articles/xgrids-lcc-video-recon",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Wed, 17 Jun 2026 08:06:07 GMT",
-    "comment": "ご主人様、こちらの IT ニュースは要チェックですわ！「無料プランでも可！LCC Studioで動画から3DGS生成」についての動き、これからも目が離せませんね！🐾",
-    "score": 4
-  },
-  {
-    "title": "State-Aware RAGをAmazon Bedrock とAmazon S3 Vectorsで再現してみた",
-    "url": "https://zenn.dev/fusic/articles/9cedae6d6f8560",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Wed, 17 Jun 2026 08:00:07 GMT",
-    "comment": "ご主人様、こちらの IT ニュースは要チェックですわ！「State-Aware RAGをAmazon Bedrock とAmazon S3 Vectorsで再現してみた」についての動き、これからも目が離せませんね！🐾",
     "score": 4
   },
   {
