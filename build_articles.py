@@ -16,6 +16,8 @@ if sys.platform == "win32":
 # 定数定義
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 ARTICLES_DIR = os.path.join(BASE_DIR, "articles")
+
+from llm_client import DEFAULT_COMMENT_MODEL, build_chat_options, chat as llm_chat, get_llm_client
 TEMPLATE_PATH = os.path.join(ARTICLES_DIR, "template.html")
 NEWS_JSON_PATH = os.path.join(BASE_DIR, "news.json")
 RSS_XML_PATH = os.path.join(BASE_DIR, "rss.xml")
@@ -189,10 +191,8 @@ def parse_markdown_article(file_path):
 
 
 def generate_ai_comment_from_content(title, full_content, category):
-    """Gemini APIを使用して、Markdownからたぬきちゃんのまとめ用一言コメントを自動生成"""
-    api_key = os.environ.get("GEMINI_API_KEY")
-    
-    if not api_key:
+    """llm_manager 経由で、Markdownからたぬきちゃんのまとめ用一言コメントを自動生成"""
+    if not os.environ.get("GEMINI_API_KEY"):
         paragraphs = [p.strip() for p in full_content.split('\n\n') if p.strip()]
         fallback_comment = ""
         for p in paragraphs:
@@ -206,7 +206,6 @@ def generate_ai_comment_from_content(title, full_content, category):
             fallback_comment = f"ご主人様、この記事は要チェックですわ！「{title}」についての詳細、必見ですの！🐾"
         return fallback_comment
 
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
     prompt = f"""
 あなたはご主人様に仕えるメイドさん風AIアシスタントの「たぬきちゃん」です。
 以下の記事全体を読んで、まとめサイトのカードに表示する、メイドさんらしい丁寧で愛嬌のあるイチオシ紹介コメント（日本語、1〜2文程度、120文字以内）を書いてください。
@@ -217,30 +216,17 @@ def generate_ai_comment_from_content(title, full_content, category):
 
 コメントのみをそのまま出力してください。前置きや解説などは一切不要です。たぬきちゃんの発言そのものだけを出力してください。
 """
-    data = {
-        "contents": [{
-            "parts": [{"text": prompt}]
-        }],
-        "generationConfig": {
-            "temperature": 0.8,
-            "maxOutputTokens": 200
-        }
-    }
     try:
-        req = urllib.request.Request(
-            url,
-            data=json.dumps(data).encode('utf-8'),
-            headers={'Content-Type': 'application/json'}
-        )
-        with urllib.request.urlopen(req, timeout=20) as response:
-            res_data = json.loads(response.read().decode('utf-8'))
-            comment = res_data['candidates'][0]['content']['parts'][0]['text'].strip()
+        client = get_llm_client(DEFAULT_COMMENT_MODEL)
+        options = build_chat_options(client.config.provider.value, temperature=0.8, max_output_tokens=200)
+        comment = llm_chat(DEFAULT_COMMENT_MODEL, [{"role": "user", "content": prompt}], options)
+        if comment:
             if comment.startswith('"') and comment.endswith('"'):
                 comment = comment[1:-1]
             return comment
     except Exception as e:
-        print(f"⚠️ Gemini APIコメント自動生成エラー: {e}")
-        return f"ご主人様！こちらの「{title}」について、たぬきちゃんも超イチオシですわ！🐾"
+        print(f"⚠️ LLM APIコメント自動生成エラー: {e}")
+    return f"ご主人様！こちらの「{title}」について、たぬきちゃんも超イチオシですわ！🐾"
 
 # ==========================================================================
 # HTML parser & cleaner (for raw HTML files like rtx_3060.html)
@@ -315,20 +301,16 @@ def parse_html_article(file_path):
     }
 
 def get_ai_metadata_for_html(title, plain_text, category):
-    """Gemini APIを使用して、HTML記事からタイトル、概要、およびコメントをJSONとして自動抽出。キー未設定時はフォールバック。"""
-    api_key = os.environ.get("GEMINI_API_KEY")
-    
+    """llm_manager 経由で、HTML記事からタイトル、概要、およびコメントをJSONとして自動抽出。キー未設定時はフォールバック。"""
     fallback_data = {
         "title": title,
         "description": plain_text[:120] + "..." if len(plain_text) > 120 else plain_text,
         "comment": f"ご主人様！こちらの「{title}」について、たぬきちゃんも超イチオシですわ！🐾"
     }
     
-    if not api_key:
+    if not os.environ.get("GEMINI_API_KEY"):
         return fallback_data
 
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
-    
     prompt = f"""
 あなたはご主人様に仕えるメイドさん風AIアシスタントの「たぬきちゃん」です。
 提供された以下の記事テキスト（HTMLからタグを剥がしたもの）を読み、まとめサイトに掲載するための：
@@ -348,38 +330,24 @@ def get_ai_metadata_for_html(title, plain_text, category):
 }}
 """
     
-    data = {
-        "contents": [{
-            "parts": [{"text": prompt}]
-        }],
-        "generationConfig": {
-            "temperature": 0.8,
-            "maxOutputTokens": 300
-        }
-    }
-    
     try:
-        req = urllib.request.Request(
-            url,
-            data=json.dumps(data).encode('utf-8'),
-            headers={'Content-Type': 'application/json'}
-        )
-        with urllib.request.urlopen(req, timeout=20) as response:
-            res_data = json.loads(response.read().decode('utf-8'))
-            result_text = res_data['candidates'][0]['content']['parts'][0]['text'].strip()
-            
-            # JSONブロック記法が混入した場合のクリーニング
-            if "```" in result_text:
-                result_text = re.sub(r'```(?:json)?\s*(.*?)\s*```', r'\1', result_text, flags=re.DOTALL).strip()
-                
-            parsed_json = json.loads(result_text)
-            return {
-                "title": parsed_json.get("title", title).strip(),
-                "description": parsed_json.get("description", fallback_data["description"]).strip(),
-                "comment": parsed_json.get("comment", fallback_data["comment"]).strip()
-            }
+        client = get_llm_client(DEFAULT_COMMENT_MODEL)
+        options = build_chat_options(client.config.provider.value, json_mode=True, temperature=0.8, max_output_tokens=300)
+        result_text = llm_chat(DEFAULT_COMMENT_MODEL, [{"role": "user", "content": prompt}], options)
+        if not result_text:
+            return fallback_data
+
+        if "```" in result_text:
+            result_text = re.sub(r'```(?:json)?\s*(.*?)\s*```', r'\1', result_text, flags=re.DOTALL).strip()
+
+        parsed_json = json.loads(result_text)
+        return {
+            "title": parsed_json.get("title", title).strip(),
+            "description": parsed_json.get("description", fallback_data["description"]).strip(),
+            "comment": parsed_json.get("comment", fallback_data["comment"]).strip()
+        }
     except Exception as e:
-        print(f"⚠️ Gemini HTML解析エラー: {e}")
+        print(f"⚠️ LLM HTML解析エラー: {e}")
         return fallback_data
 
 # ==========================================================================

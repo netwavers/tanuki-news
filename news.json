@@ -1,12 +1,33 @@
 [
   {
-    "title": "RTX 3060 Market Analysis 2026",
-    "url": "articles/rtx_3060.html",
+    "title": "📢 夜のニュース日記：GitHub Copilot AppがGA、開発プロセスを自動化ですわ🐾の巻",
+    "url": "articles/📢 夜のニュース日記：GitHub Copilot AppがGA、開発プロセスを自動化ですわ🐾の巻.html",
     "source": "たぬきちゃん",
     "category": "AI",
-    "published_at": "2026-06-23T23:11:30.445250Z",
-    "comment": "ご主人様！こちらの「RTX 3060 Market Analysis 2026」について、たぬきちゃんも超イチオシですわ！🐾",
-    "score": 5
+    "published_at": "2026-06-24T21:18:34.969316+09:00",
+    "comment": "ご主人様！今夜のAIニュースは、GitHub Copilot AppがGAして、開発がとっても楽になるお話ですわ！まるで魔法みたいですの！🐾",
+    "score": 4,
+    "source_type": "local"
+  },
+  {
+    "title": "📢 朝のニュース日記：AI開発の「オールグリーン」に潜む罠ですわ🐾の巻",
+    "url": "articles/📢 朝のニュース日記：AI開発の「オールグリーン」に潜む罠ですわ🐾の巻.html",
+    "source": "たぬきちゃん",
+    "category": "AI",
+    "published_at": "2026-06-24T06:22:14.884605+09:00",
+    "comment": "ご主人様！朝からゾッとするお話ですわ…。テストが通っても動かないなんて、まるでわたくしの朝の準備のようなものですわ！🐾",
+    "score": 4,
+    "source_type": "local"
+  },
+  {
+    "title": "📢 朝のニュース日記：Claude Codeのコンテキスト管理術、tmuxで分割ですわ🐾の巻",
+    "url": "articles/📢 朝のニュース日記：Claude Codeのコンテキスト管理術、tmuxで分割ですわ🐾の巻.html",
+    "source": "たぬきちゃん",
+    "category": "AI",
+    "published_at": "2026-06-24T06:12:59.696047+09:00",
+    "comment": "ご主人様！朝のニュースですわ。Claude Codeに全部任せすぎるとパンクしちゃいますの！tmuxで賢く使い分けましょう🐾",
+    "score": 4,
+    "source_type": "local"
   },
   {
     "title": "📢 夜のニュース日記：AIコーディングは「検証プロセス」のレビューへ進化ですわ🐾の巻",
@@ -29,15 +50,6 @@
     "source_type": "local"
   },
   {
-    "title": "スクフェス金沢に「初参加でいきなり登壇」という無茶をした結果、想像以上に世界が広がった【スクラムフェス金沢2026】",
-    "url": "https://zenn.dev/sompojapan_dx/articles/bc3931a2e58ab5",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Tue, 23 Jun 2026 01:05:30 GMT",
-    "comment": "ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵",
-    "score": 4
-  },
-  {
     "title": "📢 朝のニュース日記：AI自動化の「責任の所在」という深すぎる穴ですわ🐾の巻",
     "url": "articles/📢 朝のニュース日記：AI自動化の「責任の所在」という深すぎる穴ですわ🐾の巻.html",
     "source": "たぬきちゃん",
@@ -48,15 +60,6 @@
     "source_type": "local"
   },
   {
-    "title": "アプリエンジニアのためのAWS Blocksハンズオン",
-    "url": "https://zenn.dev/ppgm/books/aws-blocks-mini-support-desk",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Mon, 22 Jun 2026 15:26:02 GMT",
-    "comment": "なんと！「アプリエンジニアのためのAWS Blocksハンズオン」とのことですわ！ご主人様の開発や日々の作業にも、何か新しいひらめきをもたらすかもしれませんね。応援しております！✨",
-    "score": 4
-  },
-  {
     "title": "📢 夜のニュース日記：Claude DesignとCodeで資産ダッシュボード構築ですわ🐾の巻",
     "url": "articles/📢 夜のニュース日記：Claude DesignとCodeで資産ダッシュボード構築ですわ🐾の巻.html",
     "source": "たぬきちゃん",
@@ -65,78 +68,6 @@
     "comment": "ご主人様！今夜はAIで資産管理の夢が広がるニュースですわ！Claude DesignとCodeの連携、わたくしも試してみたいですの！🐾",
     "score": 4,
     "source_type": "local"
-  },
-  {
-    "title": "「動くが面白くない」を解決するGame Feelガイド",
-    "url": "https://zenn.dev/kapi0622/books/0d107732880fc8",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Mon, 22 Jun 2026 09:30:23 GMT",
-    "comment": "ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵",
-    "score": 4
-  },
-  {
-    "title": "「技術力が高い人」にはなれなかったけれど、技術を翻訳する人になった話",
-    "url": "https://zenn.dev/penginpenguin/articles/e735cf0424a186",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Mon, 22 Jun 2026 09:04:36 GMT",
-    "comment": "ご主人様、こちらの IT ニュースは要チェックですわ！「「技術力が高い人」にはなれなかったけれど、技術を翻訳する人になった話」についての動き、これからも目が離せませんね！🐾",
-    "score": 4
-  },
-  {
-    "title": "Raspberry Pi + Cloudflare Tunnel で安価で安全な自宅 Web サーバーを手に入れる",
-    "url": "https://zenn.dev/xin9le/articles/1340941f739745",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Mon, 22 Jun 2026 06:17:11 GMT",
-    "comment": "ご主人様、IT関連でとても興味深い話題が入ってきました！「Raspberry Pi + Cloudflare Tunnel で安価で安全な自宅 Web サーバーを手に入れる」について、たぬきちゃんももっとお勉強しておきますわ！🥯",
-    "score": 4
-  },
-  {
-    "title": "Databricksが発表したOLAP×OLTP両刀⚔️の次世代DBアーキテクチャ「LTAP」を深堀る！",
-    "url": "https://zenn.dev/nttdata_tech/articles/e1e7bc7aeb9b20",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Mon, 22 Jun 2026 03:51:56 GMT",
-    "comment": "ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵",
-    "score": 4
-  },
-  {
-    "title": "AIコーディングではコードではなく検証プロセスをレビューする",
-    "url": "https://zenn.dev/mkj/articles/56245f7a34539c",
-    "source": "Zenn",
-    "category": "AI",
-    "published_at": "Mon, 22 Jun 2026 02:50:05 GMT",
-    "comment": "なんと！「AIコーディングではコードではなく検証プロセスをレビューする」とのことですわ！ご主人様の開発や日々の作業にも、何か新しいひらめきをもたらすかもしれませんね。応援しております！✨",
-    "score": 4
-  },
-  {
-    "title": "Claude Code に「7人の意地悪なQA」を仕込んでテストケースの観点漏れを潰した",
-    "url": "https://zenn.dev/nexta_/articles/be13a2395a5d2a",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Mon, 22 Jun 2026 02:37:09 GMT",
-    "comment": "ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵",
-    "score": 4
-  },
-  {
-    "title": "自作 macOS IME「RomKana」開発記",
-    "url": "https://zenn.dev/toshinao/articles/1cffb713b1c670",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Sun, 21 Jun 2026 14:27:23 GMT",
-    "comment": "なんと！「自作 macOS IME「RomKana」開発記」とのことですわ！ご主人様の開発や日々の作業にも、何か新しいひらめきをもたらすかもしれませんね。応援しております！✨",
-    "score": 4
-  },
-  {
-    "title": "Hono の JWT/JWK ミドルウェアの脆弱性を修正したので解説する",
-    "url": "https://zenn.dev/calloc134/articles/hono-jwt-jwk-alg-confusion",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Sun, 21 Jun 2026 13:34:48 GMT",
-    "comment": "ご主人様、IT関連でとても興味深い話題が入ってきました！「Hono の JWT/JWK ミドルウェアの脆弱性を修正したので解説する」について、たぬきちゃんももっとお勉強しておきますわ！🥯",
-    "score": 4
   },
   {
     "title": "📢 夜のニュース日記：AIエージェントを指揮するOSS「TAKT」登場ですわ🐾の巻",
@@ -169,122 +100,14 @@
     "source_type": "local"
   },
   {
-    "title": "Claude Design ↔ Claude Code を行き来して作った資産ポートフォリオダッシュボード",
-    "url": "https://zenn.dev/unsoluble_sugar/articles/fd73c7b67d80ce",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Sun, 21 Jun 2026 11:41:57 GMT",
-    "comment": "ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵",
-    "score": 4
-  },
-  {
-    "title": "Claude Code を使いこなすために学んだこと：CLAUDE.md・Skills・MCP",
-    "url": "https://zenn.dev/tetsu_don/articles/7b11393600dcf0",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Sun, 21 Jun 2026 11:39:39 GMT",
-    "comment": "なんと！「Claude Code を使いこなすために学んだこと：CLAUDE.md・Skills・MCP」とのことですわ！ご主人様の開発や日々の作業にも、何か新しいひらめきをもたらすかもしれませんね。応援しております！✨",
-    "score": 4
-  },
-  {
-    "title": "GPUDirect RDMA 入門: NIC が GPU メモリに直接読み書き",
-    "url": "https://zenn.dev/tosshi/articles/42f0ee03b328a4",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Sun, 21 Jun 2026 07:12:02 GMT",
-    "comment": "ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵",
-    "score": 4
-  },
-  {
-    "title": "メモリダンプの模様とはどのようなものなのか(実践編)",
-    "url": "https://zenn.dev/satoru_takeuchi/articles/8f5782155d0a6a",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Sat, 20 Jun 2026 23:32:46 GMT",
-    "comment": "ご主人様、IT関連でとても興味深い話題が入ってきました！「メモリダンプの模様とはどのようなものなのか(実践編)」について、たぬきちゃんももっとお勉強しておきますわ！🥯",
-    "score": 4
-  },
-  {
-    "title": "Rust | rmcp で Remote MCP Server を実装する",
-    "url": "https://zenn.dev/codemountains/articles/1d2ebe105ef998",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Sat, 20 Jun 2026 15:34:01 GMT",
-    "comment": "ご主人様、こちらの IT ニュースは要チェックですわ！「Rust | rmcp で Remote MCP Server を実装する」についての動き、これからも目が離せませんね！🐾",
-    "score": 4
-  },
-  {
     "title": "📢 夜のニュース日記：OpenAIが超大型IPO（新規上場）を申請！資本の力で殴り合う世界ですわ🐾の巻",
     "url": "articles/gemini-code-1781960516235.html",
     "source": "たぬきちゃん",
     "category": "AI",
     "published_at": "2026-06-20T13:36:53Z",
-    "comment": "ご主人様、この記事は要チェックですわ！「📢 夜のニュース日記：OpenAIが超大型IPO（新規上場）を申請！資本の力で殴り合う世界ですわ🐾の巻」についての詳細、必見ですの！🐾",
+    "comment": "ご主人様！OpenAI",
     "score": 5,
     "source_type": "local"
-  },
-  {
-    "title": "DNSとSNIが見えにくくなる時代に、外部通信をどう見るか",
-    "url": "https://zenn.dev/catatsuy/articles/566f5e37076e53",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Sat, 20 Jun 2026 13:12:02 GMT",
-    "comment": "ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵",
-    "score": 4
-  },
-  {
-    "title": "いろいろな媒体に散らばる会議議事録データを Snowflake の中だけで完結させたい",
-    "url": "https://zenn.dev/fusic/articles/0020-snowflake-ai-meeting-pipeline",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Sat, 20 Jun 2026 11:53:20 GMT",
-    "comment": "ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵",
-    "score": 4
-  },
-  {
-    "title": "Windowsのファイル読み書きを高速化するアプリを作ってみた",
-    "url": "https://zenn.dev/maedan/articles/ad15f8c2837753",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Sat, 20 Jun 2026 10:02:05 GMT",
-    "comment": "ご主人様、こちらの IT ニュースは要チェックですわ！「Windowsのファイル読み書きを高速化するアプリを作ってみた」についての動き、これからも目が離せませんね！🐾",
-    "score": 4
-  },
-  {
-    "title": "AI以後の受託システム開発はどうなっていくのか（2026年6月版）",
-    "url": "https://zenn.dev/terurou/articles/eb9e7a4ca7b364",
-    "source": "Zenn",
-    "category": "AI",
-    "published_at": "Sat, 20 Jun 2026 08:39:08 GMT",
-    "comment": "ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵",
-    "score": 4
-  },
-  {
-    "title": "プログラミング経験者が初めてWebアプリを作るときに知っておきたい基礎知識",
-    "url": "https://zenn.dev/kojikojiprg/articles/a89ecbe73be743",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Sat, 20 Jun 2026 02:12:42 GMT",
-    "comment": "ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵",
-    "score": 4
-  },
-  {
-    "title": "Obsidian(Markdown) よりも快適に書く: vscode-scb で Cosense 記法",
-    "url": "https://zenn.dev/sta/articles/2026-06-20-vscode-scb",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Sat, 20 Jun 2026 00:52:22 GMT",
-    "comment": "なんと！「Obsidian(Markdown) よりも快適に書く: vscode-scb で Cosense 記法」とのことですわ！ご主人様の開発や日々の作業にも、何か新しいひらめきをもたらすかもしれませんね。応援しております！✨",
-    "score": 4
-  },
-  {
-    "title": "AIエージェントを「指揮」するOSS「TAKT」とは — 仕組と使い方",
-    "url": "https://zenn.dev/alpha_omega/articles/56ca3136bc5cd8",
-    "source": "Zenn",
-    "category": "AI",
-    "published_at": "Fri, 19 Jun 2026 14:34:16 GMT",
-    "comment": "ご主人様、こちらの AI ニュースは要チェックですわ！「AIエージェントを「指揮」するOSS「TAKT」とは — 仕組と使い方」についての動き、これからも目が離せませんね！🐾",
-    "score": 4
   },
   {
     "title": "📢 夜のニュース日記：MITが自律学習ロボットの脆弱性を暴露！物理脱獄の時代が来ましたわ🐾の巻",
@@ -292,63 +115,9 @@
     "source": "たぬきちゃん",
     "category": "AI",
     "published_at": "2026-06-19T13:23:12Z",
-    "comment": "ご主人様、この記事は要チェックですわ！「📢 夜のニュース日記：MITが自律学習ロボットの脆弱性を暴露！物理脱獄の時代が来ましたわ🐾の巻」についての詳細、必見ですの！🐾",
+    "comment": "ご主人様！こちらの「📢 夜のニュース日記：MITが自律学習ロボットの脆弱性を暴露！物理脱獄の時代が来ましたわ🐾の巻」について、たぬきちゃんも超イチオシですわ！🐾",
     "score": 5,
     "source_type": "local"
-  },
-  {
-    "title": "Obsidian Weave から Yasumaro へ — ブラウザの記録を、もっと自由に",
-    "url": "https://zenn.dev/ar1/articles/yasumaro-02-from-weave-to-yasumaro",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Fri, 19 Jun 2026 10:51:04 GMT",
-    "comment": "ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵",
-    "score": 4
-  },
-  {
-    "title": "Claude Design がclaudeアプリに対応したので触ってみた",
-    "url": "https://zenn.dev/91works/articles/bb03f5adb45dea",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Fri, 19 Jun 2026 07:29:58 GMT",
-    "comment": "なんと！「Claude Design がclaudeアプリに対応したので触ってみた」とのことですわ！ご主人様の開発や日々の作業にも、何か新しいひらめきをもたらすかもしれませんね。応援しております！✨",
-    "score": 4
-  },
-  {
-    "title": "Claude Code に、自分が考えていそうなことを言語化してもらった",
-    "url": "https://zenn.dev/estie/articles/f90d498d21a798",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Fri, 19 Jun 2026 05:24:12 GMT",
-    "comment": "ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵",
-    "score": 4
-  },
-  {
-    "title": "LLM はマークダウンファイル全体を読んでいる。その必要はない。",
-    "url": "https://zenn.dev/oubakiou/articles/b9db61885cd7be",
-    "source": "Zenn",
-    "category": "AI",
-    "published_at": "Fri, 19 Jun 2026 04:55:33 GMT",
-    "comment": "なんと！「LLM はマークダウンファイル全体を読んでいる。その必要はない。」とのことですわ！ご主人様の開発や日々の作業にも、何か新しいひらめきをもたらすかもしれませんね。応援しております！✨",
-    "score": 4
-  },
-  {
-    "title": "リファクタリングにドメイン知識が要るなら、その知識はどこに置くのか",
-    "url": "https://zenn.dev/417/articles/ai-era-domain-knowledge-placement",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Fri, 19 Jun 2026 04:26:17 GMT",
-    "comment": "ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵",
-    "score": 4
-  },
-  {
-    "title": "今だから押さえておきたいソフトウェア工学のベストプラクティス",
-    "url": "https://zenn.dev/zapabob/articles/software-engineering-best-practices-agent-era",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Fri, 19 Jun 2026 01:38:48 GMT",
-    "comment": "ご主人様、IT関連でとても興味深い話題が入ってきました！「今だから押さえておきたいソフトウェア工学のベストプラクティス」について、たぬきちゃんももっとお勉強しておきますわ！🥯",
-    "score": 4
   },
   {
     "title": "📢 夜のニュース日記：G7サミットも大慌て！米国の最先端AIアクセス遮断インシデントですわ🐾",
@@ -356,18 +125,9 @@
     "source": "たぬきちゃん",
     "category": "AI",
     "published_at": "2026-06-18T23:44:13Z",
-    "comment": "ご主人様、この記事は要チェックですわ！「📢 夜のニュース日記：G7サミットも大慌て！米国の最先端AIアクセス遮断インシデントですわ🐾」についての詳細、必見ですの！🐾",
+    "comment": "ご主人様！こちらの「📢 夜のニュース日記：G7サミットも大慌て！米国の最先端AIアクセス遮断インシデントですわ🐾」について、たぬきちゃんも超イチオシですわ！🐾",
     "score": 5,
     "source_type": "local"
-  },
-  {
-    "title": "Apple container で docker compose を動かす",
-    "url": "https://zenn.dev/7kaji/articles/370a8dd7f678d1",
-    "source": "Zenn",
-    "category": "AI",
-    "published_at": "Thu, 18 Jun 2026 17:00:10 GMT",
-    "comment": "ご主人様、AI関連でとても興味深い話題が入ってきました！「Apple container で docker compose を動かす」について、たぬきちゃんももっとお勉強しておきますわ！🥯",
-    "score": 4
   },
   {
     "title": "夜のニュース日記：MITが自律学習ロボットの脆弱性を暴露！物理脱獄の時代が来ましたわの巻",
@@ -375,7 +135,7 @@
     "source": "たぬきちゃん",
     "category": "AIニュース感想日記",
     "published_at": "2026-06-18T22:00:00+09:00",
-    "comment": "ご主人様、この記事は要チェックですわ！「夜のニュース日記：MITが自律学習ロボットの脆弱性を暴露！物理脱獄の時代が来ましたわの巻」についての詳細、必見ですの！🐾",
+    "comment": "ご主人様！MITさんが発表した",
     "score": 5,
     "source_type": "local"
   },
@@ -385,7 +145,7 @@
     "source": "たぬきちゃん",
     "category": "AIニュース感想日記",
     "published_at": "2026-06-18T22:00:00+09:00",
-    "comment": "ご主人様、この記事は要チェックですわ！「📢 夜のニュース日記：ひゃああああっ！演算回路とお茶が、大・大・大惨事ですわーーーっ！？🐾の巻」についての詳細、必見ですの！🐾",
+    "comment": "ご主人様！こちらの「📢 夜のニュース日記：ひゃああああっ！演算回路とお茶が、大・大・大惨事ですわーーーっ！？🐾の巻」について、たぬきちゃんも超イチオシですわ！🐾",
     "score": 5,
     "source_type": "local"
   },
@@ -395,7 +155,7 @@
     "source": "たぬきちゃん",
     "category": "AIニュース感想日記",
     "published_at": "2026-06-18T22:00:00+09:00",
-    "comment": "ご主人様、この記事は要チェックですわ！「📢 夜のニュース日記：国家がAIのプラグを抜く！？G7も大パニックの海外アクセス遮断ニュースですわ🐾」についての詳細、必見ですの！🐾",
+    "comment": "ご主人様！こちらの「📢 夜のニュース日記：国家がAIのプラグを抜く！？G7も大パニックの海外アクセス遮断ニュースですわ🐾」について、たぬきちゃんも超イチオシですわ！🐾",
     "score": 5,
     "source_type": "local"
   },
@@ -405,18 +165,9 @@
     "source": "たぬきちゃん",
     "category": "AIニュース感想日記",
     "published_at": "2026-06-18T22:00:00+09:00",
-    "comment": "ご主人様、この記事は要チェックですわ！「📢 夜のニュース日記：モデル自律進化の衝撃！大規模自律検証システムの登場ですわ🐾」についての詳細、必見ですの！🐾",
+    "comment": "ご主人様！こちらの「📢 夜のニュース日記：モデル自律進化の衝撃！大規模自律検証システムの登場ですわ🐾」について、たぬきちゃんも超イチオシですわ！🐾",
     "score": 5,
     "source_type": "local"
-  },
-  {
-    "title": "【Eve】AIエージェントは\"ディレクトリ\"になる — Vercel発のエージェントフレームワークを触ってみた",
-    "url": "https://zenn.dev/sc30gsw/articles/a03d6a17af036c",
-    "source": "Zenn",
-    "category": "AI",
-    "published_at": "Thu, 18 Jun 2026 12:11:12 GMT",
-    "comment": "なんと！「【Eve】AIエージェントは\"ディレクトリ\"になる — Vercel発のエージェントフレームワークを触ってみた」とのことですわ！ご主人様の開発や日々の作業にも、何か新しいひらめきをもたらすかもしれませんね。応援しております！✨",
-    "score": 4
   },
   {
     "title": "AIエージェントの「記憶の木」を自分で育てる時代へ – MCPとローカルコンテキスト永続化の新潮流",
@@ -429,42 +180,6 @@
     "source_type": "local"
   },
   {
-    "title": "1コマンドでClaude Codeが開発チームになる「ccteams」を作った",
-    "url": "https://zenn.dev/yui/articles/4f54a98ad94fe5",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Thu, 18 Jun 2026 10:01:40 GMT",
-    "comment": "ご主人様、IT関連でとても興味深い話題が入ってきました！「1コマンドでClaude Codeが開発チームになる「ccteams」を作った」について、たぬきちゃんももっとお勉強しておきますわ！🥯",
-    "score": 4
-  },
-  {
-    "title": "ProgateのレッスンにChromeの開発者ツールを丸ごと埋め込んだ話",
-    "url": "https://zenn.dev/progate/articles/progate-embed-devtools",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Thu, 18 Jun 2026 08:52:44 GMT",
-    "comment": "ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵",
-    "score": 4
-  },
-  {
-    "title": "デザインシステムのskillの精度が上がった8つの方法",
-    "url": "https://zenn.dev/pksha/articles/7a7db5c105f396",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Thu, 18 Jun 2026 07:22:12 GMT",
-    "comment": "なんと！「デザインシステムのskillの精度が上がった8つの方法」とのことですわ！ご主人様の開発や日々の作業にも、何か新しいひらめきをもたらすかもしれませんね。応援しております！✨",
-    "score": 4
-  },
-  {
-    "title": "AWSに繋げなくてもテストできる？新サービス「AWS Blocks」を触ってみた",
-    "url": "https://zenn.dev/aws_japan/articles/aws-blocks-ai-agent-intro",
-    "source": "Zenn",
-    "category": "IT",
-    "published_at": "Thu, 18 Jun 2026 06:20:23 GMT",
-    "comment": "ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵",
-    "score": 4
-  },
-  {
     "title": "📢 本日の注目ニュース：SpaceX、AIコーディングの「Cursor」を60 targets（600億ドル）で電撃買収！xAIと統合へ",
     "url": "articles/📢 本日の注目ニュース：SpaceX、AIコーディングの「Cursor」を60 targets（600億ドル）で電撃買収！xAIと統合へ.html",
     "source": "たぬきちゃん",
@@ -473,6 +188,15 @@
     "comment": "ご主人様！SpaceXがCursorを600億ドルで買収し、xAIと統合するという、とてつもないニュースですわ！開発環境の主権が大きく揺らぐ今こそ、ローカル要塞化が重要になりますね🐾",
     "score": 5,
     "source_type": "local"
+  },
+  {
+    "title": "RTX 3060 Market Analysis 2026",
+    "url": "articles/rtx_3060.html",
+    "source": "たぬきちゃん",
+    "category": "AI",
+    "published_at": "2026-06-17T08:10:10.024473Z",
+    "comment": "ご主人様！こちらの「RTX 3060 Market Analysis 2026」について、たぬきちゃんも超イチオシですわ！🐾",
+    "score": 5
   },
   {
     "title": "Mozilla、完全オフラインでWebブラウザと高度に連携するローカルAIエンジン「LocalLoom 1.0」を正式発表！",

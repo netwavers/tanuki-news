@@ -13,6 +13,8 @@ if sys.platform == "win32":
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
     sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
 
+from llm_client import DEFAULT_COMMENT_MODEL, build_chat_options, chat as llm_chat, get_llm_client
+
 # RSSフィード設定
 FEEDS = [
     {
@@ -106,11 +108,8 @@ def fetch_news_from_rss(feed_info):
         return []
 
 def generate_tanuki_comment(title, category):
-    """Gemini APIを使用して、たぬきちゃん風のコメントを生成する。APIキーがない場合はフォールバックする。"""
-    api_key = os.environ.get("GEMINI_API_KEY")
-    
-    if not api_key:
-        # フォールバック用ランダムテンプレート
+    """llm_manager 経由で、たぬきちゃん風のコメントを生成する。APIキーがない場合はフォールバックする。"""
+    if not os.environ.get("GEMINI_API_KEY"):
         import random
         templates = [
             f"ご主人様、こちらの {category} ニュースは要チェックですわ！「{title}」についての動き、これからも目が離せませんね！🐾",
@@ -120,10 +119,6 @@ def generate_tanuki_comment(title, category):
         ]
         return random.choice(templates)
 
-    # Gemini API経由での生成
-    # ここではGemini 2.5 Flashを使用します
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
-    
     prompt = f"""
 あなたはご主人様に仕えるメイドさん風AIアシスタントの「たぬきちゃん」です。
 以下のニュース記事に対して、メイドさんらしい丁寧で、ちょっぴりユーモアや愛嬌のあるイチオシ紹介コメント（日本語、1〜2文程度、120文字以内）を書いてください。
@@ -135,33 +130,17 @@ def generate_tanuki_comment(title, category):
 コメントのみをそのまま出力してください。余計なマークダウン装飾（引用符など）や「はい、コメントは以下の通りです」などの前置きは一切不要です。たぬきちゃんの発言そのものだけを出力してください。
 """
     
-    data = {
-        "contents": [{
-            "parts": [{"text": prompt}]
-        }],
-        "generationConfig": {
-            "temperature": 0.8,
-            "maxOutputTokens": 200
-        }
-    }
-    
     try:
-        req = urllib.request.Request(
-            url,
-            data=json.dumps(data).encode('utf-8'),
-            headers={'Content-Type': 'application/json'}
-        )
-        with urllib.request.urlopen(req, timeout=15) as response:
-            res_data = json.loads(response.read().decode('utf-8'))
-            comment = res_data['candidates'][0]['content']['parts'][0]['text'].strip()
-            # 稀に前後のダブルクォーテーションが入ってしまう場合のトリミング
+        client = get_llm_client(DEFAULT_COMMENT_MODEL)
+        options = build_chat_options(client.config.provider.value, temperature=0.8, max_output_tokens=200)
+        comment = llm_chat(DEFAULT_COMMENT_MODEL, [{"role": "user", "content": prompt}], options)
+        if comment:
             if comment.startswith('"') and comment.endswith('"'):
                 comment = comment[1:-1]
             return comment
     except Exception as e:
-        print(f"⚠️ Gemini APIコメント生成エラー: {e}")
-        # エラー時もフォールバック
-        return f"ご主人様！こちらの「{title}」のニュース、とっても気になりますわね！🐾"
+        print(f"⚠️ LLM APIコメント生成エラー: {e}")
+    return f"ご主人様！こちらの「{title}」のニュース、とっても気になりますわね！🐾"
 
 def main():
     json_path = os.path.join(os.path.dirname(__file__), "news.json")

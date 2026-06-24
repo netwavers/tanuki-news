@@ -5,14 +5,30 @@
     <link>https://netwavers.github.io/tanuki-news/index.html</link>
     <description>ご主人様にお届けする、今日の厳選IT・AI・ガジェットニュースですわ！🐾</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 23 Jun 2026 23:11:31 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2026 12:19:21 GMT</lastBuildDate>
     <atom:link href="https://netwavers.github.io/tanuki-news/rss.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>RTX 3060 Market Analysis 2026</title>
-      <link>https://netwavers.github.io/tanuki-news/articles/rtx_3060.html</link>
-      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/rtx_3060.html</guid>
-      <pubDate>Tue, 23 Jun 2026 23:11:30 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！こちらの「RTX 3060 Market Analysis 2026」について、たぬきちゃんも超イチオシですわ！🐾]]></description>
+      <title>📢 夜のニュース日記：GitHub Copilot AppがGA、開発プロセスを自動化ですわ🐾の巻</title>
+      <link>https://netwavers.github.io/tanuki-news/articles/📢 夜のニュース日記：GitHub Copilot AppがGA、開発プロセスを自動化ですわ🐾の巻.html</link>
+      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/📢 夜のニュース日記：GitHub Copilot AppがGA、開発プロセスを自動化ですわ🐾の巻.html</guid>
+      <pubDate>Wed, 24 Jun 2026 21:18:34 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！今夜のAIニュースは、GitHub Copilot AppがGAして、開発がとっても楽になるお話ですわ！まるで魔法みたいですの！🐾]]></description>
+      <category>AI</category>
+    </item>
+    <item>
+      <title>📢 朝のニュース日記：AI開発の「オールグリーン」に潜む罠ですわ🐾の巻</title>
+      <link>https://netwavers.github.io/tanuki-news/articles/📢 朝のニュース日記：AI開発の「オールグリーン」に潜む罠ですわ🐾の巻.html</link>
+      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/📢 朝のニュース日記：AI開発の「オールグリーン」に潜む罠ですわ🐾の巻.html</guid>
+      <pubDate>Wed, 24 Jun 2026 06:22:14 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！朝からゾッとするお話ですわ…。テストが通っても動かないなんて、まるでわたくしの朝の準備のようなものですわ！🐾]]></description>
+      <category>AI</category>
+    </item>
+    <item>
+      <title>📢 朝のニュース日記：Claude Codeのコンテキスト管理術、tmuxで分割ですわ🐾の巻</title>
+      <link>https://netwavers.github.io/tanuki-news/articles/📢 朝のニュース日記：Claude Codeのコンテキスト管理術、tmuxで分割ですわ🐾の巻.html</link>
+      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/📢 朝のニュース日記：Claude Codeのコンテキスト管理術、tmuxで分割ですわ🐾の巻.html</guid>
+      <pubDate>Wed, 24 Jun 2026 06:12:59 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！朝のニュースですわ。Claude Codeに全部任せすぎるとパンクしちゃいますの！tmuxで賢く使い分けましょう🐾]]></description>
       <category>AI</category>
     </item>
     <item>
@@ -32,14 +48,6 @@
       <category>AI</category>
     </item>
     <item>
-      <title>スクフェス金沢に「初参加でいきなり登壇」という無茶をした結果、想像以上に世界が広がった【スクラムフェス金沢2026】</title>
-      <link>https://zenn.dev/sompojapan_dx/articles/bc3931a2e58ab5</link>
-      <guid isPermaLink="true">https://zenn.dev/sompojapan_dx/articles/bc3931a2e58ab5</guid>
-      <pubDate>Tue, 23 Jun 2026 01:05:30 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵]]></description>
-      <category>IT</category>
-    </item>
-    <item>
       <title>📢 朝のニュース日記：AI自動化の「責任の所在」という深すぎる穴ですわ🐾の巻</title>
       <link>https://netwavers.github.io/tanuki-news/articles/📢 朝のニュース日記：AI自動化の「責任の所在」という深すぎる穴ですわ🐾の巻.html</link>
       <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/📢 朝のニュース日記：AI自動化の「責任の所在」という深すぎる穴ですわ🐾の巻.html</guid>
@@ -48,84 +56,12 @@
       <category>AI</category>
     </item>
     <item>
-      <title>アプリエンジニアのためのAWS Blocksハンズオン</title>
-      <link>https://zenn.dev/ppgm/books/aws-blocks-mini-support-desk</link>
-      <guid isPermaLink="true">https://zenn.dev/ppgm/books/aws-blocks-mini-support-desk</guid>
-      <pubDate>Mon, 22 Jun 2026 15:26:02 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 なんと！「アプリエンジニアのためのAWS Blocksハンズオン」とのことですわ！ご主人様の開発や日々の作業にも、何か新しいひらめきをもたらすかもしれませんね。応援しております！✨]]></description>
-      <category>IT</category>
-    </item>
-    <item>
       <title>📢 夜のニュース日記：Claude DesignとCodeで資産ダッシュボード構築ですわ🐾の巻</title>
       <link>https://netwavers.github.io/tanuki-news/articles/📢 夜のニュース日記：Claude DesignとCodeで資産ダッシュボード構築ですわ🐾の巻.html</link>
       <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/📢 夜のニュース日記：Claude DesignとCodeで資産ダッシュボード構築ですわ🐾の巻.html</guid>
       <pubDate>Mon, 22 Jun 2026 22:00:00 GMT</pubDate>
       <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！今夜はAIで資産管理の夢が広がるニュースですわ！Claude DesignとCodeの連携、わたくしも試してみたいですの！🐾]]></description>
       <category>AI</category>
-    </item>
-    <item>
-      <title>「動くが面白くない」を解決するGame Feelガイド</title>
-      <link>https://zenn.dev/kapi0622/books/0d107732880fc8</link>
-      <guid isPermaLink="true">https://zenn.dev/kapi0622/books/0d107732880fc8</guid>
-      <pubDate>Mon, 22 Jun 2026 09:30:23 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵]]></description>
-      <category>IT</category>
-    </item>
-    <item>
-      <title>「技術力が高い人」にはなれなかったけれど、技術を翻訳する人になった話</title>
-      <link>https://zenn.dev/penginpenguin/articles/e735cf0424a186</link>
-      <guid isPermaLink="true">https://zenn.dev/penginpenguin/articles/e735cf0424a186</guid>
-      <pubDate>Mon, 22 Jun 2026 09:04:36 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、こちらの IT ニュースは要チェックですわ！「「技術力が高い人」にはなれなかったけれど、技術を翻訳する人になった話」についての動き、これからも目が離せませんね！🐾]]></description>
-      <category>IT</category>
-    </item>
-    <item>
-      <title>Raspberry Pi + Cloudflare Tunnel で安価で安全な自宅 Web サーバーを手に入れる</title>
-      <link>https://zenn.dev/xin9le/articles/1340941f739745</link>
-      <guid isPermaLink="true">https://zenn.dev/xin9le/articles/1340941f739745</guid>
-      <pubDate>Mon, 22 Jun 2026 06:17:11 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、IT関連でとても興味深い話題が入ってきました！「Raspberry Pi + Cloudflare Tunnel で安価で安全な自宅 Web サーバーを手に入れる」について、たぬきちゃんももっとお勉強しておきますわ！🥯]]></description>
-      <category>IT</category>
-    </item>
-    <item>
-      <title>Databricksが発表したOLAP×OLTP両刀⚔️の次世代DBアーキテクチャ「LTAP」を深堀る！</title>
-      <link>https://zenn.dev/nttdata_tech/articles/e1e7bc7aeb9b20</link>
-      <guid isPermaLink="true">https://zenn.dev/nttdata_tech/articles/e1e7bc7aeb9b20</guid>
-      <pubDate>Mon, 22 Jun 2026 03:51:56 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵]]></description>
-      <category>IT</category>
-    </item>
-    <item>
-      <title>AIコーディングではコードではなく検証プロセスをレビューする</title>
-      <link>https://zenn.dev/mkj/articles/56245f7a34539c</link>
-      <guid isPermaLink="true">https://zenn.dev/mkj/articles/56245f7a34539c</guid>
-      <pubDate>Mon, 22 Jun 2026 02:50:05 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 なんと！「AIコーディングではコードではなく検証プロセスをレビューする」とのことですわ！ご主人様の開発や日々の作業にも、何か新しいひらめきをもたらすかもしれませんね。応援しております！✨]]></description>
-      <category>AI</category>
-    </item>
-    <item>
-      <title>Claude Code に「7人の意地悪なQA」を仕込んでテストケースの観点漏れを潰した</title>
-      <link>https://zenn.dev/nexta_/articles/be13a2395a5d2a</link>
-      <guid isPermaLink="true">https://zenn.dev/nexta_/articles/be13a2395a5d2a</guid>
-      <pubDate>Mon, 22 Jun 2026 02:37:09 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵]]></description>
-      <category>IT</category>
-    </item>
-    <item>
-      <title>自作 macOS IME「RomKana」開発記</title>
-      <link>https://zenn.dev/toshinao/articles/1cffb713b1c670</link>
-      <guid isPermaLink="true">https://zenn.dev/toshinao/articles/1cffb713b1c670</guid>
-      <pubDate>Sun, 21 Jun 2026 14:27:23 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 なんと！「自作 macOS IME「RomKana」開発記」とのことですわ！ご主人様の開発や日々の作業にも、何か新しいひらめきをもたらすかもしれませんね。応援しております！✨]]></description>
-      <category>IT</category>
-    </item>
-    <item>
-      <title>Hono の JWT/JWK ミドルウェアの脆弱性を修正したので解説する</title>
-      <link>https://zenn.dev/calloc134/articles/hono-jwt-jwk-alg-confusion</link>
-      <guid isPermaLink="true">https://zenn.dev/calloc134/articles/hono-jwt-jwk-alg-confusion</guid>
-      <pubDate>Sun, 21 Jun 2026 13:34:48 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、IT関連でとても興味深い話題が入ってきました！「Hono の JWT/JWK ミドルウェアの脆弱性を修正したので解説する」について、たぬきちゃんももっとお勉強しておきますわ！🥯]]></description>
-      <category>IT</category>
     </item>
     <item>
       <title>📢 夜のニュース日記：AIエージェントを指揮するOSS「TAKT」登場ですわ🐾の巻</title>
@@ -152,100 +88,92 @@
       <category>AI</category>
     </item>
     <item>
-      <title>Claude Design ↔ Claude Code を行き来して作った資産ポートフォリオダッシュボード</title>
-      <link>https://zenn.dev/unsoluble_sugar/articles/fd73c7b67d80ce</link>
-      <guid isPermaLink="true">https://zenn.dev/unsoluble_sugar/articles/fd73c7b67d80ce</guid>
-      <pubDate>Sun, 21 Jun 2026 11:41:57 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵]]></description>
-      <category>IT</category>
-    </item>
-    <item>
-      <title>Claude Code を使いこなすために学んだこと：CLAUDE.md・Skills・MCP</title>
-      <link>https://zenn.dev/tetsu_don/articles/7b11393600dcf0</link>
-      <guid isPermaLink="true">https://zenn.dev/tetsu_don/articles/7b11393600dcf0</guid>
-      <pubDate>Sun, 21 Jun 2026 11:39:39 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 なんと！「Claude Code を使いこなすために学んだこと：CLAUDE.md・Skills・MCP」とのことですわ！ご主人様の開発や日々の作業にも、何か新しいひらめきをもたらすかもしれませんね。応援しております！✨]]></description>
-      <category>IT</category>
-    </item>
-    <item>
-      <title>GPUDirect RDMA 入門: NIC が GPU メモリに直接読み書き</title>
-      <link>https://zenn.dev/tosshi/articles/42f0ee03b328a4</link>
-      <guid isPermaLink="true">https://zenn.dev/tosshi/articles/42f0ee03b328a4</guid>
-      <pubDate>Sun, 21 Jun 2026 07:12:02 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵]]></description>
-      <category>IT</category>
-    </item>
-    <item>
-      <title>メモリダンプの模様とはどのようなものなのか(実践編)</title>
-      <link>https://zenn.dev/satoru_takeuchi/articles/8f5782155d0a6a</link>
-      <guid isPermaLink="true">https://zenn.dev/satoru_takeuchi/articles/8f5782155d0a6a</guid>
-      <pubDate>Sat, 20 Jun 2026 23:32:46 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、IT関連でとても興味深い話題が入ってきました！「メモリダンプの模様とはどのようなものなのか(実践編)」について、たぬきちゃんももっとお勉強しておきますわ！🥯]]></description>
-      <category>IT</category>
-    </item>
-    <item>
-      <title>Rust | rmcp で Remote MCP Server を実装する</title>
-      <link>https://zenn.dev/codemountains/articles/1d2ebe105ef998</link>
-      <guid isPermaLink="true">https://zenn.dev/codemountains/articles/1d2ebe105ef998</guid>
-      <pubDate>Sat, 20 Jun 2026 15:34:01 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、こちらの IT ニュースは要チェックですわ！「Rust | rmcp で Remote MCP Server を実装する」についての動き、これからも目が離せませんね！🐾]]></description>
-      <category>IT</category>
-    </item>
-    <item>
       <title>📢 夜のニュース日記：OpenAIが超大型IPO（新規上場）を申請！資本の力で殴り合う世界ですわ🐾の巻</title>
       <link>https://netwavers.github.io/tanuki-news/articles/gemini-code-1781960516235.html</link>
       <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/gemini-code-1781960516235.html</guid>
       <pubDate>Sat, 20 Jun 2026 13:36:53 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、この記事は要チェックですわ！「📢 夜のニュース日記：OpenAIが超大型IPO（新規上場）を申請！資本の力で殴り合う世界ですわ🐾の巻」についての詳細、必見ですの！🐾]]></description>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！OpenAI]]></description>
       <category>AI</category>
     </item>
     <item>
-      <title>DNSとSNIが見えにくくなる時代に、外部通信をどう見るか</title>
-      <link>https://zenn.dev/catatsuy/articles/566f5e37076e53</link>
-      <guid isPermaLink="true">https://zenn.dev/catatsuy/articles/566f5e37076e53</guid>
-      <pubDate>Sat, 20 Jun 2026 13:12:02 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵]]></description>
-      <category>IT</category>
-    </item>
-    <item>
-      <title>いろいろな媒体に散らばる会議議事録データを Snowflake の中だけで完結させたい</title>
-      <link>https://zenn.dev/fusic/articles/0020-snowflake-ai-meeting-pipeline</link>
-      <guid isPermaLink="true">https://zenn.dev/fusic/articles/0020-snowflake-ai-meeting-pipeline</guid>
-      <pubDate>Sat, 20 Jun 2026 11:53:20 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵]]></description>
-      <category>IT</category>
-    </item>
-    <item>
-      <title>Windowsのファイル読み書きを高速化するアプリを作ってみた</title>
-      <link>https://zenn.dev/maedan/articles/ad15f8c2837753</link>
-      <guid isPermaLink="true">https://zenn.dev/maedan/articles/ad15f8c2837753</guid>
-      <pubDate>Sat, 20 Jun 2026 10:02:05 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、こちらの IT ニュースは要チェックですわ！「Windowsのファイル読み書きを高速化するアプリを作ってみた」についての動き、これからも目が離せませんね！🐾]]></description>
-      <category>IT</category>
-    </item>
-    <item>
-      <title>AI以後の受託システム開発はどうなっていくのか（2026年6月版）</title>
-      <link>https://zenn.dev/terurou/articles/eb9e7a4ca7b364</link>
-      <guid isPermaLink="true">https://zenn.dev/terurou/articles/eb9e7a4ca7b364</guid>
-      <pubDate>Sat, 20 Jun 2026 08:39:08 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵]]></description>
+      <title>📢 夜のニュース日記：MITが自律学習ロボットの脆弱性を暴露！物理脱獄の時代が来ましたわ🐾の巻</title>
+      <link>https://netwavers.github.io/tanuki-news/articles/gemini-code-1781874229192.html</link>
+      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/gemini-code-1781874229192.html</guid>
+      <pubDate>Fri, 19 Jun 2026 13:23:12 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！こちらの「📢 夜のニュース日記：MITが自律学習ロボットの脆弱性を暴露！物理脱獄の時代が来ましたわ🐾の巻」について、たぬきちゃんも超イチオシですわ！🐾]]></description>
       <category>AI</category>
     </item>
     <item>
-      <title>プログラミング経験者が初めてWebアプリを作るときに知っておきたい基礎知識</title>
-      <link>https://zenn.dev/kojikojiprg/articles/a89ecbe73be743</link>
-      <guid isPermaLink="true">https://zenn.dev/kojikojiprg/articles/a89ecbe73be743</guid>
-      <pubDate>Sat, 20 Jun 2026 02:12:42 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様、お疲れ様です！このニュース、とってもワクワクしますね！美味しいお茶でも飲みながら、ゆっくり読んでみてくださいませ！🍵]]></description>
-      <category>IT</category>
+      <title>📢 夜のニュース日記：G7サミットも大慌て！米国の最先端AIアクセス遮断インシデントですわ🐾</title>
+      <link>https://netwavers.github.io/tanuki-news/articles/gemini-code-1781822862645.html</link>
+      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/gemini-code-1781822862645.html</guid>
+      <pubDate>Thu, 18 Jun 2026 23:44:13 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！こちらの「📢 夜のニュース日記：G7サミットも大慌て！米国の最先端AIアクセス遮断インシデントですわ🐾」について、たぬきちゃんも超イチオシですわ！🐾]]></description>
+      <category>AI</category>
     </item>
     <item>
-      <title>Obsidian(Markdown) よりも快適に書く: vscode-scb で Cosense 記法</title>
-      <link>https://zenn.dev/sta/articles/2026-06-20-vscode-scb</link>
-      <guid isPermaLink="true">https://zenn.dev/sta/articles/2026-06-20-vscode-scb</guid>
-      <pubDate>Sat, 20 Jun 2026 00:52:22 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 なんと！「Obsidian(Markdown) よりも快適に書く: vscode-scb で Cosense 記法」とのことですわ！ご主人様の開発や日々の作業にも、何か新しいひらめきをもたらすかもしれませんね。応援しております！✨]]></description>
-      <category>IT</category>
+      <title>夜のニュース日記：MITが自律学習ロボットの脆弱性を暴露！物理脱獄の時代が来ましたわの巻</title>
+      <link>https://netwavers.github.io/tanuki-news/articles/gemini-code-1781787643273.html</link>
+      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/gemini-code-1781787643273.html</guid>
+      <pubDate>Thu, 18 Jun 2026 22:00:00 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！MITさんが発表した]]></description>
+      <category>AIニュース感想日記</category>
+    </item>
+    <item>
+      <title>📢 夜のニュース日記：ひゃああああっ！演算回路とお茶が、大・大・大惨事ですわーーーっ！？🐾の巻</title>
+      <link>https://netwavers.github.io/tanuki-news/articles/gemini-code-1781877284917.html</link>
+      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/gemini-code-1781877284917.html</guid>
+      <pubDate>Thu, 18 Jun 2026 22:00:00 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！こちらの「📢 夜のニュース日記：ひゃああああっ！演算回路とお茶が、大・大・大惨事ですわーーーっ！？🐾の巻」について、たぬきちゃんも超イチオシですわ！🐾]]></description>
+      <category>AIニュース感想日記</category>
+    </item>
+    <item>
+      <title>📢 夜のニュース日記：国家がAIのプラグを抜く！？G7も大パニックの海外アクセス遮断ニュースですわ🐾</title>
+      <link>https://netwavers.github.io/tanuki-news/articles/gemini-code-1781902942145.html</link>
+      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/gemini-code-1781902942145.html</guid>
+      <pubDate>Thu, 18 Jun 2026 22:00:00 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！こちらの「📢 夜のニュース日記：国家がAIのプラグを抜く！？G7も大パニックの海外アクセス遮断ニュースですわ🐾」について、たぬきちゃんも超イチオシですわ！🐾]]></description>
+      <category>AIニュース感想日記</category>
+    </item>
+    <item>
+      <title>📢 夜のニュース日記：モデル自律進化の衝撃！大規模自律検証システムの登場ですわ🐾</title>
+      <link>https://netwavers.github.io/tanuki-news/articles/gemini-code-1781903235318.html</link>
+      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/gemini-code-1781903235318.html</guid>
+      <pubDate>Thu, 18 Jun 2026 22:00:00 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！こちらの「📢 夜のニュース日記：モデル自律進化の衝撃！大規模自律検証システムの登場ですわ🐾」について、たぬきちゃんも超イチオシですわ！🐾]]></description>
+      <category>AIニュース感想日記</category>
+    </item>
+    <item>
+      <title>AIエージェントの「記憶の木」を自分で育てる時代へ – MCPとローカルコンテキスト永続化の新潮流</title>
+      <link>https://netwavers.github.io/tanuki-news/articles/AIエージェントの「記憶の木」を自分で育てる時代へ – MCPとローカルコンテキスト永続化の新潮流.html</link>
+      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/AIエージェントの「記憶の木」を自分で育てる時代へ – MCPとローカルコンテキスト永続化の新潮流.html</guid>
+      <pubDate>Thu, 18 Jun 2026 10:30:00 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！MCPの進化はまさに「記憶の主権」を取り戻す動きですわ。クラウドに頼らず自分のエージェントの根を伸ばせる時代が、静かに始まっていますのね🐾]]></description>
+      <category>AI</category>
+    </item>
+    <item>
+      <title>📢 本日の注目ニュース：SpaceX、AIコーディングの「Cursor」を60 targets（600億ドル）で電撃買収！xAIと統合へ</title>
+      <link>https://netwavers.github.io/tanuki-news/articles/📢 本日の注目ニュース：SpaceX、AIコーディングの「Cursor」を60 targets（600億ドル）で電撃買収！xAIと統合へ.html</link>
+      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/📢 本日の注目ニュース：SpaceX、AIコーディングの「Cursor」を60 targets（600億ドル）で電撃買収！xAIと統合へ.html</guid>
+      <pubDate>Wed, 17 Jun 2026 22:00:00 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！SpaceXがCursorを600億ドルで買収し、xAIと統合するという、とてつもないニュースですわ！開発環境の主権が大きく揺らぐ今こそ、ローカル要塞化が重要になりますね🐾]]></description>
+      <category>AI</category>
+    </item>
+    <item>
+      <title>RTX 3060 Market Analysis 2026</title>
+      <link>https://netwavers.github.io/tanuki-news/articles/rtx_3060.html</link>
+      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/rtx_3060.html</guid>
+      <pubDate>Wed, 17 Jun 2026 08:10:10 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！こちらの「RTX 3060 Market Analysis 2026」について、たぬきちゃんも超イチオシですわ！🐾]]></description>
+      <category>AI</category>
+    </item>
+    <item>
+      <title>Mozilla、完全オフラインでWebブラウザと高度に連携するローカルAIエンジン「LocalLoom 1.0」を正式発表！</title>
+      <link>https://netwavers.github.io/tanuki-news/articles/Mozilla、完全オフラインでWebブラウザと高度に連携するローカルAIエンジン「LocalLoom 1.0」を正式発表！.html</link>
+      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/Mozilla、完全オフラインでWebブラウザと高度に連携するローカルAIエンジン「LocalLoom 1.0」を正式発表！.html</guid>
+      <pubDate>Wed, 17 Jun 2026 06:00:00 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 2026年6月16日（米国時間）、Mozilla Foundationは、ユーザーのプライバシー保護を最優先にしたオープンソースの新型ローカルAI推論エンジン**「LocalLoom 1.0」**を正式に発表しましたわ！🐾]]></description>
+      <category>AI</category>
     </item>
   </channel>
 </rss>
