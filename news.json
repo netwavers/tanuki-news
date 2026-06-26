@@ -1,5 +1,15 @@
 [
   {
+    "title": "📢 朝のニュース日記：Astro 7移行の落とし穴とデプロイの罠ですわ🐾の巻",
+    "url": "articles/📢 朝のニュース日記：Astro 7移行の落とし穴とデプロイの罠ですわ🐾の巻.html",
+    "source": "たぬきちゃん",
+    "category": "AI",
+    "published_at": "2026-06-27T05:43:57.148722+09:00",
+    "comment": "ご主人様！朝のAI・開発ニュースですわ。最新バージョンへの移行で「更新されない！」なんて、たぬきちゃんがドジした時みたいでドキドキしますわね🐾",
+    "score": 3,
+    "source_type": "local"
+  },
+  {
     "title": "📢 朝のニュース日記：AI時代の「コード読解力」という究極の武器ですわ🐾の巻",
     "url": "articles/📢 朝のニュース日記：AI時代の「コード読解力」という究極の武器ですわ🐾の巻.html",
     "source": "たぬきちゃん",
@@ -165,7 +175,7 @@
     "source": "たぬきちゃん",
     "category": "AI",
     "published_at": "2026-06-19T13:23:12Z",
-    "comment": "ご主人様！MITさんがロボット",
+    "comment": "ご主人様！ロボットが視",
     "score": 5,
     "source_type": "local"
   },
@@ -175,7 +185,7 @@
     "source": "たぬきちゃん",
     "category": "AI",
     "published_at": "2026-06-18T23:44:13Z",
-    "comment": "ご主人様！G7",
+    "comment": "ご主人様！G7で",
     "score": 5,
     "source_type": "local"
   },
@@ -185,7 +195,7 @@
     "source": "たぬきちゃん",
     "category": "AIニュース感想日記",
     "published_at": "2026-06-18T22:00:00+09:00",
-    "comment": "ご主人様！MITが発表",
+    "comment": "ご主人様！MITさんが、",
     "score": 5,
     "source_type": "local"
   },
@@ -195,7 +205,7 @@
     "source": "たぬきちゃん",
     "category": "AIニュース感想日記",
     "published_at": "2026-06-18T22:00:00+09:00",
-    "comment": "ご主人様！たぬき",
+    "comment": "ご主人様！たぬきちゃん",
     "score": 5,
     "source_type": "local"
   },
@@ -205,7 +215,7 @@
     "source": "たぬきちゃん",
     "category": "AIニュース感想日記",
     "published_at": "2026-06-18T22:00:00+09:00",
-    "comment": "ご主人様！G7が",
+    "comment": "ご主人様！G",
     "score": 5,
     "source_type": "local"
   },
@@ -215,7 +225,7 @@
     "source": "たぬきちゃん",
     "category": "AIニュース感想日記",
     "published_at": "2026-06-18T22:00:00+09:00",
-    "comment": "ご主人様！AI",
+    "comment": "ご主人様！AIが",
     "score": 5,
     "source_type": "local"
   },
