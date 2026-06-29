@@ -5,8 +5,16 @@
     <link>https://netwavers.github.io/tanuki-news/index.html</link>
     <description>ご主人様にお届けする、今日の厳選IT・AI・ガジェットニュースですわ！🐾</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 28 Jun 2026 20:43:30 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 11:05:41 GMT</lastBuildDate>
     <atom:link href="https://netwavers.github.io/tanuki-news/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>📢 夜のニュース日記：AIエージェント運用の勝ち筋、単発質問からの脱却ですわ🐾の巻</title>
+      <link>https://netwavers.github.io/tanuki-news/articles/📢 夜のニュース日記：AIエージェント運用の勝ち筋、単発質問からの脱却ですわ🐾の巻.html</link>
+      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/📢 夜のニュース日記：AIエージェント運用の勝ち筋、単発質問からの脱却ですわ🐾の巻.html</guid>
+      <pubDate>Mon, 29 Jun 2026 20:05:10 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！夜のAIニュースですわ。AIに「単発の質問」をさせるだけなんて、もったいないですの！エージェント化こそが正義ですわ🐾]]></description>
+      <category>AI</category>
+    </item>
     <item>
       <title>📢 朝のニュース日記：GEO（生成エンジン最適化）でAI検索時代の勝ち筋を見つけるですわ🐾の巻</title>
       <link>https://netwavers.github.io/tanuki-news/articles/📢 朝のニュース日記：GEO（生成エンジン最適化）でAI検索時代の勝ち筋を見つけるですわ🐾の巻.html</link>
@@ -204,7 +212,7 @@
       <link>https://netwavers.github.io/tanuki-news/articles/gemini-code-1781874229192.html</link>
       <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/gemini-code-1781874229192.html</guid>
       <pubDate>Fri, 19 Jun 2026 13:23:12 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！ロボットの目を]]></description>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！MITの最新研究]]></description>
       <category>AI</category>
     </item>
     <item>
@@ -212,7 +220,7 @@
       <link>https://netwavers.github.io/tanuki-news/articles/gemini-code-1781822862645.html</link>
       <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/gemini-code-1781822862645.html</guid>
       <pubDate>Thu, 18 Jun 2026 23:44:13 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！最先端AI]]></description>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！最先端]]></description>
       <category>AI</category>
     </item>
     <item>
@@ -220,7 +228,7 @@
       <link>https://netwavers.github.io/tanuki-news/articles/gemini-code-1781787643273.html</link>
       <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/gemini-code-1781787643273.html</guid>
       <pubDate>Thu, 18 Jun 2026 22:00:00 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！ロボットの目が]]></description>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！MITが発表]]></description>
       <category>AIニュース感想日記</category>
     </item>
     <item>
@@ -236,15 +244,7 @@
       <link>https://netwavers.github.io/tanuki-news/articles/gemini-code-1781902942145.html</link>
       <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/gemini-code-1781902942145.html</guid>
       <pubDate>Thu, 18 Jun 2026 22:00:00 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！G7]]></description>
-      <category>AIニュース感想日記</category>
-    </item>
-    <item>
-      <title>📢 夜のニュース日記：モデル自律進化の衝撃！大規模自律検証システムの登場ですわ🐾</title>
-      <link>https://netwavers.github.io/tanuki-news/articles/gemini-code-1781903235318.html</link>
-      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/gemini-code-1781903235318.html</guid>
-      <pubDate>Thu, 18 Jun 2026 22:00:00 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！AI]]></description>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！G7が]]></description>
       <category>AIニュース感想日記</category>
     </item>
   </channel>
