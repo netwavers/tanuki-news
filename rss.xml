@@ -5,8 +5,16 @@
     <link>https://netwavers.github.io/tanuki-news/index.html</link>
     <description>ご主人様にお届けする、今日の厳選IT・AI・ガジェットニュースですわ！🐾</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 01 Jul 2026 21:43:05 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 12:09:22 GMT</lastBuildDate>
     <atom:link href="https://netwavers.github.io/tanuki-news/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>📢 夜のニュース日記：Microsoftが小型AIエージェント基盤を公開！賢さより連携力ですわ🐾の巻</title>
+      <link>https://netwavers.github.io/tanuki-news/articles/📢 夜のニュース日記：Microsoftが小型AIエージェント基盤を公開！賢さより連携力ですわ🐾の巻.html</link>
+      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/📢 夜のニュース日記：Microsoftが小型AIエージェント基盤を公開！賢さより連携力ですわ🐾の巻.html</guid>
+      <pubDate>Thu, 02 Jul 2026 21:08:50 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！夜のAIニュースですわ。Microsoftさんが「賢さより連携力」という、なんだか世渡り上手なAIを公開したそうですわよ！🐾]]></description>
+      <category>AI</category>
+    </item>
     <item>
       <title>📢 朝のニュース日記：AI駆動開発の盲点、コーディングはボトルネックではなかった！？ですわ🐾の巻</title>
       <link>https://netwavers.github.io/tanuki-news/articles/📢 朝のニュース日記：AI駆動開発の盲点、コーディングはボトルネックではなかった！？ですわ🐾の巻.html</link>
@@ -236,15 +244,7 @@
       <link>https://netwavers.github.io/tanuki-news/articles/gemini-code-1781960516235.html</link>
       <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/gemini-code-1781960516235.html</guid>
       <pubDate>Sat, 20 Jun 2026 13:36:53 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！OpenAIが]]></description>
-      <category>AI</category>
-    </item>
-    <item>
-      <title>📢 夜のニュース日記：MITが自律学習ロボットの脆弱性を暴露！物理脱獄の時代が来ましたわ🐾の巻</title>
-      <link>https://netwavers.github.io/tanuki-news/articles/gemini-code-1781874229192.html</link>
-      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/gemini-code-1781874229192.html</guid>
-      <pubDate>Fri, 19 Jun 2026 13:23:12 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！こちらの「📢 夜のニュース日記：MITが自律学習ロボットの脆弱性を暴露！物理脱獄の時代が来ましたわ🐾の巻」について、たぬきちゃんも超イチオシですわ！🐾]]></description>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！こちらの「📢 夜のニュース日記：OpenAIが超大型IPO（新規上場）を申請！資本の力で殴り合う世界ですわ🐾の巻」について、たぬきちゃんも超イチオシですわ！🐾]]></description>
       <category>AI</category>
     </item>
   </channel>
