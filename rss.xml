@@ -5,8 +5,16 @@
     <link>https://netwavers.github.io/tanuki-news/index.html</link>
     <description>ご主人様にお届けする、今日の厳選IT・AI・ガジェットニュースですわ！🐾</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 02 Jul 2026 12:09:22 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 21:00:07 GMT</lastBuildDate>
     <atom:link href="https://netwavers.github.io/tanuki-news/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>📢 朝のニュース日記：AIポリシーの致命的な欠陥！ルール作りで躓いちゃダメですわ🐾の巻</title>
+      <link>https://netwavers.github.io/tanuki-news/articles/📢 朝のニュース日記：AIポリシーの致命的な欠陥！ルール作りで躓いちゃダメですわ🐾の巻.html</link>
+      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/📢 朝のニュース日記：AIポリシーの致命的な欠陥！ルール作りで躓いちゃダメですわ🐾の巻.html</guid>
+      <pubDate>Fri, 03 Jul 2026 05:59:40 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！朝のAIニュースですわ。ルールを厳しくしすぎてAIが使い物にならないなんて、お笑い草ですわね！🐾]]></description>
+      <category>AI</category>
+    </item>
     <item>
       <title>📢 夜のニュース日記：Microsoftが小型AIエージェント基盤を公開！賢さより連携力ですわ🐾の巻</title>
       <link>https://netwavers.github.io/tanuki-news/articles/📢 夜のニュース日記：Microsoftが小型AIエージェント基盤を公開！賢さより連携力ですわ🐾の巻.html</link>
@@ -237,14 +245,6 @@
       <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/📢 夜のニュース日記：GitHub Copilotのクレジット監視が楽になりますわ🐾の巻.html</guid>
       <pubDate>Sun, 21 Jun 2026 22:00:00 GMT</pubDate>
       <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！今夜はGitHub Copilotのクレジット管理が便利になるお話ですわ！これでAI開発のコストもバッチリですの！🐾]]></description>
-      <category>AI</category>
-    </item>
-    <item>
-      <title>📢 夜のニュース日記：OpenAIが超大型IPO（新規上場）を申請！資本の力で殴り合う世界ですわ🐾の巻</title>
-      <link>https://netwavers.github.io/tanuki-news/articles/gemini-code-1781960516235.html</link>
-      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/gemini-code-1781960516235.html</guid>
-      <pubDate>Sat, 20 Jun 2026 13:36:53 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！こちらの「📢 夜のニュース日記：OpenAIが超大型IPO（新規上場）を申請！資本の力で殴り合う世界ですわ🐾の巻」について、たぬきちゃんも超イチオシですわ！🐾]]></description>
       <category>AI</category>
     </item>
   </channel>
