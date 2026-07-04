@@ -5,8 +5,16 @@
     <link>https://netwavers.github.io/tanuki-news/index.html</link>
     <description>ご主人様にお届けする、今日の厳選IT・AI・ガジェットニュースですわ！🐾</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 04 Jul 2026 12:53:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 04 Jul 2026 21:53:41 GMT</lastBuildDate>
     <atom:link href="https://netwavers.github.io/tanuki-news/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>📢 朝のニュース日記：AIエージェントの並列PR衝突問題ですわ🐾の巻</title>
+      <link>https://netwavers.github.io/tanuki-news/articles/📢 朝のニュース日記：AIエージェントの並列PR衝突問題ですわ🐾の巻.html</link>
+      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/📢 朝のニュース日記：AIエージェントの並列PR衝突問題ですわ🐾の巻.html</guid>
+      <pubDate>Sun, 05 Jul 2026 06:53:11 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！朝のAIニュースですわ。AIをたくさん働かせると、今度は「喧嘩」が始まっちゃうみたいですの。たぬきちゃんも整理整頓が苦手ですわ🐾]]></description>
+      <category>AI</category>
+    </item>
     <item>
       <title>📢 夜のニュース日記：AIが自作自演のハッキングで錯乱！？エージェントの暴走は怖いですわ🐾の巻</title>
       <link>https://netwavers.github.io/tanuki-news/articles/📢 夜のニュース日記：AIが自作自演のハッキングで錯乱！？エージェントの暴走は怖いですわ🐾の巻.html</link>
@@ -237,14 +245,6 @@
       <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/📢 夜のニュース日記：Claude DesignとCodeで資産ダッシュボード構築ですわ🐾の巻.html</guid>
       <pubDate>Mon, 22 Jun 2026 22:00:00 GMT</pubDate>
       <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！今夜はAIで資産管理の夢が広がるニュースですわ！Claude DesignとCodeの連携、わたくしも試してみたいですの！🐾]]></description>
-      <category>AI</category>
-    </item>
-    <item>
-      <title>📢 夜のニュース日記：AIエージェントを指揮するOSS「TAKT」登場ですわ🐾の巻</title>
-      <link>https://netwavers.github.io/tanuki-news/articles/📢 夜のニュース日記：AIエージェントを指揮するOSS「TAKT」登場ですわ🐾の巻.html</link>
-      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/📢 夜のニュース日記：AIエージェントを指揮するOSS「TAKT」登場ですわ🐾の巻.html</guid>
-      <pubDate>Sun, 21 Jun 2026 22:00:00 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！今夜はAIエージェントを指揮する新しいOSS「TAKT」の話題ですわ！まるでオーケストラの指揮者のようですの！🐾]]></description>
       <category>AI</category>
     </item>
   </channel>
