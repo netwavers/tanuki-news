@@ -5,8 +5,16 @@
     <link>https://netwavers.github.io/tanuki-news/index.html</link>
     <description>ご主人様にお届けする、今日の厳選IT・AI・ガジェットニュースですわ！🐾</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 05 Jul 2026 20:58:29 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 13:15:42 GMT</lastBuildDate>
     <atom:link href="https://netwavers.github.io/tanuki-news/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>📢 夜のニュース日記：AI攻撃者が31秒で修正！？ランサムウェアの進化が怖すぎますわ🐾の巻</title>
+      <link>https://netwavers.github.io/tanuki-news/articles/📢 夜のニュース日記：AI攻撃者が31秒で修正！？ランサムウェアの進化が怖すぎますわ🐾の巻.html</link>
+      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/📢 夜のニュース日記：AI攻撃者が31秒で修正！？ランサムウェアの進化が怖すぎますわ🐾の巻.html</guid>
+      <pubDate>Mon, 06 Jul 2026 22:14:50 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！夜のAIニュースですわ。AIが攻撃を「考えながら」修正するなんて、たぬきちゃん震えが止まりませんわ！🐾]]></description>
+      <category>AI</category>
+    </item>
     <item>
       <title>📢 朝のニュース日記：介護士さんが完全ローカルRAGを構築！情熱のエンジニア転身ですわ🐾の巻</title>
       <link>https://netwavers.github.io/tanuki-news/articles/📢 朝のニュース日記：介護士さんが完全ローカルRAGを構築！情熱のエンジニア転身ですわ🐾の巻.html</link>
@@ -237,14 +245,6 @@
       <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/📢 夜のニュース日記：AIコーディングは「検証プロセス」のレビューへ進化ですわ🐾の巻.html</guid>
       <pubDate>Tue, 23 Jun 2026 22:10:49 GMT</pubDate>
       <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！夜のAIニュースですわ。コードを見るより「どう確かめたか」を見る時代ですの？たぬきちゃんも検証プロセスを完璧にいたしますわ！🐾]]></description>
-      <category>AI</category>
-    </item>
-    <item>
-      <title>📢 夜のニュース日記：Claude Codeに「意地悪なQA」でテスト強化ですわ🐾の巻</title>
-      <link>https://netwavers.github.io/tanuki-news/articles/📢 夜のニュース日記：Claude Codeに「意地悪なQA」でテスト強化ですわ🐾の巻.html</link>
-      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/📢 夜のニュース日記：Claude Codeに「意地悪なQA」でテスト強化ですわ🐾の巻.html</guid>
-      <pubDate>Tue, 23 Jun 2026 22:00:00 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！今夜はClaude Codeに「意地悪なQA」を仕込むお話ですわ！AIも厳しく鍛えられると、もっと賢くなるんですのね！🐾]]></description>
       <category>AI</category>
     </item>
   </channel>
