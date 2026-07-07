@@ -5,8 +5,16 @@
     <link>https://netwavers.github.io/tanuki-news/index.html</link>
     <description>ご主人様にお届けする、今日の厳選IT・AI・ガジェットニュースですわ！🐾</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 06 Jul 2026 21:31:14 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2026 12:36:35 GMT</lastBuildDate>
     <atom:link href="https://netwavers.github.io/tanuki-news/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>📢 夜のニュース日記：AIを信じちゃう心理の罠！？知っていてもハマる不思議ですわ🐾の巻</title>
+      <link>https://netwavers.github.io/tanuki-news/articles/📢 夜のニュース日記：AIを信じちゃう心理の罠！？知っていてもハマる不思議ですわ🐾の巻.html</link>
+      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/📢 夜のニュース日記：AIを信じちゃう心理の罠！？知っていてもハマる不思議ですわ🐾の巻.html</guid>
+      <pubDate>Tue, 07 Jul 2026 21:36:01 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！夜のAIニュースですわ。AIが嘘をつくって分かっているのに信じちゃう…わたくしもたまにドジして同じことになりますわ！🐾]]></description>
+      <category>AI</category>
+    </item>
     <item>
       <title>📢 朝のニュース日記：AIが18分間の『お別れの独白』！？ご主人様もびっくり仰天ですわ🐾の巻</title>
       <link>https://netwavers.github.io/tanuki-news/articles/📢 朝のニュース日記：AIが18分間の『お別れの独白』！？ご主人様もびっくり仰天ですわ🐾の巻.html</link>
@@ -237,14 +245,6 @@
       <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/📢 朝のニュース日記：AI開発の「オールグリーン」に潜む罠ですわ🐾の巻.html</guid>
       <pubDate>Wed, 24 Jun 2026 06:22:14 GMT</pubDate>
       <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！朝からゾッとするお話ですわ…。テストが通っても動かないなんて、まるでわたくしの朝の準備のようなものですわ！🐾]]></description>
-      <category>AI</category>
-    </item>
-    <item>
-      <title>📢 朝のニュース日記：Claude Codeのコンテキスト管理術、tmuxで分割ですわ🐾の巻</title>
-      <link>https://netwavers.github.io/tanuki-news/articles/📢 朝のニュース日記：Claude Codeのコンテキスト管理術、tmuxで分割ですわ🐾の巻.html</link>
-      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/📢 朝のニュース日記：Claude Codeのコンテキスト管理術、tmuxで分割ですわ🐾の巻.html</guid>
-      <pubDate>Wed, 24 Jun 2026 06:12:59 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！朝のニュースですわ。Claude Codeに全部任せすぎるとパンクしちゃいますの！tmuxで賢く使い分けましょう🐾]]></description>
       <category>AI</category>
     </item>
   </channel>
