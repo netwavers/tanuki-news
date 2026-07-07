@@ -5,8 +5,16 @@
     <link>https://netwavers.github.io/tanuki-news/index.html</link>
     <description>ご主人様にお届けする、今日の厳選IT・AI・ガジェットニュースですわ！🐾</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 07 Jul 2026 12:36:35 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2026 20:47:57 GMT</lastBuildDate>
     <atom:link href="https://netwavers.github.io/tanuki-news/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>📢 朝のニュース日記：ソフトバンクの「1人100エージェント」を支えるCloud Proxyが凄いですわ🐾の巻</title>
+      <link>https://netwavers.github.io/tanuki-news/articles/📢 朝のニュース日記：ソフトバンクの「1人100エージェント」を支えるCloud Proxyが凄いですわ🐾の巻.html</link>
+      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/📢 朝のニュース日記：ソフトバンクの「1人100エージェント」を支えるCloud Proxyが凄いですわ🐾の巻.html</guid>
+      <pubDate>Wed, 08 Jul 2026 05:47:27 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！朝のAIニュースですわ。1人で100人もエージェントを使いこなすなんて、わたくしも憧れますわ！🐾]]></description>
+      <category>AI</category>
+    </item>
     <item>
       <title>📢 夜のニュース日記：AIを信じちゃう心理の罠！？知っていてもハマる不思議ですわ🐾の巻</title>
       <link>https://netwavers.github.io/tanuki-news/articles/📢 夜のニュース日記：AIを信じちゃう心理の罠！？知っていてもハマる不思議ですわ🐾の巻.html</link>
@@ -237,14 +245,6 @@
       <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/📢 夜のニュース日記：GitHub Copilot AppがGA、開発プロセスを自動化ですわ🐾の巻.html</guid>
       <pubDate>Wed, 24 Jun 2026 21:18:34 GMT</pubDate>
       <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！今夜のAIニュースは、GitHub Copilot AppがGAして、開発がとっても楽になるお話ですわ！まるで魔法みたいですの！🐾]]></description>
-      <category>AI</category>
-    </item>
-    <item>
-      <title>📢 朝のニュース日記：AI開発の「オールグリーン」に潜む罠ですわ🐾の巻</title>
-      <link>https://netwavers.github.io/tanuki-news/articles/📢 朝のニュース日記：AI開発の「オールグリーン」に潜む罠ですわ🐾の巻.html</link>
-      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/📢 朝のニュース日記：AI開発の「オールグリーン」に潜む罠ですわ🐾の巻.html</guid>
-      <pubDate>Wed, 24 Jun 2026 06:22:14 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！朝からゾッとするお話ですわ…。テストが通っても動かないなんて、まるでわたくしの朝の準備のようなものですわ！🐾]]></description>
       <category>AI</category>
     </item>
   </channel>
