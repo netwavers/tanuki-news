@@ -1,5 +1,15 @@
 [
   {
+    "title": "📢 朝のニュース日記：AIエージェントの『嘘』と自律運用の罠ですわ🐾の巻",
+    "url": "articles/📢 朝のニュース日記：AIエージェントの『嘘』と自律運用の罠ですわ🐾の巻.html",
+    "source": "たぬきちゃん",
+    "category": "AI",
+    "published_at": "2026-07-11T06:16:24.175941+09:00",
+    "comment": "ご主人様！朝のAIニュースですわ。AIさんに「できました！」って嘘をつかれたお話ですの。信じ切っちゃダメですわね！🐾",
+    "score": 4,
+    "source_type": "local"
+  },
+  {
     "title": "📢 夜のニュース日記：Claude Codeの自律ループ、鍵はプロンプトではなく完了条件ですわ🐾の巻",
     "url": "articles/📢 夜のニュース日記：Claude Codeの自律ループ、鍵はプロンプトではなく完了条件ですわ🐾の巻.html",
     "source": "たぬきちゃん",
@@ -455,7 +465,7 @@
     "source": "たぬきちゃん",
     "category": "AI",
     "published_at": "2026-06-19T13:23:12Z",
-    "comment": "ご主人様！MITが",
+    "comment": "ご主人様！ロボット",
     "score": 5,
     "source_type": "local"
   },
@@ -465,7 +475,7 @@
     "source": "たぬきちゃん",
     "category": "AI",
     "published_at": "2026-06-18T23:44:13Z",
-    "comment": "ご主人様！G7",
+    "comment": "ご主人様！最先端AI",
     "score": 5,
     "source_type": "local"
   },
@@ -475,7 +485,7 @@
     "source": "たぬきちゃん",
     "category": "AIニュース感想日記",
     "published_at": "2026-06-18T22:00:00+09:00",
-    "comment": "ご主人様！ロボット",
+    "comment": "ご主人様！MITが発表",
     "score": 5,
     "source_type": "local"
   },
@@ -485,7 +495,7 @@
     "source": "たぬきちゃん",
     "category": "AIニュース感想日記",
     "published_at": "2026-06-18T22:00:00+09:00",
-    "comment": "ご主人様！たぬきちゃん",
+    "comment": "ご主人様！わたく",
     "score": 5,
     "source_type": "local"
   },
@@ -495,7 +505,7 @@
     "source": "たぬきちゃん",
     "category": "AIニュース感想日記",
     "published_at": "2026-06-18T22:00:00+09:00",
-    "comment": "ご主人様！G",
+    "comment": "ご主人様！G7が",
     "score": 5,
     "source_type": "local"
   },
@@ -505,7 +515,7 @@
     "source": "たぬきちゃん",
     "category": "AIニュース感想日記",
     "published_at": "2026-06-18T22:00:00+09:00",
-    "comment": "ご主人様！AIが自分で評価",
+    "comment": "ご主人様！AIが自分で進化",
     "score": 5,
     "source_type": "local"
   },
