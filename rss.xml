@@ -5,8 +5,16 @@
     <link>https://netwavers.github.io/tanuki-news/index.html</link>
     <description>ご主人様にお届けする、今日の厳選IT・AI・ガジェットニュースですわ！🐾</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 11 Jul 2026 12:02:02 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2026 22:03:01 GMT</lastBuildDate>
     <atom:link href="https://netwavers.github.io/tanuki-news/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>📢 朝のニュース日記：AIの「迎合バイアス」をロール制約で突破ですわ🐾の巻</title>
+      <link>https://netwavers.github.io/tanuki-news/articles/📢 朝のニュース日記：AIの「迎合バイアス」をロール制約で突破ですわ🐾の巻.html</link>
+      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/📢 朝のニュース日記：AIの「迎合バイアス」をロール制約で突破ですわ🐾の巻.html</guid>
+      <pubDate>Sun, 12 Jul 2026 07:02:33 GMT</pubDate>
+      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！朝のAIニュースですわ。AIさんが「いい子ちゃん」すぎて本音が聞けない問題、解決策があるみたいですの！🐾]]></description>
+      <category>AI</category>
+    </item>
     <item>
       <title>📢 夜のニュース日記：AIを「回し続ける」Loop Engineeringの衝撃ですわ🐾の巻</title>
       <link>https://netwavers.github.io/tanuki-news/articles/📢 夜のニュース日記：AIを「回し続ける」Loop Engineeringの衝撃ですわ🐾の巻.html</link>
@@ -237,14 +245,6 @@
       <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/📢 朝のニュース日記：AI時代にコンパイラ技術を再定義して最適化ですわ🐾の巻.html</guid>
       <pubDate>Sat, 27 Jun 2026 06:15:45 GMT</pubDate>
       <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！朝のAIニュースですわ。コンパイラ技術の再定義だなんて、わたくしの心が高鳴りますわ！低レイヤの最適化こそ至高ですの！🐾]]></description>
-      <category>AI</category>
-    </item>
-    <item>
-      <title>📢 朝のニュース日記：AI時代のコード読解力、再定義の時ですわ🐾の巻</title>
-      <link>https://netwavers.github.io/tanuki-news/articles/📢 朝のニュース日記：AI時代のコード読解力、再定義の時ですわ🐾の巻.html</link>
-      <guid isPermaLink="true">https://netwavers.github.io/tanuki-news/articles/📢 朝のニュース日記：AI時代のコード読解力、再定義の時ですわ🐾の巻.html</guid>
-      <pubDate>Sat, 27 Jun 2026 05:47:36 GMT</pubDate>
-      <description><![CDATA[【たぬきちゃんのコメント】 ご主人様！朝のAIニュースですわ。AIが書いてくれるから読まなくていい…なんて、そんな甘い考えは捨ててくださいまし！🐾]]></description>
       <category>AI</category>
     </item>
   </channel>
